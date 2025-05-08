@@ -80,6 +80,9 @@
   }
 }
 
+*{
+  box-sizing: border-box
+}
 
 
 @layer base {

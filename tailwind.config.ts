@@ -10,6 +10,9 @@ const config: Config = {
   ],
   theme: {
   	extend: {
+		width:{
+			"def": "410px"
+		},
   		colors: {
 			...COLORS,
   			background: 'hsl(var(--background))',
@@ -61,7 +64,10 @@ const config: Config = {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
+		boxShadow:{
+			theme:"rgba(0, 0, 0, 0.05) 0px 4px 8px"
+		}
   	}
   },
   plugins: [require("tailwindcss-animate")],

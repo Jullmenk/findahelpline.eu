@@ -36,12 +36,13 @@ export function SearchBar({ onSearch }: SearchBarProps) {
   };
 
   return (
-    <div className="w-full relative">
+    <div className="w-[94%] relative">
       <form onSubmit={handleSubmit} className="w-full flex gap-2">
-        <div className={`relative flex-1 px-12 py-2 w-full ${showDropdown? "rounded-b-none" : ""} bg-white rounded-[2rem]`}>
+        <div className={`relative shadow-theme flex-1 px-12 py-2 w-full ${showDropdown? "rounded-b-none" : ""} bg-white rounded-[2rem]`}>
           <Input
             type="text"
             value={searchQuery}
+            onClick={() => setShowDropdown(true)}
             onChange={handleInputChange}
             className="border-none focus:outline-none focus:ring-0 focus:border-none focus-visible:outline-none focus-visible:ring-0 focus-visible:border-none"
             placeholder="Começa a escrever o nome do teu país..."
@@ -65,13 +66,13 @@ export function SearchBar({ onSearch }: SearchBarProps) {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 10 }}
-          className="absolute w-full bg-white top-12 rounded-lg shadow-lg z-10"
+          className="absolute w-full bg-white top-12 rounded-b-2xl overflow-hidden shadow-lg z-10"
         >
-          <div className="max-h-60 overflow-y-auto">
+          <div className="max-h-80 overflow-y-auto">
             {filteredOptions.map((option, index) => (
               <div
                 key={index}
-                className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
+                className="px-4 py-2 text-sm hover:bg-zinc-100 cursor-pointer"
                 onClick={() => handleOptionClick(option.code)}
               >
                 {option.name}
