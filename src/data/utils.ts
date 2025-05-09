@@ -5,6 +5,7 @@ export const specializations = [
   { pt: "Prevenção ao Suicídio", en: "suicide prevention" },
   { pt: "Apoio aos Idosos", en: "support for older people" },
   { pt: "Amizade", en: "friendship" },
-  { pt: "Apoio às Vítimas De Abuso Doméstico", en: "domestic abuse support" },
-  { pt: "Apoio à Jovens", en: "support for young people" },
+  { pt: "Apoio às vítimas de abuso doméstico", en: "domestic abuse support" },
+  { pt: "Apoio aos jovens", en: "support for young people" },
 ];
+

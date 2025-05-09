@@ -26,10 +26,6 @@ const faqs = [
     a: `
         <p>Muitas pessoas não sabem o que dizer quando ligam a pedir ajuda. Pode ser difícil saber por onde começar quando já se está a sentir assoberbado.</p>
                 <h2
-          className={
-            crimsonText.className +
-            " text-3xl font-semibold mt-6 mb-2 text-gray-800 leading-8"
-          }
         >
           Começar a conversa
         </h2>
@@ -40,11 +36,7 @@ const faqs = [
             <li>Ultimamente, tenho-me sentido…</li>
             <li>Estou a lidar com [sentimentou ou situação] neste momento, e…</li>
         </ul>
-                        <h2
-          className={
-            crimsonText.className +
-            " text-3xl font-semibold mt-6 mb-2 text-gray-800 leading-8"
-          }
+        <h2
         >
          Não há forma errada de o dizer
         </h2>
@@ -56,28 +48,16 @@ const faqs = [
     a: `
         <p>As linhas de apoio são um espaço seguro, isento de julgamento e direcionado a informações e apoio emocional imediatos.</p>
          <h2
-          className={
-            crimsonText.className +
-            " text-3xl font-semibold mt-6 mb-2 text-gray-800 leading-8"
-          }
         >
          Pode falar o que quiser
         </h2>
         <p>Pode entrar em contacto uma linha de apoio independentemente da importância que atribua ao assunto. Não tem de estar a passar por uma situação de crise para merecer receber apoio – a pessoa do outro lado da linha irá ouvir e colaborar consigo para determinar quais serão os próximos passos a tomar.</p>
              <h2
-          className={
-            crimsonText.className +
-            " text-3xl font-semibold mt-6 mb-2 text-gray-800 leading-8"
-          }
         >
          Vai receber ajuda e sentir-se em segurança
         </h2>
         <p>Se estiver numa situação de crise, e precisar imediatamente de ajuda, a linha de apoio irá ajudá-lo a manter-se calmo e em segurança. Poderão fazer-lhe perguntas para perceber se está a pensar em automutilação. A pessoa irá ouvir para compreender quão intensos os seus pensamentos e sentimentos são, e ajudá-lo a criar um plano para se manter em segurança naquele momento.</p>
              <h2
-          className={
-            crimsonText.className +
-            " text-3xl font-semibold mt-6 mb-2 text-gray-800 leading-8"
-          }
         >
          Pode encontrar a ajuda certa
         </h2>
@@ -188,6 +168,7 @@ export default function Home() {
             <div className="text-left w-full space-y-2">
               {faqs.map((_, index) => (
                 <div
+                  key={index}
                   className={`${
                     open === index ? "max-h-screen" : "max-h-14"
                   } w-full transition-all border-b border-border-0 duration-100 bg-white pt-2 pb-4 overflow-hidden flex flex-col items-start justify-start`}

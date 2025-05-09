@@ -30,7 +30,7 @@ export default function Hero() {
           >
             Linhas de apoio em Portugal
           </Button>
-          <Link className="underline text-texts-0 font-normal" href={"/"}>
+          <Link className="underline text-texts-0 font-normal" href={"/faq"}>
             Usar uma linha de apoio: o que esperar
           </Link>
         </div>
