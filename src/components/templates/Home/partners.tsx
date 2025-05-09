@@ -1,17 +1,11 @@
 import Image from "next/image";
 import React from "react";
-import { Crimson_Text } from "next/font/google";
 import PartnerCard from "@/components/ui/partner-card";
 import Rapido from "@/assets/rápido";
 import Confidencial from "@/assets/confidencial";
 import FaleComAPessoa from "@/assets/fale-com-a-pessoa";
-import { Button } from "@/components/ui/button";
-import { MdArrowRightAlt } from "react-icons/md";
-
-const crimsonText = Crimson_Text({
-  subsets: ["latin"],
-  weight: ["400", "600", "700"],
-});
+import { crimsonText } from "@/fonts/crismonText";
+import Link from "next/link";
 
 const partners = [
   {
@@ -138,10 +132,9 @@ export default function Partners() {
             </div>
           ))}
         </div>
-        <Button className="mt-5 bg-bg-1 hover:bg-bg-5 flex items-center rounded-xl justify-center gap-2 w-full">
-          <span>O Que Esperar</span>
-          <MdArrowRightAlt />
-        </Button>
+        <Link href="/faq" className="mt-5 bg-bg-1 py-2 text-white font-semibold hover:bg-bg-5 flex items-center rounded-xl justify-center gap-2 w-full">
+          O Que Esperar &rarr;
+        </Link>
       </div>
     </div>
   );

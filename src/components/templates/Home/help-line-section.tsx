@@ -1,16 +1,12 @@
 import { Button } from "@/components/ui/button";
+import { specializations } from "@/data/utils";
+import { crimsonText } from "@/fonts/crismonText";
 import { countries } from "@/lib/countries";
 import { Check, X } from "lucide-react";
-import { Crimson_Text } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { IoChevronDownOutline } from "react-icons/io5";
-
-const crimsonText = Crimson_Text({
-  subsets: ["latin"],
-  weight: ["400", "600", "700"],
-});
 
 const TEXTS = [
   "Find a Helpline é patrocinado pela ThroughLine, a maior e mais fidedigna fonte de recursos de linhas de apoio a nível mundial.",
@@ -34,16 +30,23 @@ export default function HelpLineSection() {
   const [dropDownOpen, setDropDownOpen] = useState(false);
   return (
     <div className="w-full flex justify-center items-center bg-bg-0 py-16">
-      <div className="w-def flex flex-col gap-7">
-        <div className="relative w-full h-64">
-          <Image
-            fill
-            src="/img/woman-on-phone-chatting-to-crisis-counselor-transparent.png"
-            alt="woman-on-phone-chatting-to-crisis-counselor-transparent"
-          />
+      <div className="w-def flex flex-col gap-3">
+        <div className="w-full flex items-center justify-center">
+          <div className="relative w-[80%] h-56">
+            <Image
+              fill
+              src="/img/woman-on-phone-chatting-to-crisis-counselor-transparent.png"
+              alt="woman-on-phone-chatting-to-crisis-counselor-transparent"
+            />
+          </div>
         </div>
 
-        <h2>
+        <h2
+          className={
+            crimsonText.className +
+            " text-3xl font-semibold mt-6 mb-2 text-gray-800 leading-8"
+          }
+        >
           Temos parcerias com linhas de apoio verificadas em mais de 130 países
         </h2>
 
@@ -51,7 +54,7 @@ export default function HelpLineSection() {
           <p key={i}>{text}</p>
         ))}
 
-        <table>
+        <table className="mt-3">
           <thead>
             <tr>
               {["Outros Serviços", "Find a Helpline"].map((header, i) => (
@@ -137,6 +140,38 @@ export default function HelpLineSection() {
                 className="flex px-5 py-2 hover:shadow-theme rounded-lg text-sm bg-zinc-100 hover:bg-zinc-200 justify-between items-center"
               >
                 {country.name}
+              </Link>
+            ))}
+          </div>
+        </div>
+        <h2
+          className={
+            crimsonText.className +
+            " text-2xl font-semibold mt-6 mb-2 text-gray-800"
+          }
+        >
+          Linhas de apoio e linhas diretas por tópico
+        </h2>
+        <div className="flex flex-col gap-2">
+          <p className="text-sm text-texts-4">Ligação rápida</p>
+          <Link
+            href={`/topics/suicidal-thoughts`}
+            className="flex px-5 w-44 py-2 hover:shadow-theme rounded-lg font-semibold text-white bg-texts-4 hover:bg-bg-7 justify-between items-center"
+          >
+            Ideação Suicida &rarr;
+          </Link>
+        </div>
+        <div
+          className={` w-full pt-2 pb-4 flex flex-col items-start justify-start`}
+        >
+          <div className="w-full flex flex-wrap gap-3 mt-6">
+            {specializations.map((elem, index) => (
+              <Link
+                href={`/topics/${elem.en.replace(/\s/g, "-")}`}
+                key={index}
+                className=" px-5 py-2 hover:shadow-theme rounded-lg text-sm bg-white hover:bg-zinc-200 "
+              >
+                {elem.pt}
               </Link>
             ))}
           </div>

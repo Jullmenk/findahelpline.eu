@@ -1,10 +1,5 @@
 import Image from "next/image";
-import { Crimson_Text } from "next/font/google";
-
-const crimsonText = Crimson_Text({
-  subsets: ["latin"],
-  weight: ["400", "600", "700"],
-});
+import { crimsonText } from "@/fonts/crismonText";
 
 export default function ReasonsToContact() {
   const reasons = [

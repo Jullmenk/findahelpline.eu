@@ -22,6 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={lato.className}>
+      <link rel="icon" href="/svg/find-a-helpline-brandmark.svg" />
       <body className="font-sans">{children}</body>
       <Footer />
     </html>

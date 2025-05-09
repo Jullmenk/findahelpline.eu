@@ -70,7 +70,7 @@ export default function Footer() {
 
         <hr className="w-[90%] border-t border-gray-300 my-4" />
 
-        <div className="grid grid-cols-2 sm:grid-cols-2 gap-y-4">
+        <div className="grid grid-cols-2 sm:grid-cols-2 gap-y-3">
           {links.map((link, idx) => (
             <Link key={idx} href={link.href} className="text-start underline">
               {link.name}

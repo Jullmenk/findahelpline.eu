@@ -1,17 +1,12 @@
 import React from "react";
-import { Crimson_Text } from "next/font/google";
 import Link from "next/link";
 import Image from "next/image";
 import PartnerCard from "@/components/ui/partner-card";
 import World from "@/assets/world";
 import HeartAndPeople from "@/assets/heart-and-people";
 import ProductsExperience from "@/assets/productsExperience";
-import { MdArrowRightAlt } from "react-icons/md";
+import { crimsonText } from "@/fonts/crismonText";
 
-const crimsonText = Crimson_Text({
-  subsets: ["latin"],
-  weight: ["400", "600", "700"],
-});
 
 export default function CompaniesAndOrganization() {
   const cards = [
@@ -80,16 +75,18 @@ export default function CompaniesAndOrganization() {
               </div>
             ))}
           </div>
-          <Link className="underline" href={"/"}>Torne-se um parceiro</Link>
+          <Link className="underline flex items-center text-sm gap-1" href={"/"}>
+          Torne-se um parceiro
+          &rarr;
+          </Link>
         </div>
         <div className="flex flex-col justify-center gap-4 mt-6">
           {cards.map((card, idx) => (
             <PartnerCard classSets="bg-bg-6 text-bg-1" key={idx} {...card} />
           ))}
         </div>
-        <Link target="_blank" href={"https://www.throughlinecare.com/"} className="mt-5 bg-bg-6 hover:bg-zinc-200 flex items-center rounded-lg text-black font-semibold py-2 justify-center gap-2 w-full">
-          <span>Mais Informações</span>
-          <MdArrowRightAlt />
+        <Link target="_blank" href={"https://www.throughlinecare.com/"} className="mt-5 bg-bg-6 hover:bg-zinc-200 hover:shadow-theme flex items-center rounded-lg text-black font-semibold py-2 justify-center gap-2 w-full">
+          Mais Informações &rarr;
         </Link>
       </div>
     </div>
