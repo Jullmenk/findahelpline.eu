@@ -67,10 +67,10 @@ const sections = [
 
 export default function Partners() {
   return (
-    <div className="w-full flex justify-center items-center bg-bg-2">
+    <div className="w-full flex justify-center pb-14 items-center bg-bg-2">
       <div className="min-h-96 w-def flex flex-col items-center py-5 gap-4">
         <div className="w-full flex flex-col gap-5 mb-8">
-          <h1 className="border-b border-texts-1 text-texts-1 text-center pb-4">
+          <h1 className="border-b border-border-0 text-texts-1 text-center pb-4">
             Principais Parceiros
           </h1>
           <div className="flex justify-center gap-4">
@@ -81,7 +81,7 @@ export default function Partners() {
               <Image fill src="/svg/LLI-logo-grey.svg" alt="LLI Logo" />
             </div>
           </div>
-          <p className="border-b border-texts-1 text-texts-1 text-center pb-4">
+          <p className="border-b border-border-0 text-texts-1 text-center pb-4">
             Mais de 1300 linhas de apoio em mais de 130 países
           </p>
         </div>
@@ -102,7 +102,7 @@ export default function Partners() {
 
         <div className="flex flex-col justify-center gap-4">
           {partners.map((partner, idx) => (
-            <PartnerCard key={idx} {...partner} />
+            <PartnerCard classSets="bg-bg-0 text-texts-4" key={idx} {...partner} />
           ))}
         </div>
 
@@ -138,7 +138,7 @@ export default function Partners() {
             </div>
           ))}
         </div>
-        <Button className="mt-5 bg-bg-1 flex items-center rounded-xl justify-center gap-2 w-full">
+        <Button className="mt-5 bg-bg-1 hover:bg-bg-5 flex items-center rounded-xl justify-center gap-2 w-full">
           <span>O Que Esperar</span>
           <MdArrowRightAlt />
         </Button>
