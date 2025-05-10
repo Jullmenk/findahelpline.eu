@@ -59,14 +59,14 @@ async function main() {
   });
 
   for (const [, country] of countriesMap.entries()) {
-    const code = countryCodes[country.name];
+    const code = country.name;
     if (!code) {
       console.warn(`⚠️ Código ISO não encontrado para país: ${country.name}. Ignorando...`);
       continue;
     }
 
     await prisma.country.upsert({
-      where: { name: country.name },
+      where: { code },
       update: {},
       create: {
         name: country.name,

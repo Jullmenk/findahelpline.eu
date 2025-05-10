@@ -9,30 +9,6 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 
 export default function Home() {
-  const [helplines, setHelplines] = useState<Helpline[]>([]);
-  const [searchQuery, setSearchQuery] = useState("");
-
-  useEffect(() => {
-    async function fetchHelplines() {
-      try {
-        const response = await fetch("/api/helplines");
-        const data: Helpline[] = await response.json();
-        setHelplines(data);
-      } catch (error) {
-        console.error("Error fetching helplines:", error);
-      }
-    }
-    fetchHelplines();
-  }, []);
-
-  const filteredHelplines = helplines.filter((helpline) => {
-    const query = searchQuery.toLowerCase();
-    return (
-      helpline.name.toLowerCase().includes(query) ||
-      helpline.countryRel.name.toLowerCase().includes(query) ||
-      helpline.languages.some((lang) => lang.toLowerCase().includes(query))
-    );
-  });
 
   return (
     <main >    
