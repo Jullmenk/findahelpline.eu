@@ -169,7 +169,7 @@ export default function HelpLineSection() {
               <Link
                 href={`/topics/${elem.en.replace(/\s/g, "-")}`}
                 key={index}
-                className=" px-5 py-2 hover:shadow-theme rounded-lg text-sm bg-white hover:bg-zinc-200 "
+                className="px-5 py-2 hover:shadow-theme rounded-lg text-sm bg-white hover:bg-zinc-200"
               >
                 {elem.pt}
               </Link>

@@ -88,6 +88,7 @@ async function main() {
         phone: helpline.phone,
         website: helpline.website,
         languages: helpline.languages,
+        specializations: helpline.specializations,
       },
       create: {
         name: helpline.name,
@@ -95,6 +96,7 @@ async function main() {
         phone: helpline.phone,
         website: helpline.website,
         languages: helpline.languages,
+        specializations: helpline.specializations,
       },
     });
   }

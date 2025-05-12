@@ -10,6 +10,103 @@
     "specializations": ["abuse", "domestic violence", "sexual abuse", "trauma"]
   },
   {
+    "name": "SOS Voz Amiga",
+    "country": "PT",
+    "phone": "21 354 45 45 / 91 280 26 69",
+    "website": "http://www.sosvozamiga.pt/",
+    "languages": ["Portuguese"],
+    "type": "phone",
+    "hours": "3 PM - 11 PM",
+    "specializations": ["loneliness", "depression", "anxiety", "stress", "grief and loss", "suicide"]
+  },
+  {
+    "name": "Linha Nacional de Socorro para Crianças e Jovens",
+    "country": "PT",
+    "phone": "116 111",
+    "website": "https://www.cnpdpcj.pt/o-que-fazemos/linha-nacional-de-socorro/",
+    "languages": ["Portuguese"],
+    "type": "phone",
+    "hours": "24/7",
+    "specializations": ["abuse", "domestic violence", "sexual abuse", "mental health", "school and work", "family"]
+  },
+  {
+    "name": "Linha de Apoio Psicológico do INEM",
+    "country": "PT",
+    "phone": "808 24 24 24",
+    "website": "https://www.inem.pt/atividade/apoio-psicologico/",
+    "languages": ["Portuguese"],
+    "type": "phone",
+    "hours": "24/7",
+    "specializations": ["stress", "anxiety", "trauma and PTSD", "physical illness", "grief and loss", "supporting others"]
+  },
+  {
+    "name": "Linha LGBT",
+    "country": "PT",
+    "phone": "800 20 31 86",
+    "website": "https://ilga-portugal.pt/linha-lgbt/",
+    "languages": ["Portuguese"],
+    "type": "phone",
+    "hours": "Monday to Friday, 2 PM - 8 PM",
+    "specializations": ["gender and sexual identity", "relationships", "school and work", "family"]
+  },
+  {
+    "name": "Linha de Apoio ao Luto",
+    "country": "PT",
+    "phone": "21 887 77 77",
+    "website": "https://www.associacaoportuguesadeluto.pt/",
+    "languages": ["Portuguese"],
+    "type": "phone",
+    "hours": "Weekdays, 10 AM - 1 PM and 2 PM - 5 PM",
+    "specializations": ["grief and loss"]
+  },
+  {
+    "name": "Al-Anon / Alateen Portugal",
+    "country": "PT",
+    "website": "https://al-anon.pt/",
+    "languages": ["Portuguese"],
+    "type": "website",
+    "hours": "Not applicable (website)",
+    "specializations": ["family", "supporting others", "substance abuse"]
+  },
+  {
+    "name": "SOS Drogas",
+    "country": "PT",
+    "phone": "800 20 52 05",
+    "website": "http://www.sicad.pt/PT/Paginas/default.aspx",
+    "languages": ["Portuguese"],
+    "type": "phone",
+    "hours": "Weekdays, 10 AM - 6 PM",
+    "specializations": ["substance abuse"]
+  },
+  {
+    "name": "Associação Portuguesa de Apoio à Vítima (APAV)",
+    "country": "PT",
+    "website": "https://apav.pt/",
+    "languages": ["Portuguese"],
+    "type": "website",
+    "hours": "Not applicable (website)",
+    "specializations": ["abuse", "domestic violence", "sexual abuse", "moral harassment", "trauma and PTSD"]
+  },
+  {
+    "name": "Alzheimer Portugal",
+    "country": "PT",
+    "website": "https://alzheimerportugal.org/",
+    "languages": ["Portuguese"],
+    "type": "website",
+    "hours": "Not applicable (website)",
+    "specializations": ["dementia and Alzheimer's", "supporting others", "family"]
+  },
+  {
+    "name": "Associação Portuguesa de Pessoas com Doenças Mentais e Familiares (ENCONTRAR+SE)",
+    "country": "PT",
+    "website": "https://encontrarse.pt/",
+    "languages": ["Portuguese"],
+    "type": "website",
+    "hours": "Not applicable (website)",
+    "specializations": ["depression", "anxiety", "mental health", "supporting others", "family"]
+  }
+  ,
+  {
     "name": "Telefono de la Esperanza",
     "country": "ES",
     "phone": "717 000 371",

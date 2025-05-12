@@ -18,6 +18,8 @@ interface ConfigContextType {
   searchQuery: string;
   setSearchQuery: (query: string) => void;
   filteredHelplines: Helpline[];
+  setFilteredHelplines: (helplines: Helpline[]) => void;
+  updateFilteredHelplines: (code: string) => void;
 }
 
 const ConfigContext = createContext<ConfigContextType | undefined>(undefined);
@@ -28,6 +30,8 @@ export function ConfigProvider({ children }: { children: ReactNode }) {
   const [helplines, setHelplines] = useState<Helpline[]>([]);
   const [userCountry, setUserCountry] = useState<{ name: string; code: string } | undefined>();
   const [searchQuery, setSearchQuery] = useState("");
+  const [filteredHelplines, setFilteredHelplines] = useState<Helpline[]>([]);
+
   useEffect(() => {
     const savedLanguage = localStorage.getItem("language");
     if (savedLanguage) {
@@ -51,13 +55,19 @@ export function ConfigProvider({ children }: { children: ReactNode }) {
     fetchHelplines();
   }, []);
 
-  const filteredHelplines = helplines.filter((helpline) => {
-    const query = searchQuery.toLowerCase();
-    console.log("query:",query,"helpline:",helpline)
-    return (
-      helpline.countryRel.code.toLowerCase().includes(query)
-    );
-  });
+  const updateFilteredHelplines = (code: string) => {
+    console.log("searchQuery:", code);
+    const filteredHelplines = helplines.filter((helpline) => {
+      if (!code) {
+        return false;
+      }
+      const query = code.toLowerCase();
+      return (
+        helpline.countryRel.code.toLowerCase().includes(query)
+      );
+    });
+    setFilteredHelplines(filteredHelplines);
+  };
 
   return (
     <ConfigContext.Provider
@@ -70,6 +80,8 @@ export function ConfigProvider({ children }: { children: ReactNode }) {
         searchQuery,
         setSearchQuery,
         filteredHelplines,
+        updateFilteredHelplines,
+        setFilteredHelplines
       }}
     >
       {children}

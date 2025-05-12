@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import SearchIcons from "@/assets/search";
 import { Input } from "./ui/input";
 import { IoChevronDownOutline } from "react-icons/io5";
@@ -14,10 +14,10 @@ interface SearchBarProps {
 }
 
 export function SearchBar({ onSearch }: SearchBarProps) {
-  const { searchQuery, setSearchQuery,filteredHelplines } = useConfig();
-  const [search, setSearch] = useState("");
-  const [showDropdown, setShowDropdown] = useState(false);
-  
+  const { setSearchQuery,updateFilteredHelplines,setFilteredHelplines } = useConfig();
+  const [search, setSearch] = useState<string>("");
+  const [showDropdown, setShowDropdown] = useState<boolean>(false);
+
   const filteredOptions = search
     ? countries.filter((option) =>
         option.name.toLowerCase().includes(search.toLowerCase())
@@ -25,26 +25,14 @@ export function SearchBar({ onSearch }: SearchBarProps) {
     : countries;
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const query = e.target.value.toLowerCase();
-    setSearch(query);
-    const match = filteredOptions.find(option =>
-      option.name.toLowerCase().includes(query)
-    );  
-    if (match) {
-      onSearch(match.code);
-    }
+    setSearch(e.target.value);
   };
 
-  const handleOptionClick = (option: string,code: string) => {
-    setSearch(option);
-    onSearch(code);
+  const handleOptionClick = (option: string, code: string) => {
+    updateFilteredHelplines(code)
+    setSearch(option)
     setShowDropdown(false);
   };
-
-      useEffect(() => {
-          console.log("searchQuery:",searchQuery)
-          console.log("filteredHelplines:",filteredHelplines)
-      }, [filteredHelplines])
 
   return (
     <div className="w-[94%] relative">
@@ -68,8 +56,9 @@ export function SearchBar({ onSearch }: SearchBarProps) {
           <div className="absolute right-7 top-1/2 -translate-y-1/2 h-full flex items-center justify-center">
             <button
               onClick={() => {
-                setSearchQuery("")
-                setSearch("")
+                setSearchQuery("");
+                setSearch("");
+                setFilteredHelplines([])
               }}
               className="active:bg-slate-200 hover:bg-slate-50 rounded-full p-[5px] flex justify-center items-center"
             >
@@ -101,7 +90,7 @@ export function SearchBar({ onSearch }: SearchBarProps) {
               <div
                 key={index}
                 className="px-4 py-2 text-sm hover:bg-zinc-100 cursor-pointer"
-                onClick={() => handleOptionClick(option.name,option.code)}
+                onClick={() => handleOptionClick(option.name, option.code)}
               >
                 {option.name}
               </div>

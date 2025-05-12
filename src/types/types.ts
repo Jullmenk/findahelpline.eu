@@ -9,6 +9,7 @@ export type Helpline = {
     createdAt: Date;
     updatedAt: Date;
     countryRel: Country;
+    specializations: string[];
   };
   
   // Represents the Country model
