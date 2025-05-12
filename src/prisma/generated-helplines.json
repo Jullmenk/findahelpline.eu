@@ -12,7 +12,7 @@
   {
     "name": "SOS Voz Amiga",
     "country": "PT",
-    "phone": "21 354 45 45 / 91 280 26 69",
+    "phone": "21 354 45 45",
     "website": "http://www.sosvozamiga.pt/",
     "languages": ["Portuguese"],
     "type": "phone",
@@ -46,7 +46,7 @@
     "website": "https://ilga-portugal.pt/linha-lgbt/",
     "languages": ["Portuguese"],
     "type": "phone",
-    "hours": "Monday to Friday, 2 PM - 8 PM",
+    "hours": "Weekdays, 2 PM - 8 PM",
     "specializations": ["gender and sexual identity", "relationships", "school and work", "family"]
   },
   {
@@ -62,10 +62,11 @@
   {
     "name": "Al-Anon / Alateen Portugal",
     "country": "PT",
+    "phone": "+351 917 180 936",
     "website": "https://al-anon.pt/",
     "languages": ["Portuguese"],
-    "type": "website",
-    "hours": "Not applicable (website)",
+    "type": "phone",
+    "hours": "",
     "specializations": ["family", "supporting others", "substance abuse"]
   },
   {
@@ -79,30 +80,23 @@
     "specializations": ["substance abuse"]
   },
   {
-    "name": "Associação Portuguesa de Apoio à Vítima (APAV)",
-    "country": "PT",
-    "website": "https://apav.pt/",
-    "languages": ["Portuguese"],
-    "type": "website",
-    "hours": "Not applicable (website)",
-    "specializations": ["abuse", "domestic violence", "sexual abuse", "moral harassment", "trauma and PTSD"]
-  },
-  {
     "name": "Alzheimer Portugal",
     "country": "PT",
+    "phone": "213 610 460",
     "website": "https://alzheimerportugal.org/",
     "languages": ["Portuguese"],
-    "type": "website",
-    "hours": "Not applicable (website)",
+    "type": "phone",
+    "hours": "weekday, 9 AM - 5 PM",
     "specializations": ["dementia and Alzheimer's", "supporting others", "family"]
   },
   {
     "name": "Associação Portuguesa de Pessoas com Doenças Mentais e Familiares (ENCONTRAR+SE)",
     "country": "PT",
+    "phone": "",
     "website": "https://encontrarse.pt/",
     "languages": ["Portuguese"],
     "type": "website",
-    "hours": "Not applicable (website)",
+    "hours": "",
     "specializations": ["depression", "anxiety", "mental health", "supporting others", "family"]
   }
   ,
@@ -233,7 +227,7 @@
       "website": "https://www.mind.org.uk/",
       "languages": ["English"],
       "type": "phone",
-      "hours": "9am - 6pm (Monday to Friday)",
+      "hours": "Weekdays, 9am - 6pm",
       "specializations": ["anxiety", "depression", "mental health support"]
     },
     {
@@ -242,7 +236,7 @@
       "website": "https://angestforbundet.se/",
       "languages": ["Swedish"],
       "type": "website",
-    "hours": "Information and resources available 24/7 via website. No specific helpline hours listed.",
+    "hours": "24/7",
       "specializations": ["anxiety", "panic attacks", "phobias"]
     },
     {
@@ -412,7 +406,7 @@
           "website": "https://www.nationalbullyinghelpline.co.uk/",
           "languages": ["English"],
           "type": "phone",
-          "hours": "9am - 5pm (Monday to Friday)",
+          "hours": "Weekdays, 9am - 5pm",
           "specializations": ["bullying"]
         },
         {
@@ -422,7 +416,7 @@
           "website": "https://www.alzheimer-nederland.nl/",
           "languages": ["Dutch"],
           "type": "phone",
-          "hours": "9am - 5pm (Monday to Friday)",
+          "hours": "Weekdays, 9am - 5pm",
           "specializations": ["dementia", "alzheimer's", "supporting others"]
         },
         {
@@ -432,7 +426,7 @@
           "website": "https://www.francealzheimer.org/",
           "languages": ["French"],
           "type": "phone",
-          "hours": "9am - 6pm (Monday to Friday)",
+          "hours": "Weekdays, 9am - 6pm",
           "specializations": ["dementia", "alzheimer's", "supporting others"]
         },
         {
@@ -442,7 +436,7 @@
           "website": "https://www.deutsche-alzheimer.de/",
           "languages": ["German"],
           "type": "phone",
-          "hours": "9am - 3pm (Monday to Thursday), 9am - 1pm (Friday)",
+          "hours": "Weekdays, 9am - 3pm, 9am - 1pm (Friday)",
           "specializations": ["dementia", "alzheimer's", "supporting others"]
         },
         {
@@ -452,7 +446,7 @@
           "website": "https://alzheimer.ie/",
           "languages": ["English"],
           "type": "phone",
-          "hours": "10am - 5pm (Monday to Friday)",
+          "hours": "Weekdays, 10am - 5pm",
           "specializations": ["dementia", "alzheimer's", "supporting others"]
         },
         {
@@ -479,6 +473,7 @@
           "website": "https://www.depressieconnect.nl/",
           "languages": ["Dutch"],
           "type": "website",
+          "phone": "088-505 43 35",
           "specializations": ["depression", "anxiety", "online support"]
         },
         {
@@ -516,7 +511,7 @@
           "website": "https://www.rethink.org/",
           "languages": ["English"],
           "type": "phone",
-          "hours": "9:30am - 4pm (Monday to Friday)",
+          "hours": "Weekdays, 9:30am - 4pm",
           "specializations": ["depression", "anxiety", "mental health support", "supporting others"]
         },
         {
@@ -541,6 +536,7 @@
           "website": "https://www.nvvp.net/",
           "languages": ["Dutch"],
           "type": "website",
+          "phone": "030 - 899 3139",
           "specializations": ["mental health", "psychiatry", "information"]
         },
         {
@@ -549,6 +545,7 @@
           "website": "https://www.promenteaustria.at/",
           "languages": ["German"],
           "type": "website",
+          "phone":"+43 664 3964333",
           "specializations": ["mental health support", "information"]
         },
         {

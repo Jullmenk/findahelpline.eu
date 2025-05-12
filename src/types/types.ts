@@ -3,13 +3,15 @@ export type Helpline = {
     id: string;
     name: string;
     country: string;
-    phone?: string | null;
-    website?: string | null;
+    phone?: string;
+    website?: string;
+    hours: string | "";
     languages: string[];
     createdAt: Date;
     updatedAt: Date;
     countryRel: Country;
     specializations: string[];
+
   };
   
   // Represents the Country model

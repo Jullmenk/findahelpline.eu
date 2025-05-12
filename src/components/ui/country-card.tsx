@@ -9,7 +9,8 @@ export default function CountryCard() {
     string[]
   >([]);
   const [showAll, setShowAll] = useState<boolean>(false);
-  const {filteredHelplines} = useConfig()
+  const { spec, searchQuery } = useConfig();
+
   const toggleSpecialization = (value: string) => {
     setSelectedSpecialization((prev) =>
       prev.includes(value)
@@ -17,15 +18,6 @@ export default function CountryCard() {
         : [...prev, value]
     );
   };
-  console.log(filteredHelplines)
-  const spec = specializations.filter((spec) =>
-    filteredHelplines.some((helpline) =>
-      helpline.specializations.some((hSpec) =>
-        spec.en.toLowerCase().includes(hSpec.toLowerCase())
-      )
-    )
-  );
-  
 
   return (
     <div className="max-h-screen w-def transition-all duration-300 text-center bg-white px-4 pt-2 pb-4 rounded-lg flex flex-col items-center justify-center">
@@ -51,11 +43,11 @@ export default function CountryCard() {
             <Button
               key={index}
               className={`px-2 py-1 hover:shadow-theme font-normal rounded-lg text-[13px] ${
-                selectedSpecialization.includes(spec.pt)
+                selectedSpecialization.includes(spec.en)
                   ? "bg-texts-4 text-white hover:bg-bg-7"
                   : "bg-zinc-100 text-texts-1 hover:bg-zinc-200"
               } `}
-              onClick={() => toggleSpecialization(spec.pt)}
+              onClick={() => toggleSpecialization(spec.en)}
             >
               {spec.pt}
             </Button>
@@ -72,7 +64,16 @@ export default function CountryCard() {
         </div>
       )}
       <Link
-        href="/faq"
+        href={{
+          pathname: `/countries/${searchQuery.toLowerCase()}`,
+          query: selectedSpecialization.length
+            ? {
+                topic: selectedSpecialization.map((spec) =>
+                  spec.toLowerCase().replace(/\s+/g, "-")
+                ),
+              }
+            : {},
+        }}
         className="mt-5 bg-bg-1 py-2 text-white font-semibold hover:bg-bg-5 flex items-center rounded-xl justify-center gap-2 w-[80%]"
       >
         Procure linhas de apoio &rarr;

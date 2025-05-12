@@ -9,11 +9,8 @@ import { countries } from "@/lib/countries";
 import { useConfig } from "@/context/config";
 import { X } from "lucide-react";
 
-interface SearchBarProps {
-  onSearch: (query: string) => void;
-}
 
-export function SearchBar({ onSearch }: SearchBarProps) {
+export function SearchBar() {
   const { setSearchQuery,updateFilteredHelplines,setFilteredHelplines } = useConfig();
   const [search, setSearch] = useState<string>("");
   const [showDropdown, setShowDropdown] = useState<boolean>(false);
@@ -31,6 +28,7 @@ export function SearchBar({ onSearch }: SearchBarProps) {
   const handleOptionClick = (option: string, code: string) => {
     updateFilteredHelplines(code)
     setSearch(option)
+    setSearchQuery(code)
     setShowDropdown(false);
   };
 
@@ -54,7 +52,7 @@ export function SearchBar({ onSearch }: SearchBarProps) {
             <SearchIcons fill="rgb(43, 143, 148)" />
           </div>
           <div className="absolute right-7 top-1/2 -translate-y-1/2 h-full flex items-center justify-center">
-            <button
+           { search.length > 0 && <button
               onClick={() => {
                 setSearchQuery("");
                 setSearch("");
@@ -63,7 +61,7 @@ export function SearchBar({ onSearch }: SearchBarProps) {
               className="active:bg-slate-200 hover:bg-slate-50 rounded-full p-[5px] flex justify-center items-center"
             >
               <X size={10} color="black" />
-            </button>
+            </button>}
             <div
               className={` ${
                 showDropdown ? "rotate-180" : ""

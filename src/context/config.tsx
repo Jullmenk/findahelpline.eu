@@ -1,4 +1,5 @@
 "use client";
+import { specializations } from "@/data/utils";
 import { findUserCountry } from "@/server/action";
 import { Helpline } from "@/types/types";
 import {
@@ -7,6 +8,8 @@ import {
   useState,
   ReactNode,
   useEffect,
+  useCallback,
+  useMemo,
 } from "react";
 
 interface ConfigContextType {
@@ -20,6 +23,7 @@ interface ConfigContextType {
   filteredHelplines: Helpline[];
   setFilteredHelplines: (helplines: Helpline[]) => void;
   updateFilteredHelplines: (code: string) => void;
+  spec: { pt: string; en: string }[];
 }
 
 const ConfigContext = createContext<ConfigContextType | undefined>(undefined);
@@ -28,7 +32,9 @@ export function ConfigProvider({ children }: { children: ReactNode }) {
   const [language, setLanguage] = useState<string>("pt");
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
   const [helplines, setHelplines] = useState<Helpline[]>([]);
-  const [userCountry, setUserCountry] = useState<{ name: string; code: string } | undefined>();
+  const [userCountry, setUserCountry] = useState<
+    { name: string; code: string } | undefined
+  >();
   const [searchQuery, setSearchQuery] = useState("");
   const [filteredHelplines, setFilteredHelplines] = useState<Helpline[]>([]);
 
@@ -37,37 +43,56 @@ export function ConfigProvider({ children }: { children: ReactNode }) {
     if (savedLanguage) {
       setLanguage(savedLanguage);
     }
-
-    findUserCountry().then((country) => {
-      setUserCountry(country);
-    });
-
+    const userCached = sessionStorage.getItem("userCountry");
+    if (userCached) {
+      setUserCountry(JSON.parse(userCached));
+    }else{
+      findUserCountry().then((country) => {
+        sessionStorage.setItem("userCountry", JSON.stringify(country));
+        setUserCountry(country);
+      });
+    }
+  
     async function fetchHelplines() {
       try {
+        const cached = sessionStorage.getItem("helplines");
+        if (cached) {
+          setHelplines(JSON.parse(cached));
+          return;
+        }
+  
         const response = await fetch("/api/helplines");
         const data: Helpline[] = await response.json();
+        sessionStorage.setItem("helplines", JSON.stringify(data));
         setHelplines(data);
       } catch (error) {
         console.error("Error fetching helplines:", error);
       }
     }
-
+  
     fetchHelplines();
   }, []);
 
-  const updateFilteredHelplines = (code: string) => {
-    console.log("searchQuery:", code);
+  const updateFilteredHelplines = useCallback((code: string) => {
     const filteredHelplines = helplines.filter((helpline) => {
       if (!code) {
         return false;
       }
       const query = code.toLowerCase();
-      return (
-        helpline.countryRel.code.toLowerCase().includes(query)
-      );
+      return helpline.countryRel.code.toLowerCase().includes(query);
     });
     setFilteredHelplines(filteredHelplines);
-  };
+  }, [helplines]);
+
+  const spec = useMemo(() => {
+    return specializations.filter((spec) =>
+      filteredHelplines.some((helpline) =>
+        helpline.specializations.some((hSpec) =>
+          spec.en.toLowerCase().includes(hSpec.toLowerCase())
+        )
+      )
+    );
+  }, [filteredHelplines]);
 
   return (
     <ConfigContext.Provider
@@ -81,7 +106,8 @@ export function ConfigProvider({ children }: { children: ReactNode }) {
         setSearchQuery,
         filteredHelplines,
         updateFilteredHelplines,
-        setFilteredHelplines
+        setFilteredHelplines,
+        spec,
       }}
     >
       {children}

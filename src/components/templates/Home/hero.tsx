@@ -9,10 +9,12 @@ import CountryCard from "@/components/ui/country-card";
 
 export default function Hero({
   filteredHelplines,
+  herotext
 }: {
   filteredHelplines: Helpline[];
+  herotext?:string
 }) {
-  const { userCountry, setSearchQuery,updateFilteredHelplines } = useConfig();
+  const { userCountry,updateFilteredHelplines } = useConfig();
 
   return (
     <div className="w-full flex justify-center items-center bg-bg-0">
@@ -26,13 +28,18 @@ export default function Hero({
                 alt="Find a Helpline Logo"
               />
             </div>
-            <h1 className="text-texts-0 text-lg text-center">
-              Apoio confidencial e gratuito de uma linha de apoio ou direta
-              perto de si. Chat online, mensagem ou telefone.
+            <h1 className="text-texts-0 text-xl text-center font-normal">
+              {
+                herotext?
+               `Está com dificuldades com ${herotext}? Obtenha apoio gratuito e confidencial de uma linha de apoio ou linha direta perto de si. Chat online, mensagem ou telefone.`
+               : 
+               (`Apoio confidencial e gratuito de uma linha de apoio ou direta
+                perto de si. Chat online, mensagem ou telefone.`)
+              }
             </h1>
           </>
         )}
-        <SearchBar onSearch={setSearchQuery} />
+        <SearchBar/>
 
         {filteredHelplines.length === 0 ? (
           <>

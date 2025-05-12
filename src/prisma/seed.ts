@@ -87,6 +87,7 @@ async function main() {
       update: {
         phone: helpline.phone,
         website: helpline.website,
+        hours: helpline.hours,
         languages: helpline.languages,
         specializations: helpline.specializations,
       },
@@ -95,6 +96,7 @@ async function main() {
         country: helpline.country,
         phone: helpline.phone,
         website: helpline.website,
+        hours: helpline.hours,
         languages: helpline.languages,
         specializations: helpline.specializations,
       },

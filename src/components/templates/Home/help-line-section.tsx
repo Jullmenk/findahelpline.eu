@@ -135,7 +135,7 @@ export default function HelpLineSection() {
           <div className="w-full flex flex-wrap gap-3 mt-6">
             {countries.map((country, index) => (
               <Link
-                href={`/country/${country.code}`}
+                href={`/countries/${country.code}`}
                 key={index}
                 className="flex px-5 py-2 hover:shadow-theme rounded-lg text-sm bg-zinc-100 hover:bg-zinc-200 justify-between items-center"
               >
