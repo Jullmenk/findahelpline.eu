@@ -6,42 +6,43 @@ import { Input } from "./ui/input";
 import { IoChevronDownOutline } from "react-icons/io5";
 import { motion } from "framer-motion";
 import { countries } from "@/lib/countries";
+import { useConfig } from "@/context/config";
+import { X } from "lucide-react";
 
-interface SearchBarProps {
-  onSearch: (query: string) => void;
-}
 
-export function SearchBar({ onSearch }: SearchBarProps) {
-  const [searchQuery, setSearchQuery] = useState("");
-  const [showDropdown, setShowDropdown] = useState(false);
+export function SearchBar() {
+  const { setSearchQuery,updateFilteredHelplines,setFilteredHelplines } = useConfig();
+  const [search, setSearch] = useState<string>("");
+  const [showDropdown, setShowDropdown] = useState<boolean>(false);
 
-  const filteredOptions = searchQuery ? countries.filter(
-    option => option.name.toLowerCase().includes(searchQuery.toLowerCase())
-  ) : countries;
+  const filteredOptions = search
+    ? countries.filter((option) =>
+        option.name.toLowerCase().includes(search.toLowerCase())
+      )
+    : countries;
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setSearchQuery(e.target.value);
-    setShowDropdown(true);
+    setSearch(e.target.value);
   };
 
-  const handleOptionClick = (option: string) => {
-    setSearchQuery(option);
+  const handleOptionClick = (option: string, code: string) => {
+    updateFilteredHelplines(code)
+    setSearch(option)
+    setSearchQuery(code)
     setShowDropdown(false);
-    onSearch(option);
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    onSearch(searchQuery);
   };
 
   return (
     <div className="w-[94%] relative">
-      <form onSubmit={handleSubmit} className="w-full flex gap-2">
-        <div className={`relative shadow-theme flex-1 px-12 py-2 w-full ${showDropdown? "rounded-b-none" : ""} bg-white rounded-[2rem]`}>
+      <div className="w-full flex gap-2">
+        <div
+          className={`relative shadow-theme flex-1 px-12 py-2 w-full ${
+            showDropdown ? "rounded-b-none" : ""
+          } bg-white rounded-[2rem]`}
+        >
           <Input
             type="text"
-            value={searchQuery}
+            value={search}
             onClick={() => setShowDropdown(true)}
             onChange={handleInputChange}
             className="border-none focus:outline-none focus:ring-0 focus:border-none focus-visible:outline-none focus-visible:ring-0 focus-visible:border-none"
@@ -50,17 +51,31 @@ export function SearchBar({ onSearch }: SearchBarProps) {
           <div className="absolute left-7 top-1/2 -translate-y-1/2 h-full w-5 text-bg-1 flex items-center justify-center">
             <SearchIcons fill="rgb(43, 143, 148)" />
           </div>
-          <div 
-            className={` ${showDropdown? "rotate-180" : ""} absolute right-7 top-1/2 -translate-y-1/2 h-full w-5 text-bg-1 flex items-center justify-center cursor-pointer`}
-            onClick={() => setShowDropdown(!showDropdown)}
-          >
-            <button className="active:bg-slate-200 hover:bg-slate-50 rounded-full p-[5px] flex justify-center items-center">
-            <IoChevronDownOutline />
-            </button>
+          <div className="absolute right-7 top-1/2 -translate-y-1/2 h-full flex items-center justify-center">
+           { search.length > 0 && <button
+              onClick={() => {
+                setSearchQuery("");
+                setSearch("");
+                setFilteredHelplines([])
+              }}
+              className="active:bg-slate-200 hover:bg-slate-50 rounded-full p-[5px] flex justify-center items-center"
+            >
+              <X size={10} color="black" />
+            </button>}
+            <div
+              className={` ${
+                showDropdown ? "rotate-180" : ""
+              } text-bg-1 flex items-center justify-center cursor-pointer`}
+              onClick={() => setShowDropdown(!showDropdown)}
+            >
+              <button className="active:bg-slate-200 hover:bg-slate-50 rounded-full p-[5px] flex justify-center items-center">
+                <IoChevronDownOutline height={20} />
+              </button>
+            </div>
           </div>
         </div>
-      </form>
-      
+      </div>
+
       {showDropdown && (
         <motion.div
           initial={{ opacity: 0, y: 10 }}
@@ -73,7 +88,7 @@ export function SearchBar({ onSearch }: SearchBarProps) {
               <div
                 key={index}
                 className="px-4 py-2 text-sm hover:bg-zinc-100 cursor-pointer"
-                onClick={() => handleOptionClick(option.code)}
+                onClick={() => handleOptionClick(option.name, option.code)}
               >
                 {option.name}
               </div>

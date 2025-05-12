@@ -5,148 +5,148 @@ export interface Country {
 }
 
 // Default languages for all countries
-const DEFAULT_LANGUAGES = ['Inglês'];
+const DEFAULT_LANGUAGES = ['English'];
 
 export const countries: Country[] = [
   {
     name: "Portugal",
     code: "PT",
-    languages: ["Português"]
+    languages: ["Portuguese"]
   },
   {
-    name: "Espanha",
+    name: "Spain",
     code: "ES",
-    languages: ["Espanhol", "Catalão"]
+    languages: ["Spanish", "Catalan"]
   },
   {
-    name: "França",
+    name: "France",
     code: "FR",
-    languages: ["Francês"]
+    languages: ["French"]
   },
   {
-    name: "Itália",
+    name: "Italy",
     code: "IT",
-    languages: ["Italiano"]
+    languages: ["Italian"]
   },
   {
-    name: "Alemanha",
+    name: "Germany",
     code: "DE",
-    languages: ["Alemão"]
+    languages: ["German"]
   },
   {
-    name: "Holanda",
+    name: "Netherlands",
     code: "NL",
-    languages: ["Holandês"]
+    languages: ["Dutch"]
   },
   {
-    name: "Bélgica",
+    name: "Belgium",
     code: "BE",
-    languages: ["Holandês", "Francês"]
+    languages: ["Dutch", "French"]
   },
   {
-    name: "Suíça",
+    name: "Switzerland",
     code: "CH",
-    languages: ["Alemão", "Francês", "Italiano", "Romansh"]
+    languages: ["German", "French", "Italian", "Romansh"]
   },
   {
-    name: "Áustria",
+    name: "Austria",
     code: "AT",
-    languages: ["Alemão"]
+    languages: ["German"]
   },
   {
-    name: "Irlanda",
+    name: "Ireland",
     code: "IE",
-    languages: ["Irlandês"]
+    languages: ["Irish"]
   },
   {
-    name: "Reino Unido",
+    name: "United Kingdom",
     code: "GB",
-    languages: ["Gales", "Escocês"]
+    languages: ["Welsh", "Scottish"]
   },
   {
-    name: "Dinamarca",
+    name: "Denmark",
     code: "DK",
-    languages: ["Dinamarquês"]
+    languages: ["Danish"]
   },
   {
-    name: "Finlândia",
+    name: "Finland",
     code: "FI",
-    languages: ["Finlandês", "Sueco"]
+    languages: ["Finnish", "Swedish"]
   },
   {
-    name: "Suécia",
+    name: "Sweden",
     code: "SE",
-    languages: ["Sueco"]
+    languages: ["Swedish"]
   },
   {
-    name: "Noruega",
+    name: "Norway",
     code: "NO",
-    languages: ["Norueguês"]
+    languages: ["Norwegian"]
   },
   {
-    name: "Polônia",
+    name: "Poland",
     code: "PL",
-    languages: ["Polonês"]
+    languages: ["Polish"]
   },
   {
-    name: "República Tcheca",
+    name: "Czech Republic",
     code: "CZ",
-    languages: ["Tcheco"]
+    languages: ["Czech"]
   },
   {
-    name: "Hungria",
+    name: "Hungary",
     code: "HU",
-    languages: ["Húngaro"]
+    languages: ["Hungarian"]
   },
   {
-    name: "Slováquia",
+    name: "Slovakia",
     code: "SK",
-    languages: ["Eslovaco"]
+    languages: ["Slovak"]
   },
   {
-    name: "Eslovênia",
+    name: "Slovenia",
     code: "SI",
-    languages: ["Esloveno"]
+    languages: ["Slovenian"]
   },
   {
-    name: "Croácia",
+    name: "Croatia",
     code: "HR",
-    languages: ["Croata"]
+    languages: ["Croatian"]
   },
   {
-    name: "Bulgária",
+    name: "Bulgaria",
     code: "BG",
-    languages: ["Búlgaro"]
+    languages: ["Bulgarian"]
   },
   {
-    name: "Romênia",
+    name: "Romania",
     code: "RO",
-    languages: ["Romeno"]
+    languages: ["Romanian"]
   },
   {
-    name: "Grécia",
+    name: "Greece",
     code: "GR",
-    languages: ["Grego"]
+    languages: ["Greek"]
   },
   {
     name: "Estonia",
     code: "EE",
-    languages: ["Estoniano"]
+    languages: ["Estonian"]
   },
   {
-    name: "Letônia",
+    name: "Latvia",
     code: "LV",
-    languages: ["Letão"]
+    languages: ["Latvian"]
   },
   {
-    name: "Lituânia",
+    name: "Lithuania",
     code: "LT",
-    languages: ["Lituano"]
+    languages: ["Lithuanian"]
   },
   {
     name: "Malta",
     code: "MT",
-    languages: ["Maltês"]
+    languages: ["Maltese"]
   }
 ];
 

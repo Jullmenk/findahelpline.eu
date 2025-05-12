@@ -23,3 +23,4 @@ export const specializations = [
   { pt: "Apoiar outros", en: "supporting others" },
   { pt: "Trauma e PSPT", en: "trauma and PTSD" },
 ];
+

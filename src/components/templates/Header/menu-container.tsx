@@ -6,7 +6,7 @@ export default function MenuContainer({close}: {close: () => void}) {
   return (
     <div className="flex flex-col mt-2 w-[13.5dvw]">
       {menu.map((item, index) => (
-        <Link className="px-4 py-3 flex items-center gap-6 hover:bg-zinc-100" key={index} href={item.href} onClick={close}>
+        <Link key={index} className="px-4 py-3 flex items-center gap-6 hover:bg-zinc-100" href={item.href} onClick={close}>
           {item.icon}
           <p>{item.pt}</p>
         </Link>

@@ -46,7 +46,7 @@ export default function Footer() {
           height={70}
         />
         <div>
-          <p>
+          <div>
             <div>
               <p className="text-start">
                 A Find A Helpline é um serviço público feito com{" "}
@@ -61,11 +61,11 @@ export default function Footer() {
               </Link>
             </div>
             Para utilização comercial,{" "}
-            <Link href="#" className="underline hover:text-blue-500">
+            <Link href="https://www.throughline.org" className="underline hover:text-blue-500">
               entre em contacto connosco
             </Link>
             .
-          </p>
+          </div>
         </div>
 
         <hr className="w-[90%] border-t border-gray-300 my-4" />

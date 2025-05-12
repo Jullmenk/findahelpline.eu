@@ -9,20 +9,30 @@ import LangContainer from "./lang-container";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import { useConfig } from "@/context/config";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState<0 | 1>(0);
+  const {setSearchQuery,setFilteredHelplines,filteredHelplines} = useConfig()
   const pathname = usePathname();
   const activeDrawer = [
     <MenuContainer close={() => setOpen(false)} />,
     <LangContainer close={() => setOpen(false)} />,
   ];
+
+  const showLogo = (pathname === "/" && filteredHelplines.length > 0) || pathname !== "/";
+
   return (
     <header className="w-full flex justify-center bg-bg-0 items-center pb-2 pt-10">
-      <div className={`w-[60%] flex ${pathname !== "/" ? "justify-between" : "justify-end"} gap-3 items-center`}>
-        {pathname !== "/" && (
-          <Link href="/" className="flex gap-3">
+      <div className={`w-[60%] flex ${showLogo? "justify-between" : "justify-end"} gap-3 items-center`}>
+        {showLogo && (
+          <Link onClick={
+            () => {
+              setSearchQuery("");
+              setFilteredHelplines([])
+            }
+          } href="/" className="flex gap-3">
             <Image
               src="/svg/findahelpline-logo.svg"
               alt="Find a Helpline Logo"
