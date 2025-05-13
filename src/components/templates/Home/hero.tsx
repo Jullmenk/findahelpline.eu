@@ -1,4 +1,4 @@
-import { SearchBar } from "@/components/SearchBar";
+import { SearchBar } from "@/components/ui/SearchBar";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
@@ -6,6 +6,7 @@ import React from "react";
 import { useConfig } from "@/context/config";
 import { Helpline } from "@/types/types";
 import CountryCard from "@/components/ui/country-card";
+import { useTranslations } from "@/hooks/useTranslations";
 
 export default function Hero({
   filteredHelplines,
@@ -15,6 +16,10 @@ export default function Hero({
   herotext?:string
 }) {
   const { userCountry,updateFilteredHelplines } = useConfig();
+
+  const t = useTranslations("Hero")
+
+  console.log(t("title"))
 
   return (
     <div className="w-full flex justify-center items-center bg-bg-0">
@@ -29,13 +34,14 @@ export default function Hero({
               />
             </div>
             <h1 className="text-texts-0 text-xl text-center font-normal">
-              {
+              {t("title")}
+              {/* {
                 herotext?
                `Está com dificuldades com ${herotext}? Obtenha apoio gratuito e confidencial de uma linha de apoio ou linha direta perto de si. Chat online, mensagem ou telefone.`
                : 
                (`Apoio confidencial e gratuito de uma linha de apoio ou direta
                 perto de si. Chat online, mensagem ou telefone.`)
-              }
+              } */}
             </h1>
           </>
         )}

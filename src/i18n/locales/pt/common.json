@@ -1,0 +1,38 @@
+{
+  "Hero": {
+    "title": "Apoio gratuito e confidencial de uma linha de ajuda perto de si. Chat online, mensagem ou telefone.",
+    "searchBarPlaceholder": "Comece a digitar o seu país",
+    "text-1": "Linhas de apoio em Portugal",
+    "text-2": "Utilizar uma linha de ajuda: o que esperar",
+    "countries": {
+      "PT": "Portugal",
+      "ES": "Espanha",
+      "FR": "França",
+      "IT": "Itália",
+      "DE": "Alemanha",
+      "NL": "Países Baixos",
+      "BE": "Bélgica",
+      "CH": "Suíça",
+      "AT": "Áustria",
+      "IE": "Irlanda",
+      "GB": "Reino Unido",
+      "DK": "Dinamarca",
+      "FI": "Finlândia",
+      "SE": "Suécia",
+      "NO": "Noruega",
+      "PL": "Polónia",
+      "CZ": "República Checa",
+      "HU": "Hungria",
+      "SK": "Eslováquia",
+      "SI": "Eslovénia",
+      "HR": "Croácia",
+      "BG": "Bulgária",
+      "RO": "Roménia",
+      "GR": "Grécia",
+      "EE": "Estónia",
+      "LV": "Letónia",
+      "LT": "Lituânia",
+      "MT": "Malta"
+    }
+  }
+}

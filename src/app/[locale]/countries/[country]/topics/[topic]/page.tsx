@@ -1,7 +1,7 @@
 import React from 'react'
-import { countries } from '../../../../../lib/countries'
-import CountryAndHelplines from '../../../../../components/templates/country-and-helplines/country-and-helplines'
-import NotFound from '../../../../../app/not-found'
+import { countries } from '@/lib/countries'
+import CountryAndHelplines from '@/components/templates/country-and-helplines/country-and-helplines'
+import NotFound from '@/app/[locale]/not-found'
 
 export default async function Topic({ params }) {
 

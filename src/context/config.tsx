@@ -15,8 +15,6 @@ import {
 interface ConfigContextType {
   language: string;
   setLanguage: (lang: string) => void;
-  menuOpen: boolean;
-  setMenuOpen: (open: boolean) => void;
   userCountry: { name: string; code: string } | undefined;
   searchQuery: string;
   setSearchQuery: (query: string) => void;
@@ -30,7 +28,6 @@ const ConfigContext = createContext<ConfigContextType | undefined>(undefined);
 
 export function ConfigProvider({ children }: { children: ReactNode }) {
   const [language, setLanguage] = useState<string>("pt");
-  const [menuOpen, setMenuOpen] = useState<boolean>(false);
   const [helplines, setHelplines] = useState<Helpline[]>([]);
   const [userCountry, setUserCountry] = useState<
     { name: string; code: string } | undefined
@@ -99,8 +96,6 @@ export function ConfigProvider({ children }: { children: ReactNode }) {
       value={{
         language,
         setLanguage,
-        menuOpen,
-        setMenuOpen,
         userCountry,
         searchQuery,
         setSearchQuery,

@@ -7,7 +7,7 @@ import { Country } from "@/lib/countries";
 import Link from "next/link";
 import { specializations } from "@/data/utils";
 import LoadingContainer from "../loading/loading-container";
-import NotFound from "@/app/not-found";
+import NotFound from "@/app/[locale]/not-found";
 
 type Props = {
   country: string;

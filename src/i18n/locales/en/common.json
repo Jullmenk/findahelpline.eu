@@ -1,0 +1,38 @@
+{
+  "Hero": {
+    "title": "Free, confidential support from a helpline or hotline near you. Online chat, text or phone.",
+    "searchBarPlaceholder": "Start typing your country",
+    "text-1": "Helplines in Portugal",
+    "text-2": "Using a helpline: What to expect",
+    "countries": {
+      "PT": "Portugal",
+      "ES": "Spain",
+      "FR": "France",
+      "IT": "Italy",
+      "DE": "Germany",
+      "NL": "Netherlands",
+      "BE": "Belgium",
+      "CH": "Switzerland",
+      "AT": "Austria",
+      "IE": "Ireland",
+      "GB": "United Kingdom",
+      "DK": "Denmark",
+      "FI": "Finland",
+      "SE": "Sweden",
+      "NO": "Norway",
+      "PL": "Poland",
+      "CZ": "Czech Republic",
+      "HU": "Hungary",
+      "SK": "Slovakia",
+      "SI": "Slovenia",
+      "HR": "Croatia",
+      "BG": "Bulgaria",
+      "RO": "Romania",
+      "GR": "Greece",
+      "EE": "Estonia",
+      "LV": "Latvia",
+      "LT": "Lithuania",
+      "MT": "Malta"
+    }
+  }
+}

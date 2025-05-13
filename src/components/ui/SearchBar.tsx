@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import SearchIcons from "@/assets/search";
-import { Input } from "./ui/input";
+import { Input } from "./input";
 import { IoChevronDownOutline } from "react-icons/io5";
 import { motion } from "framer-motion";
 import { countries } from "@/lib/countries";
