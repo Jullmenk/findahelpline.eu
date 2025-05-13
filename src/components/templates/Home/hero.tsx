@@ -1,7 +1,7 @@
 import { SearchBar } from "@/components/ui/SearchBar";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/nagivation";
 import React from "react";
 import { useConfig } from "@/context/config";
 import { Helpline } from "@/types/types";
@@ -18,8 +18,6 @@ export default function Hero({
   const { userCountry,updateFilteredHelplines } = useConfig();
 
   const t = useTranslations("Hero")
-
-  console.log(t("title"))
 
   return (
     <div className="w-full flex justify-center items-center bg-bg-0">
