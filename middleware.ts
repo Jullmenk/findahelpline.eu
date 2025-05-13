@@ -20,5 +20,5 @@ export default intlMiddleware;
 
 export const config = {
   // Match only internationalized pathnames
-  matcher: ['/', '/(pt|en)/:path*', '/((?!_next|_vercel|.*\\..*).*)']
+  matcher: ['/', '/(pt|en|de|es|fr|it|ja|ko|pl|ru|tr|ar)/:path*', '/((?!_next|_vercel|.*\\..*).*)']
 };

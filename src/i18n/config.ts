@@ -1,4 +1,4 @@
-export const locales = ['en', 'pt'] as const;
+export const locales = ['en', 'pt', 'de', 'es', 'fr', 'it', 'ja', 'ko', 'pl', 'ru', 'tr', 'ar'] as const;
 export const defaultLocale = 'en';
 
 export type Locale = (typeof locales)[number];
@@ -13,13 +13,17 @@ export const pathnames = {
   '/': '/',
   '/faq': '/faq',
   '/organization': '/organization',
+  '/contact': '/contact',
+  '/terms': '/terms',
+  '/privacy': '/privacy',
+  '/about': '/about',
   
   // Páginas de países
   '/countries': '/countries',
   '/countries/[country]': '/countries/[country]',
   '/countries/[country]/topics': '/countries/[country]/topics',
   '/countries/[country]/topics/[topic]': '/countries/[country]/topics/[topic]',
-  
+  'https://www.throughline.org': 'https://www.throughline.org',
   // Páginas de tópicos
   '/topics': '/topics',
   '/topics/[topic]': '/topics/[topic]',

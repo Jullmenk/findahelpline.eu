@@ -24,3 +24,18 @@ export const specializations = [
   { pt: "Trauma e PSPT", en: "trauma and PTSD" },
 ];
 
+export const languages = 
+[
+  { name: "English", path: "/en" },
+  { name: "Deutsch", path: "/de" },
+  { name: "Español", path: "/es" },
+  { name: "Français", path: "/fr" },
+  { name: "Italiano", path: "/it" },
+  { name: "日本語", path: "/ja" },
+  { name: "한국어(대한민국)", path: "/ko" },
+  { name: "Polski", path: "/pl" },
+  { name: "Português", path: "/pt" },
+  { name: "Русский", path: "/ru" },
+  { name: "Türkçe", path: "/tr" },
+  { name: "العربية", path: "/ar" }
+]

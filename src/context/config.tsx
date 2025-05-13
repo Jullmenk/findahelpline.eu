@@ -13,8 +13,6 @@ import {
 } from "react";
 
 interface ConfigContextType {
-  language: string;
-  setLanguage: (lang: string) => void;
   userCountry: { name: string; code: string } | undefined;
   searchQuery: string;
   setSearchQuery: (query: string) => void;
@@ -27,7 +25,7 @@ interface ConfigContextType {
 const ConfigContext = createContext<ConfigContextType | undefined>(undefined);
 
 export function ConfigProvider({ children }: { children: ReactNode }) {
-  const [language, setLanguage] = useState<string>("pt");
+
   const [helplines, setHelplines] = useState<Helpline[]>([]);
   const [userCountry, setUserCountry] = useState<
     { name: string; code: string } | undefined
@@ -36,10 +34,6 @@ export function ConfigProvider({ children }: { children: ReactNode }) {
   const [filteredHelplines, setFilteredHelplines] = useState<Helpline[]>([]);
 
   useEffect(() => {
-    const savedLanguage = localStorage.getItem("language");
-    if (savedLanguage) {
-      setLanguage(savedLanguage);
-    }
     const userCached = sessionStorage.getItem("userCountry");
     if (userCached) {
       setUserCountry(JSON.parse(userCached));
@@ -94,8 +88,6 @@ export function ConfigProvider({ children }: { children: ReactNode }) {
   return (
     <ConfigContext.Provider
       value={{
-        language,
-        setLanguage,
         userCountry,
         searchQuery,
         setSearchQuery,

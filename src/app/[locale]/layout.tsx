@@ -33,7 +33,7 @@ export default async function LocaleLayout({
   children,
   params: { locale },
 }: Props) {
-  // Validate that the incoming `locale` parameter is valid
+
   if (!locales.includes(locale as any)) notFound();
 
   let messages;

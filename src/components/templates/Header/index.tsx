@@ -8,8 +8,8 @@ import MenuContainer from "./menu-container";
 import LangContainer from "./lang-container";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import Link from "next/link";
 import { useConfig } from "@/context/config";
+import { Link } from "@/i18n/nagivation";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -49,7 +49,7 @@ export default function Header() {
             }}
             className="hover:bg-white rounded-lg active:bg-slate-200 hover:shadow-md bg-white h-8 w-6"
           >
-            <Lang />
+            <Lang color={"#87909E"} />
           </Button>
           <Button
             onClick={() => {
