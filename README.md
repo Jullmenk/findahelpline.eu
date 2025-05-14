@@ -1,37 +1,100 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Helpline is a full-stack web application built with Next.js App Router, Prisma, and TailwindCSS, designed to provide information about support organizations in multiple languages.
 
-## Getting Started
+🧭 Project Structure
+ruby
 
-First, run the development server:
 
-```bash
+helpline/
+├── src/
+│   ├── app/                    # Pages and routes (Next.js App Router)
+│   ├── context/                # Global contexts (e.g., useConfig)
+│   ├── components/             # Reusable components
+│   ├── lib/                    # Prisma, helpers, utilities
+│   ├── prisma/                 # Database schema and seed
+│   └── types/                  # TypeScript typings
+├── public/                     # Public assets
+├── .env.local                  # Environment variables (local)
+├── tailwind.config.ts          # TailwindCSS configuration
+└── next.config.mjs             # Next.js configuration
+🛠️ Local Setup
+Clone the repository
+
+
+
+
+git clone https://github.com/your-username/helpline.git
+cd helpline
+Install dependencies
+
+
+
+
+npm install
+Configure environment variables
+
+Create a .env.local file based on .env.example:
+
+env
+
+
+DATABASE_URL=postgresql://<user>:<password>@<host>:<port>/<db_name>
+NEXT_PUBLIC_API_BASE_URL=http://localhost:3000
+IP_FIND="**************"
+API_URL="https://api.ipinfo.io/lite/me?token="
+
+Generate the Prisma client
+
+
+
+
+npx prisma generate
+Run migrations
+
+
+
+
+npx prisma migrate dev
+Run seed (if needed)
+
+
+
+
+npx prisma db seed
+Start the development server
+
+
+
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🌍 Localization
+The project supports multiple languages using next-intl, with translated routes:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+/en, /pt, /de, etc.
+Full support for routes like /faq, /privacy, /contact, /terms, and more.
 
-To learn more about Next.js, take a look at the following resources:
+🔌 APIs
+Available API routes:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+GET /api/helplines – Lists all helplines
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+GET /api/helplines/[name] – Fetches a specific helpline by name (slug)
 
-## Deploy on Vercel
+🧱 Technologies Used
+Next.js 14 (App Router)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+React 18
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# findahelpline.eu
+TypeScript
+
+TailwindCSS
+
+Prisma ORM
+
+Radix UI + Lucide Icons
+
+Framer Motion
+
+Vercel Hosting
