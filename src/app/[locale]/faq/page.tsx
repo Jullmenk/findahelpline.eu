@@ -62,14 +62,14 @@ export default function Home() {
                   } w-full transition-all border-b border-border-0 duration-100 bg-white pt-2 pb-4 overflow-hidden flex flex-col items-start justify-start`}
                 >
                   <div
-                    className="w-full flex justify-between items-center cursor-pointer"
+                    className="w-full flex flex-nowrap justify-between items-center cursor-pointer"
                     onClick={() => setOpen(open === index ? null : index)}
                   >
                     <Button
                       variant={"ghost"}
                       className={
                         crimsonText.className +
-                        " px-0 hover:bg-transparent hover:text-texts-4 text-2xl font-semibold text-texts-4"
+                        " px-0 hover:bg-transparent text-wrap text-left hover:text-texts-4 text-2xl font-semibold text-texts-4"
                       }
                     >
                       {t(`questions.title-${index}.q`)}

@@ -675,5 +675,27 @@
       "title": "Mesajınız için teşekkür ederiz!",
       "p1": "En kısa sürede size geri döneceğiz."
     }
+  },
+  "metadata": {
+  "title": "İntihar Yardım Hatları ve Kriz Yardım Hatları | Ücretsiz, 7/24 Sohbet, Mesaj ve Telefon",
+  "description": "En çok ihtiyacınız olduğunda yardım bulun",
+  "keywords": "yardım hattı, destek, acil servisler, zihinsel sağlık, kriz desteği, yardım bul, yardım hatlarıyla iletişime geç, 7/24 yardım, zihinsel sağlık, duygusal destek, danışmanlık, destek ağı, sağlık hizmetleri, acil iletişim, yardım kaynakları, yardım ara, ihtiyaç duyulduğunda destek",
+  "openGraph": {
+    "type": "website",
+    "locale": "tr_TR",
+    "siteName": "Yardım Hattı Bul",
+    "title": "Yardım Hattı Bul - Anında Yardım Mevcut",
+    "description": "Kriz ve acil durumlarda ihtiyacınız olan yardımı hızlıca bulun",
+    "imagesAlt": "7/24 mevcut yardım hattı hizmetleri"
+  },
+  "twitter": {
+    "title": "Yardım Hattı Bul - Anında Yardım Mevcut",
+    "description": "Kolayca erişilebilir yardım hatlarımızla ihtiyacınız olan desteği alın"
+  },
+  "faq": {
+    "title": "Sıkça Sorulan Sorular | Yardım Hattı Bul",
+    "description": "Yardım hatları ve kriz hatlarıyla ilgili sorularınızın yanıtları. Kimin cevap verdiği, nasıl çalıştığı ve yardımın nasıl bulunacağı hakkında daha fazla bilgi edinin.",
+    "keywords": "yardım hatları, kriz hatları, SSS, sıkça sorulan sorular, psikolojik destek, duygusal yardım, telefon desteği, gönüllüler, psikologlar"
   }
+}
 }

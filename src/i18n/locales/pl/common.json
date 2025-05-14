@@ -676,5 +676,27 @@
       "title": "Dziękujemy za Twoją wiadomość!",
       "p1": "Odpowiemy tak szybko, jak to możliwe."
     }
+  },
+  "metadata": {
+  "title": "Gorące linie samobójcze i linie pomocy kryzysowej | Bezpłatne, całodobowe czaty, SMS-y i telefony",
+  "description": "Znajdź pomoc, gdy najbardziej jej potrzebujesz",
+  "keywords": "linia pomocy, wsparcie, usługi ratunkowe, zdrowie psychiczne, wsparcie kryzysowe, znajdź pomoc, kontakt z liniami pomocy, pomoc całodobowa, dobrostan psychiczny, wsparcie emocjonalne, poradnictwo, sieć wsparcia, usługi zdrowotne, kontakty ratunkowe, zasoby pomocy, szukaj pomocy, wsparcie w potrzebie",
+  "openGraph": {
+    "type": "website",
+    "locale": "pl_PL",
+    "siteName": "Znajdź linię pomocy",
+    "title": "Znajdź linię pomocy - Natychmiastowa pomoc dostępna",
+    "description": "Szybko znajdź pomoc, której potrzebujesz w czasach kryzysu i nagłych wypadków",
+    "imagesAlt": "Usługi linii pomocy dostępne całodobowo"
+  },
+  "twitter": {
+    "title": "Znajdź linię pomocy - Natychmiastowa pomoc dostępna",
+    "description": "Uzyskaj wsparcie, którego potrzebujesz, dzięki naszym łatwo dostępnym liniom pomocy"
+  },
+  "faq": {
+    "title": "Najczęściej zadawane pytania | Znajdź linię pomocy",
+    "description": "Odpowiedzi na Twoje pytania dotyczące linii pomocy i gorących linii. Dowiedz się więcej o tym, kto odpowiada, jak to działa i jak znaleźć pomoc.",
+    "keywords": "linie pomocy, gorące linie, FAQ, najczęściej zadawane pytania, wsparcie psychologiczne, pomoc emocjonalna, wsparcie telefoniczne, wolontariusze, psycholodzy"
   }
+}
 }

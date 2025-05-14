@@ -675,5 +675,27 @@
       "title": "Obrigado pela sua mensagem!",
       "p1": "Entraremos em contato com você o mais rápido possível."
     }
+  },
+  "metadata": {
+    "title": "Linhas de Apoio ao Suicídio e Helplines de Crise | Chat, Texto e Telefone Gratuitos 24/7",
+    "description": "Encontre ajuda quando mais precisar",
+    "keywords": "helpline, apoio, serviços de emergência, saúde mental, suporte em crise, encontrar ajuda, contatar helplines, assistência 24/7, bem-estar mental, apoio emocional, aconselhamento, rede de suporte, serviços de saúde, contatos de emergência, recursos de ajuda, buscar ajuda, suporte quando necessário",
+    "openGraph": {
+      "type": "website",
+      "locale": "pt_BR",
+      "siteName": "Encontre uma Helpline",
+      "title": "Encontre uma Helpline - Assistência Imediata Disponível",
+      "description": "Localize rapidamente a ajuda que você precisa em momentos de crise e emergência",
+      "imagesAlt": "Serviços de helpline disponíveis 24/7"
+    },
+    "twitter": {
+      "title": "Encontre uma Helpline - Assistência Imediata Disponível",
+      "description": "Obtenha o suporte necessário com nossas helplines de fácil acesso"
+    },
+    "faq": {
+      "title": "Perguntas Frequentes | Encontre uma Helpline",
+      "description": "Respostas para suas perguntas sobre helplines e linhas diretas. Saiba mais sobre quem atende, como funciona e como encontrar ajuda.",
+      "keywords": "helplines, linhas diretas, FAQ, perguntas frequentes, suporte psicológico, ajuda emocional, suporte por telefone, voluntários, psicólogos"
+    }
   }
 }

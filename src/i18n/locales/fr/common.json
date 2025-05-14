@@ -676,5 +676,28 @@
       "title": "Merci pour votre message !",
       "p1": "Nous vous répondrons dès que possible."
     }
+  },
+  "metadata": {
+      "title": "Lignes d'assistance au suicide et d'aide en cas de crise | Chat, texte et téléphone gratuits, 24/7",
+      "description": "Trouvez de l'aide lorsque vous en avez le plus besoin",
+      "keywords": "ligne d'assistance, soutien, services d'urgence, santé mentale, soutien en cas de crise, trouver de l'aide, contacter les lignes d'assistance, assistance 24/7, bien-être mental, soutien émotionnel, conseil, réseau de soutien, services de santé, contacts d'urgence, ressources d'aide, chercher de l'aide, soutien en cas de besoin",
+      "openGraph": {
+        "type": "site web",
+        "locale": "fr_FR",
+        "siteName": "Trouver une ligne d'assistance",
+        "title": "Trouver une ligne d'assistance - Assistance immédiate disponible",
+        "description": "Localisez rapidement l'aide dont vous avez besoin en temps de crise et d'urgence",
+        "imagesAlt": "Services de lignes d'assistance disponibles 24/7"
+      },
+      "twitter": {
+        "title": "Trouver une ligne d'assistance - Assistance immédiate disponible",
+        "description": "Obtenez le soutien dont vous avez besoin avec nos lignes d'assistance facilement accessibles"
+      },
+      "faq": {
+        "title": "Questions fréquemment posées | Trouver une ligne d'assistance",
+        "description": "Réponses à vos questions sur les lignes d'assistance et les numéros d'urgence. En savoir plus sur qui répond, comment cela fonctionne et comment trouver de l'aide.",
+        "keywords": "lignes d'assistance, numéros d'urgence, FAQ, questions fréquemment posées, soutien psychologique, aide émotionnelle, soutien téléphonique, bénévoles, psychologues"
+      }
+    }
   }
-}
+

@@ -675,5 +675,27 @@
       "title": "Vielen Dank für Ihre Nachricht!",
       "p1": "Wir werden uns so schnell wie möglich bei Ihnen melden."
     }
+  },
+  "metadata": {
+  "title": "Selbstmord-Hotlines & Krisenhilfetelefone | Kostenlos, 24/7 Chat, SMS & Telefon",
+  "description": "Finden Sie Hilfe, wenn Sie sie am dringendsten benötigen",
+  "keywords": "Hilfetelefon, Unterstützung, Notdienste, psychische Gesundheit, Krisenunterstützung, Hilfe finden, Kontakt zu Hilfetelefonen, 24/7 Unterstützung, psychisches Wohlbefinden, emotionale Unterstützung, Beratung, Unterstützungsnetzwerk, Gesundheitsdienste, Notfallkontakte, Hilfsressourcen, Hilfe suchen, Unterstützung bei Bedarf",
+  "openGraph": {
+    "type": "website",
+    "locale": "de_DE",
+    "siteName": "Hilfetelefon finden",
+    "title": "Hilfetelefon finden - Sofortige Hilfe verfügbar",
+    "description": "Finden Sie schnell die Hilfe, die Sie in Zeiten von Krise und Notfall benötigen",
+    "imagesAlt": "Hilfetelefone rund um die Uhr verfügbar"
+  },
+  "twitter": {
+    "title": "Hilfetelefon finden - Sofortige Hilfe verfügbar",
+    "description": "Erhalten Sie die Unterstützung, die Sie mit unseren leicht zugänglichen Hilfetelefonen benötigen"
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen | Hilfetelefon finden",
+    "description": "Antworten auf Ihre Fragen zu Hilfetelefonen und Hotlines. Erfahren Sie mehr darüber, wer antwortet, wie es funktioniert und wie Sie Hilfe finden.",
+    "keywords": "Hilfetelefone, Hotlines, FAQ, häufig gestellte Fragen, psychologische Unterstützung, emotionale Hilfe, Telefonunterstützung, Freiwillige, Psychologen"
   }
+}
 }

@@ -676,5 +676,27 @@
       "title": "¡Gracias por tu mensaje!",
       "p1": "Te responderemos lo antes posible."
     }
+  },
+  "metadata": {
+  "title": "Líneas de ayuda para suicidios y crisis | Chat, texto y teléfono gratuitos, 24/7",
+  "description": "Encuentra ayuda cuando más la necesitas",
+  "keywords": "línea de ayuda, apoyo, servicios de emergencia, salud mental, apoyo en crisis, encontrar ayuda, contactar líneas de ayuda, asistencia 24/7, bienestar mental, apoyo emocional, consejería, red de apoyo, servicios de salud, contactos de emergencia, recursos de ayuda, buscar ayuda, apoyo cuando se necesita",
+  "openGraph": {
+    "type": "website",
+    "locale": "es_ES",
+    "siteName": "Encuentra una Línea de Ayuda",
+    "title": "Encuentra una Línea de Ayuda - Asistencia Inmediata Disponible",
+    "description": "Localiza rápidamente la ayuda que necesitas durante tiempos de crisis y emergencia",
+    "imagesAlt": "Servicios de línea de ayuda disponibles 24/7"
+  },
+  "twitter": {
+    "title": "Encuentra una Línea de Ayuda - Asistencia Inmediata Disponible",
+    "description": "Obtén el apoyo que necesitas con nuestras líneas de ayuda de fácil acceso"
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes | Encuentra una Línea de Ayuda",
+    "description": "Respuestas a tus preguntas sobre líneas de ayuda y líneas directas. Aprende más sobre quién responde, cómo funciona y cómo encontrar ayuda.",
+    "keywords": "líneas de ayuda, líneas directas, FAQ, preguntas frecuentes, apoyo psicológico, ayuda emocional, soporte telefónico, voluntarios, psicólogos"
   }
+}
 }
