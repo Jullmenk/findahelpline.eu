@@ -64,8 +64,8 @@ export default function ContactPage() {
 
   const t = useTranslations("contact");
   return (
-    <div className="w-full py-5 flex items-center justify-center bg-white">
-      <div className="w-def flex flex-col gap-4">
+    <div className="w-full px-6 py-5 flex items-center justify-center bg-white">
+      <div className="w-full sm:w-def flex flex-col gap-4">
         <div>
           <h2
             className={`${crimsonText.className} text-2xl font-semibold mt-6 mb-2 text-gray-800`}

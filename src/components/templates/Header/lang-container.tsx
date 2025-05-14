@@ -30,11 +30,11 @@ export default function LangContainer({ close }: LangContainerProps) {
   };
 
   return (
-    <div className="w-[30dvw] flex flex-col gap-5 pt-4 px-6">
+    <div className="w-[80dvw] sm:w-[30dvw] flex flex-col gap-5 pt-4 px-6">
       <div className="w-full flex justify-between items-center">
         <div className="flex gap-2 items-center">
           <Lang color="black" />
-          <h2 className="text-2xl font-semibold">{t("title")}</h2>
+          <h2 className="text-xl sm:text-2xl font-semibold">{t("title")}</h2>
         </div>
         <Button
           onClick={close}
@@ -54,7 +54,7 @@ export default function LangContainer({ close }: LangContainerProps) {
               key={index}
               onClick={() => handleLanguageChange(lang.path.replace("/", ""))}
               className={`${
-                isActive ? "bg-zinc-100 text-texts-4" : ""
+                isActive ? "sm:bg-zinc-100 text-texts-4" : ""
               } pl-5 hover:bg-zinc-50 py-4 flex gap-2 items-center cursor-pointer`}
             >
               <div className="min-w-[20px] mr-3">

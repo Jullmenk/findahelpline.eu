@@ -20,7 +20,7 @@ export default function Hero({
 
   return (
     <div className="w-full flex justify-center items-center bg-bg-0">
-      <div className="min-h-96 py-16 w-def flex justify-center items-center bg-bg-0 flex-col gap-4">
+      <div className="min-h-96 py-16 px-6 sm:px-0 sm:w-def flex justify-center items-center bg-bg-0 flex-col gap-4">
         {filteredHelplines.length === 0 && (
           <>
             <div className="relative w-64 h-14">

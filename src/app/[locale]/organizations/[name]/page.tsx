@@ -26,7 +26,6 @@ export default function Organizations({
 
   const isOpenNow = isOpen(helpline?.hours ?? "");
   const isAlwaysOpen = helpline?.hours?.includes("24/7");
-  const formattedName = helpline?.name?.replace(/\s/g, "-");
 
   const t = useTranslations("HelplineCard");
   const c = useTranslations("helpline-and-Country");
@@ -38,7 +37,7 @@ export default function Organizations({
 
   return (
     <div className="flex w-full justify-center py-10 items-center">
-      <div className="w-organization flex flex-col rounded-xl bg-white">
+      <div className="w-full px-6 sm:px-0 sm:w-organization flex flex-col rounded-xl bg-white">
         <div className="flex items-center gap-2 pb-2 border-b border-border mb-5">
           <Link
           className="hover:underline text-texts-1"
@@ -160,12 +159,14 @@ export default function Organizations({
         </div>
 
         <hr className="w-full bg-texts-1 my-4" />
-        <div className="relative w-full h-[400px] mt-8">
+        <div className="w-full flex justify-center items-center">
+        <div className="relative sm:w-full w-[80%] h-[230px] sm:h-[400px] mt-8">
           <Image
             src={"/img/teletherapy-counselor-supporting-crying-woman.png"}
             alt={"teletherapy-counselor-supporting-crying-woman"}
             fill
           />
+        </div>
         </div>
         <h1 className="text-center text-xl font-semibold mt-6 mb-2 text-gray-800">
           {o("nowWhat")}

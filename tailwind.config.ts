@@ -14,6 +14,9 @@ const config: Config = {
 			"def": "410px",
 			"organization": "550px"
 		},
+		screens:{
+			sm:'450px'
+		},
   		colors: {
 			...COLORS,
   			background: 'hsl(var(--background))',

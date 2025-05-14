@@ -19,7 +19,7 @@ export default function Partners({
   const cards = [Rapido,FaleComAPessoa,Confidencial];
   return (
     <div className="w-full flex justify-center pb-14 items-center bg-bg-2">
-      <div className="min-h-96 w-def flex flex-col items-center py-5 gap-4">
+      <div className="min-h-96 w-full px-6 sm:px-0 sm:w-def flex flex-col items-center py-5 gap-4">
         <div className="w-full flex flex-col gap-5 mb-8">
           <h1 className="border-b border-border-0 text-texts-1 text-center pb-4">
             {t("title")}

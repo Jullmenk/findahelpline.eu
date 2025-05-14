@@ -10,22 +10,24 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useConfig } from "@/context/useContext";
 import { Link } from "@/i18n/nagivation";
+import { useLocale } from "next-intl";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState<0 | 1>(0);
   const {setSearchQuery,setFilteredHelplines,filteredHelplines} = useConfig()
   const pathname = usePathname();
+  const locale = useLocale();
   const activeDrawer = [
     <MenuContainer key={0} close={() => setOpen(false)} />,
     <LangContainer key={1} close={() => setOpen(false)} />,
   ];
 
-  const showLogo = (pathname === "/" && filteredHelplines.length > 0) || pathname !== "/";
+  const showLogo = (pathname === "/" + locale && filteredHelplines.length > 0) || pathname !== "/" + locale;
 
   return (
-    <header className="w-full flex justify-center bg-bg-0 items-center pb-2 pt-10">
-      <div className={`w-[60%] flex ${showLogo? "justify-between" : "justify-end"} gap-3 items-center`}>
+    <header className="w-full px-6 flex justify-center bg-bg-0 items-center pb-2 pt-10">
+      <div className={`w-full  sm:w-[60%] flex ${showLogo? "justify-between" : "justify-end"} gap-3 items-center`}>
         {showLogo && (
           <Link onClick={
             () => {

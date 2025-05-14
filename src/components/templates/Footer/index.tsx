@@ -14,7 +14,7 @@ export default function Footer() {
   const l = useTranslations("Links");
   return (
     <footer className="bg-[#f5f9fc] flex justify-center items-center text-sm text-gray-700 py-10 px-4">
-      <div className="w-def flex flex-col items-center text-center gap-4">
+      <div className="w-full px-6 sm:px-0 sm:w-def flex flex-col items-center text-center gap-4">
         <Image
           src="/svg/find-a-helpline-brandmark.svg"
           alt="Logo"
@@ -47,7 +47,7 @@ export default function Footer() {
         <hr className="w-[90%] border-t border-gray-300 my-4" />
 
         <div className="grid grid-cols-2 sm:grid-cols-2 gap-y-3">
-            <Link href={"/about"} className="text-start underline">
+            <Link href={"/#about"} className="text-start underline">
               {l(`name-2`)}
             </Link>
             <Link href={"/faq"} className="text-start underline">

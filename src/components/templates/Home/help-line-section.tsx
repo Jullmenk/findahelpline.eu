@@ -20,7 +20,7 @@ export default function HelpLineSection() {
   const c = useTranslations("Hero");
   return (
     <div className="w-full flex justify-center items-center bg-bg-0 py-16">
-      <div className="w-def flex flex-col gap-3">
+      <div className="w-full px-6 sm:px-0 sm:w-def flex flex-col gap-3">
         <div className="w-full flex items-center justify-center">
           <div className="relative w-[80%] h-56">
             <Image

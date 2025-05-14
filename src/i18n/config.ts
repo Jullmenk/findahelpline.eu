@@ -13,8 +13,7 @@ export const pathnames = {
   '/contact': '/contact',
   '/terms': '/terms',
   '/privacy': '/privacy',
-  '/about': '/about',
-  
+  '/#about': '/#about',
 
   '/countries': '/countries',
   '/organizations': '/organizations',

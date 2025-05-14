@@ -71,8 +71,8 @@ export default memo(function CountryAndHelplines({
   return (
     <>
       <div className="w-full bg-bg-0 flex flex-col justify-center items-center">
-        <div className="w-def min-h-[80dvh] flex flex-col gap-4 py-10 ">
-          <h2 className="text-xl">
+        <div className="w-full px-6 sm:px-0 sm:w-def min-h-[80dvh] flex flex-col gap-4 py-10 ">
+          <h2 className="text-xl sm:text-left text-center">
             {HelplinesIn} {selectedCountry?.name}{" "}
             {topic && ` ${About} ${topic}`}
           </h2>
@@ -82,7 +82,7 @@ export default memo(function CountryAndHelplines({
             ))}
         </div>
         <div className="w-full bg-white py-10 flex justify-center items-center">
-          <div className="w-def flex flex-col gap-4">
+          <div className="w-full px-6 sm:px-0 sm:w-def flex flex-col gap-4">
             <h2 className="text-xl font-semibold">
               {Find}
               <Link

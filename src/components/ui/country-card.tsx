@@ -27,7 +27,7 @@ export default function CountryCard() {
   const c = useTranslations("CountryCard")
 
   return (
-    <div className="max-h-screen w-def transition-all duration-300 text-center bg-white px-4 pt-2 pb-4 rounded-lg flex flex-col items-center justify-center">
+    <div className="max-h-screen w-full sm:w-def transition-all duration-300 text-center bg-white px-4 pt-2 pb-4 rounded-lg flex flex-col items-center justify-center">
       <h2 className=" text-xl font-semibold mt-6 mb-2 text-gray-800">
         {c("title")}
       </h2>

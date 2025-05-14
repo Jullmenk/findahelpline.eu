@@ -26,7 +26,7 @@ export default function HelplineCard({ helpline }: HelplineCardProps) {
   const s = useTranslations("specializations")
 
   return (
-    <div className="w-def flex flex-col rounded-xl p-6 bg-white shadow-theme">
+    <div className="w-full sm:w-def flex flex-col rounded-xl p-6 bg-white shadow-theme">
 
       <div className="flex justify-between items-center">
         <Link  className="text-xl font-semibold max-w-[80%]" href={`/${locale}/organizations/${formattedName}`}>

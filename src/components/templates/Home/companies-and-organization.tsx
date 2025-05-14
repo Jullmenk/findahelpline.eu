@@ -26,7 +26,7 @@ export default function CompaniesAndOrganization() {
 
   return (
     <div className="w-full flex justify-center items-center bg-bg-3 py-12 text-white">
-      <div className="w-def flex flex-col gap-3 justify-center items-center">
+      <div className="w-full px-6 sm:px-0 sm:w-def flex flex-col gap-3 justify-center items-center">
         <p className=" text-base font-semibold border-[2px] px-3 py-2 border-white rounded-lg">
           {t("title")}
         </p>

@@ -29,8 +29,8 @@ export default function TopicsPage({params}:Props) {
     <div>
       <Hero filteredHelplines={filteredHelplines} herotext={spec?.pt}/>
 
-        <div className="w-full flex flex-col py-16 bg-white justify-center items-center">
-          <div className="flex w-def flex-col gap-2">
+        <div className="w-full flex flex-col sm:py-16 py-4 bg-white justify-center items-center">
+          <div className="flex w-full px-6 sm:px-0 sm:w-def flex-col gap-2">
             <h2
               className={
                 crimsonText.className +
@@ -44,7 +44,7 @@ export default function TopicsPage({params}:Props) {
           <div
             className={`${
               dropDownOpen ? "max-h-screen" : "max-h-14"
-            } w-def transition-all duration-300 bg-white pt-2 pb-4 rounded-lg overflow-hidden flex flex-col items-start justify-start`}
+            } w-full px-6 sm:px-0 sm:w-def transition-all duration-300 bg-white pt-2 pb-4 rounded-lg overflow-hidden flex flex-col items-start justify-start`}
           >
             <div
               className="w-full flex justify-between items-center cursor-pointer"

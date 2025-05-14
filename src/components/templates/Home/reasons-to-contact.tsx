@@ -6,7 +6,7 @@ export default function ReasonsToContact() {
   const t = useTranslations("ReasonToContact");
   return (
     <div className="w-full flex justify-center items-center bg-bg-2 py-16">
-      <div className="w-def flex flex-col gap-7">
+      <div className="w-full px-6 sm:px-0 sm:w-def flex flex-col gap-7">
         <div className="relative w-full h-[400px]">
           <Image
             fill

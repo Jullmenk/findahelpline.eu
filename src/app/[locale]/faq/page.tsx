@@ -4,18 +4,18 @@ import { crimsonText } from "@/fonts/crismonText";
 import Image from "next/image";
 import { useState } from "react";
 import { IoChevronDownOutline } from "react-icons/io5";
-import DOMPurify from "dompurify";
 import Link from "next/link";
 import { useTranslations } from "@/hooks/useTranslations";
+import { useLocale } from "next-intl";
 
 export default function Home() {
   const [open, setOpen] = useState<number | null>(null);
-
+  const locale = useLocale();
   const t = useTranslations("Faqs");
 
   return (
     <div className="w-full flex justify-center items-center bg-white py-16">
-      <div className="w-def flex flex-col gap-3">
+      <div className="w-full px-6 sm:px-0 sm:w-def flex flex-col gap-3">
         <h2
           className={
             crimsonText.className +
@@ -102,7 +102,7 @@ export default function Home() {
 
             <div className="mt-8">
               <Link
-                href="/"
+                href={`/${locale}`}
                 className="mt-5 bg-bg-1 py-2 text-white font-semibold hover:bg-bg-5 flex items-center rounded-xl justify-center gap-2 w-full"
               >
                 {t("findAHelpline")} &rarr;

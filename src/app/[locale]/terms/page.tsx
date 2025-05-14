@@ -9,7 +9,7 @@ export default function Terms() {
 
   return (
     <div className="w-full bg-white flex items-center justify-center py-10">
-      <div className="w-def">
+      <div className="w-full px-6 sm:px-0 sm:w-def">
         <TermsAndPrivacyHeader />
         <h1 className="text-4xl font-semibold mt-8">{t("title")}</h1>
         <p className="mb-8">{t("lastUpdated")}</p>
