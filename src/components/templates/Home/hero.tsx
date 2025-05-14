@@ -7,6 +7,7 @@ import { useConfig } from "@/context/useContext";
 import { Helpline } from "@/types/types";
 import CountryCard from "@/components/ui/country-card";
 import { useTranslations } from "next-intl";
+import { countries } from "@/lib/countries";
 export default function Hero({
   filteredHelplines,
   herotext
@@ -15,6 +16,8 @@ export default function Hero({
   herotext?:string
 }) {
   const { userCountry,updateFilteredHelplines } = useConfig();
+
+  const country = countries.find((country) => country.code === userCountry?.code);
 
   const t = useTranslations("Hero")
 
@@ -41,13 +44,13 @@ export default function Hero({
           <>
             <div className="flex flex-col justify-center items-center">
               <p className="text-base text-texts-1">{t("text-3")}</p>
-              {userCountry && (
+              {country && (
                 <Button
                   variant={"ghost"}
                   className="underline text-base hover:bg-transparent hover:text-texts-0 text-texts-0 font-normal"
-                  onClick={() => updateFilteredHelplines(userCountry.code)}
+                  onClick={() => updateFilteredHelplines(country.code)}
                 >
-                  {t("text-1")} {userCountry.name}
+                  {t("text-1")} {t(`countries.${country.code}`)}
                 </Button>
               )}
               <Link
