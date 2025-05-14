@@ -120,9 +120,53 @@ exports.Prisma.TransactionIsolationLevel = makeStrictEnum({
   Serializable: 'Serializable'
 });
 
+exports.Prisma.HelplineScalarFieldEnum = {
+  id: 'id',
+  name: 'name',
+  country: 'country',
+  phone: 'phone',
+  website: 'website',
+  hours: 'hours',
+  languages: 'languages',
+  createdAt: 'createdAt',
+  specializations: 'specializations',
+  updatedAt: 'updatedAt'
+};
+
+exports.Prisma.CountryScalarFieldEnum = {
+  id: 'id',
+  name: 'name',
+  code: 'code',
+  languages: 'languages'
+};
+
+exports.Prisma.ContactScalarFieldEnum = {
+  id: 'id',
+  email: 'email',
+  subject: 'subject',
+  message: 'message'
+};
+
+exports.Prisma.SortOrder = {
+  asc: 'asc',
+  desc: 'desc'
+};
+
+exports.Prisma.QueryMode = {
+  default: 'default',
+  insensitive: 'insensitive'
+};
+
+exports.Prisma.NullsOrder = {
+  first: 'first',
+  last: 'last'
+};
+
 
 exports.Prisma.ModelName = {
-
+  Helpline: 'Helpline',
+  Country: 'Country',
+  Contact: 'Contact'
 };
 
 /**
