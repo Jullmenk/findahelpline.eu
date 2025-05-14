@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 
-// Function to generate dynamic metadata based on translations
+
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   let messages;
   try {
