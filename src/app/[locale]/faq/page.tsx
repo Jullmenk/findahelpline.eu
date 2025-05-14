@@ -58,7 +58,7 @@ export default function Home() {
                 <div
                   key={index}
                   className={`${
-                    open === index ? "max-h-screen" : "max-h-14"
+                    open === index ? "max-h-[100vh]" : "max-h-14"
                   } w-full transition-all border-b border-border-0 duration-100 bg-white pt-2 pb-4 overflow-hidden flex flex-col items-start justify-start`}
                 >
                   <div

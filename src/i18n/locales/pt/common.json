@@ -88,7 +88,6 @@
     "topics": {
       "domestic abuse and violence": "Abuso e violência doméstica",
       "anxiety": "Ansiedade",
-      "moral harassment": "Assédio moral",
       "dementia and alzheimer's": "Demência e Alzheimer",
       "dementia and Alzheimer's": "Demência e Alzheimer",
       "alzheimer's": "Alzheimer",
@@ -362,7 +361,7 @@
     }
   },
   "topicsPage": {
-    "title": "Apoio para",
+    "title": "Linha de apoio para",
     "nearYou": "Obtenha ajuda perto de você:"
   },
   "privacy": {

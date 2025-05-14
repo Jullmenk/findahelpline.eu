@@ -1,7 +1,6 @@
 export const specializations = [
   { pt: "Abuso e violência doméstica", en: "domestic abuse and violence" },
   { pt: "Ansiedade", en: "anxiety" },
-  { pt: "Assédio moral", en: "moral harassment" },
   { pt: "Demência e Alzheimer", en: "dementia and Alzheimer's" },
   { pt: "Depressão", en: "depression" },
   { pt: "Alimentação e imagem corporal", en: "eating disorders and body image" },

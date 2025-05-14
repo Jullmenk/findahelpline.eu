@@ -2,13 +2,14 @@
 import React from "react";
 import Image from "next/image";
 import { useTranslations } from "@/hooks/useTranslations";
-import { Link } from "@/i18n/nagivation";
 import { SquareArrowOutUpRight } from "lucide-react";
+import Link from "next/link";
+import { useLocale } from "next-intl";
 
 
 export default function Footer() {
   const year = new Date().getFullYear();
-
+  const locale = useLocale()
 
   const t = useTranslations("Footer");
   const l = useTranslations("Links");
@@ -47,24 +48,24 @@ export default function Footer() {
         <hr className="w-[90%] border-t border-gray-300 my-4" />
 
         <div className="grid grid-cols-2 sm:grid-cols-2 gap-y-3">
-            <Link href={"/#about"} className="text-start underline">
+            <Link href={"/" + locale + "/#about"} className="text-start underline">
               {l(`name-2`)}
             </Link>
-            <Link href={"/faq"} className="text-start underline">
+            <Link href={"/" + locale + "/faq"} className="text-start underline">
               {l(`name-3`)}
             </Link>
             <Link href={"https://www.throughline.org"} className="text-start flex items-center gap-1 underline">
               {l(`name-4`)}
               <SquareArrowOutUpRight size={12} />
             </Link>
-            <Link href={"/terms"} className="text-start underline">
+            <Link href={"/" + locale + "/terms"} className="text-start underline">
               {l(`name-6`)}
             </Link>
-            <Link href={"/contact"} className="text-start underline">
+            <Link href={"/" + locale + "/contact"} className="text-start underline">
               {l(`name-5`)}
             </Link>
 
-            <Link href={"/privacy"} className="text-start underline">
+            <Link href={"/" + locale + "/privacy"} className="text-start underline">
               {l(`name-7`)}
             </Link>
           

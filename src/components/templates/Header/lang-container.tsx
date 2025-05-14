@@ -30,7 +30,7 @@ export default function LangContainer({ close }: LangContainerProps) {
   };
 
   return (
-    <div className="w-[80dvw] sm:w-[30dvw] flex flex-col gap-5 pt-4 px-6">
+    <div className="w-[80dvw] sm:w-[30dvw] overflow-y-scroll sm:overflow-hidden flex flex-col gap-5 pt-4 px-6">
       <div className="w-full flex justify-between items-center">
         <div className="flex gap-2 items-center">
           <Lang color="black" />
