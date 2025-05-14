@@ -11,7 +11,7 @@ export default function Privacy() {
       <div className="w-full px-6 sm:px-0 sm:w-def">
         <TermsAndPrivacyHeader />
         <h1 className="text-4xl font-semibold my-8">{t("title")}</h1>
-        <ul className="list-decimal list-outside">
+        <ul className="list-decimal px-6 sm:px-0 list-outside">
           <li className="text-2xl font-semibold ">
             <span>{t("sections.introduction.title")}</span>
             <ul className="pl-5 text-base flex flex-col gap-4 mt-6 font-normal list-decimal list-outside">
