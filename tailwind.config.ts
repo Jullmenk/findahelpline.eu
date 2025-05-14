@@ -11,7 +11,8 @@ const config: Config = {
   theme: {
   	extend: {
 		width:{
-			"def": "410px"
+			"def": "410px",
+			"organization": "550px"
 		},
   		colors: {
 			...COLORS,

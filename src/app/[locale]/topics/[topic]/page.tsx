@@ -8,14 +8,23 @@ import Link from "next/link";
 import { crimsonText } from "@/fonts/crismonText";
 import { countries } from "@/lib/countries";
 import { specializations } from "@/data/utils";
+import { useTranslations } from "@/hooks/useTranslations";
 
-export default function TopicsPage({params}) {
+type Props = {
+  params: {
+    topic: string;
+    locale: string;
+  }
+};
+
+export default function TopicsPage({params}:Props) {
   const { filteredHelplines } = useConfig();
 
-
-
+  const t = useTranslations("topicsPage")
+  const c = useTranslations("helpline-and-Country")
+  const h = useTranslations("Hero")
   const [dropDownOpen, setDropDownOpen] = React.useState(false);  
-  const spec = specializations.find((spec)=>spec.en.toLowerCase()===params.topic.replace(/-/g, " ").toLowerCase())
+  const spec = specializations.find((spec)=>spec.en.toLowerCase()===params?.topic.replace(/-/g, " ").toLowerCase())
   return (
     <div>
       <Hero filteredHelplines={filteredHelplines} herotext={spec?.pt}/>
@@ -28,9 +37,9 @@ export default function TopicsPage({params}) {
                 " text-3xl font-semibold mt-6 mb-2 text-gray-800"
               }
             >
-              Assistência para {spec?.pt}
+              {t("title")} {c(`topics.${spec?.en}`)}
             </h2>
-            <p>Obtenha ajuda perto de si:</p>
+            <p>{t("nearYou")}</p>
           </div>
           <div
             className={`${
@@ -48,7 +57,7 @@ export default function TopicsPage({params}) {
                   " px-0 hover:bg-transparent text-2xl font-semibold text-texts-4"
                 }
               >
-                Europa
+                {c("europe")}
               </Button>
               <div
                 className={` transition-all duration-300 ${
@@ -61,11 +70,11 @@ export default function TopicsPage({params}) {
             <div className="w-full flex flex-wrap gap-3 mt-6">
               {countries.map((country, index) => (
                 <Link
-                  href={`/countries/${country.code}`}
+                  href={`/${params.locale}/countries/${country.code.toLowerCase()}/topics/${params.topic}`}
                   key={index}
                   className="flex px-5 py-2 hover:shadow-theme rounded-lg text-sm bg-zinc-100 hover:bg-zinc-200 justify-between items-center"
                 >
-                  {country.name}
+                  {h(`countries.${country.code}`)}
                 </Link>
               ))}
             </div>

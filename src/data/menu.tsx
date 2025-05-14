@@ -14,7 +14,7 @@ export const menu = [
       icon: <IoMdInformationCircle color="rgb(148, 188, 217)" size={24} />,
       pt: "Sobre",
       en: "About",
-      href: "/about",
+      href: "#about",
     },
     {
       icon: <BsQuestionCircleFill color="rgb(148, 188, 217)" size={24} />,

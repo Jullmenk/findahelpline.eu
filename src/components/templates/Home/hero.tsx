@@ -1,12 +1,12 @@
-import { SearchBar } from "@/components/SearchBar";
+import { SearchBar } from "@/components/ui/SearchBar";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/nagivation";
 import React from "react";
 import { useConfig } from "@/context/config";
 import { Helpline } from "@/types/types";
 import CountryCard from "@/components/ui/country-card";
-
+import { useTranslations } from "next-intl";
 export default function Hero({
   filteredHelplines,
   herotext
@@ -15,6 +15,8 @@ export default function Hero({
   herotext?:string
 }) {
   const { userCountry,updateFilteredHelplines } = useConfig();
+
+  const t = useTranslations("Hero")
 
   return (
     <div className="w-full flex justify-center items-center bg-bg-0">
@@ -29,36 +31,30 @@ export default function Hero({
               />
             </div>
             <h1 className="text-texts-0 text-xl text-center font-normal">
-              {
-                herotext?
-               `Está com dificuldades com ${herotext}? Obtenha apoio gratuito e confidencial de uma linha de apoio ou linha direta perto de si. Chat online, mensagem ou telefone.`
-               : 
-               (`Apoio confidencial e gratuito de uma linha de apoio ou direta
-                perto de si. Chat online, mensagem ou telefone.`)
-              }
+              {t("title")}
             </h1>
           </>
         )}
-        <SearchBar/>
+        <SearchBar t={t}/>
 
         {filteredHelplines.length === 0 ? (
           <>
             <div className="flex flex-col justify-center items-center">
-              <h2 className="text-sm text-texts-1">Ligações rápidas</h2>
+              <p className="text-base text-texts-1">{t("text-3")}</p>
               {userCountry && (
                 <Button
                   variant={"ghost"}
-                  className="underline hover:bg-transparent hover:text-texts-0 text-texts-0 font-normal"
+                  className="underline text-base hover:bg-transparent hover:text-texts-0 text-texts-0 font-normal"
                   onClick={() => updateFilteredHelplines(userCountry.code)}
                 >
-                  Linhas de apoio em {userCountry.name}
+                  {t("text-1")} {userCountry.name}
                 </Button>
               )}
               <Link
-                className="underline text-texts-0 font-normal"
+                className="underline text-base text-texts-0 font-normal"
                 href={"/faq"}
               >
-                Usar uma linha de apoio: o que esperar
+                {t("text-2")}
               </Link>
             </div>
           </>

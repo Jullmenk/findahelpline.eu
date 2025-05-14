@@ -1,25 +1,36 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import SearchIcons from "@/assets/search";
-import { Input } from "./ui/input";
+import { Input } from "./input";
 import { IoChevronDownOutline } from "react-icons/io5";
 import { motion } from "framer-motion";
-import { countries } from "@/lib/countries";
+import { countries, Country } from "@/lib/countries";
 import { useConfig } from "@/context/config";
 import { X } from "lucide-react";
 
 
-export function SearchBar() {
+export function SearchBar({t}: {t: (key: string) => string}) {
   const { setSearchQuery,updateFilteredHelplines,setFilteredHelplines } = useConfig();
   const [search, setSearch] = useState<string>("");
   const [showDropdown, setShowDropdown] = useState<boolean>(false);
+  const [filteredOptions, setFilteredOptions] = useState<Country[]>([]);
+  
 
-  const filteredOptions = search
+
+
+  useEffect(() => {
+
+    const filtered = search
     ? countries.filter((option) =>
-        option.name.toLowerCase().includes(search.toLowerCase())
+        t(`countries.${option.code}`)
+          .toLowerCase()
+          .includes(search.toLowerCase())
       )
     : countries;
+
+    setFilteredOptions(filtered);
+  }, [search]);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearch(e.target.value);
@@ -43,10 +54,13 @@ export function SearchBar() {
           <Input
             type="text"
             value={search}
-            onClick={() => setShowDropdown(true)}
+            onClick={() => {
+              setShowDropdown(true)
+              filteredOptions.length == 1 && setFilteredOptions(countries)
+            }}
             onChange={handleInputChange}
             className="border-none focus:outline-none focus:ring-0 focus:border-none focus-visible:outline-none focus-visible:ring-0 focus-visible:border-none"
-            placeholder="Começa a escrever o nome do teu país..."
+            placeholder={t("searchBarPlaceholder")+"..."}
           />
           <div className="absolute left-7 top-1/2 -translate-y-1/2 h-full w-5 text-bg-1 flex items-center justify-center">
             <SearchIcons fill="rgb(43, 143, 148)" />
@@ -88,9 +102,9 @@ export function SearchBar() {
               <div
                 key={index}
                 className="px-4 py-2 text-sm hover:bg-zinc-100 cursor-pointer"
-                onClick={() => handleOptionClick(option.name, option.code)}
+                onClick={() => handleOptionClick(t(`countries.${option.code}`), option.code)}
               >
-                {option.name}
+                {t(`countries.${option.code}`)}
               </div>
             ))}
           </div>

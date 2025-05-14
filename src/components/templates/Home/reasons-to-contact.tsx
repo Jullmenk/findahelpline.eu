@@ -1,16 +1,9 @@
 import Image from "next/image";
 import { crimsonText } from "@/fonts/crismonText";
+import { useTranslations } from "@/hooks/useTranslations";
 
 export default function ReasonsToContact() {
-  const reasons = [
-    "Ter uma crise de ideações suicidas, como pensar \"Quero morrer\" ou pensar em formas de se matar, ou querer apoio após tentar suicídio.",
-    "Sofrer de abuso ou violência domésticos, abuso sexual, depressão, ansiedade ou angústia emocional.",
-    "Estar a passar por dificuldades com automutilação, uma adição ou uso de substâncias, a sua imagem física ou uma perturbação da alimentação.",
-    "Reparar em sinais preocupantes numa pessoa próxima de si, sentir que alguém pode estar em risco de causar danos a si próprio ou querer saber como ajudar alguém com quem está preocupado.",
-    "Querer aprender mais sobre os serviços de saúde mental em momentos de crise, prevenção do suicídio e recursos gerais sobre saúde mental.",
-    "Pensar simplesmente, \"Preciso de ajuda\" e não saber como começar.",
-  ];
-
+  const t = useTranslations("ReasonToContact");
   return (
     <div className="w-full flex justify-center items-center bg-bg-2 py-16">
       <div className="w-def flex flex-col gap-7">
@@ -23,17 +16,16 @@ export default function ReasonsToContact() {
         </div>
 
         <h2 className={`${crimsonText.className} text-2xl font-semibold mt-6 mb-2 text-gray-800`}>
-          Razões comuns para entrar em contacto com uma linha de apoio
+          {t("title")}
         </h2>
 
         <p>
-          Não tem a certeza de que entrar em contacto com uma linha de apoio é o mais certo para si?
-          Aqui ficam algumas razões pelas quais outras pessoas procuraram apoio gratuito e confidencial:
+          {t("text-1")}
         </p>
 
         <ul className="list-disc pl-6 space-y-3">
-          {reasons.map((reason, i) => (
-            <li key={i}>{reason}</li>
+          {Array.from({ length: 6}, (_, i) => (
+            <li key={i}>{t(`li.li-${i + 1}`)}</li>
           ))}
         </ul>
       </div>

@@ -15,7 +15,7 @@ export default function HomeSection() {
       filteredHelplines.length===0&&
      ( 
      <>
-     <Partners />
+      <Partners />
       <HelpLineSection />
       <ReasonsToContact />  
       <CompaniesAndOrganization />

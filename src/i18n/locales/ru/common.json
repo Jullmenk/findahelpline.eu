@@ -1,0 +1,215 @@
+{
+  "Hero": {
+    "title": "Free, confidential support from a helpline or hotline near you. Online chat, text or phone.",
+    "searchBarPlaceholder": "Start typing your country",
+    "text-1": "Helplines in",
+    "text-2": "Using a helpline: What to expect",
+    "text-3": "Quick calls",
+    "countries": {
+      "PT": "Portugal",
+      "ES": "Spain",
+      "FR": "France",
+      "IT": "Italy",
+      "DE": "Germany",
+      "NL": "Netherlands",
+      "BE": "Belgium",
+      "CH": "Switzerland",
+      "AT": "Austria",
+      "IE": "Ireland",
+      "GB": "United Kingdom",
+      "DK": "Denmark",
+      "FI": "Finland",
+      "SE": "Sweden",
+      "NO": "Norway",
+      "PL": "Poland",
+      "CZ": "Czech Republic",
+      "HU": "Hungary",
+      "SK": "Slovakia",
+      "SI": "Slovenia",
+      "HR": "Croatia",
+      "BG": "Bulgaria",
+      "RO": "Romania",
+      "GR": "Greece",
+      "EE": "Estonia",
+      "LV": "Latvia",
+      "LT": "Lithuania",
+      "MT": "Malta"
+    }
+  },
+  "Partners": {
+    "title": "Key Partners",
+    "text-1": "+ 1,300 helplines in over 130 countries",
+    "text-2": "Free emotional support, anywhere, anytime",
+    "cards": {
+      "card-1-title": "Quick",
+      "card-1-info": "Connect with a helpline for support today.",
+      "card-2-title": "Talk with a human",
+      "card-2-info": "Get support from a trained volunteer, counselor or peer.",
+      "card-3-title": "Confidential",
+      "card-3-info": "Feel comfortable to share what’s on your mind."
+    },
+    "aloneTitle":"You don’t have to go through this alone.",
+    "aloneSubtitle":"If you are struggling today, need support with your mental health, or have experienced a traumatic event, consider contacting a helpline. It’s free, anonymous and confidential.",
+    "helplineConcept":"What are helplines?",
+    "helplineConceptText-1":"Helplines (also known as hotlines or crisis lines) provide immediate crisis counseling, emotional support and information – for free.",
+    "helplineConceptText-2":"Most helpline phone numbers are toll-free and many helplines are available over text message or online chat. Helplines are often available 24/7, so you can contact them at any time of the day or night.",
+    "helplineConceptSupport":"How will a helpline support me?",
+    "helplineConceptSupportText-1":"Helplines provide a judgment-free space for you to talk through difficult emotions and experiences, receive support, and connect to other resources that can help you.",
+    "helplineConceptSupportText-2":"Talking helps, and research has shown that people feel less distressed after contacting helplines.",
+    "talkTohelpleAbout":"What can I talk to a helpline about?",
+    "talkTohelpleAboutText-1":"The most common types of helpline are suicide prevention hotlines, domestic violence hotlines and sexual assault hotlines.",
+    "talkTohelpleAboutText-2":"However, helplines are available for a wide range of mental health and emotional struggles including anxiety, depression, gender or sexual identity, substance use and much more.",
+    "talkTohelpleAboutText-3":"You don't have to be suicidal or in a severe situation to contact a helpline. You might just need to talk, or want information on supporting others.",
+    "findHelpline":"How do I find the best helpline for me?",
+    "findHelplineText-1":"In some countries, many helplines are available. For example, if you live in the United States, popular nationwide helplines are the 988 Suicide & Crisis Lifeline, Crisis Text Line and TrevorLifeline.",
+    "findHelplineText-2":"When you search for a helpline on Find A Helpline, our intelligent ranking algorithm will recommend the best helplines for you.",
+    "findHelplineText-3":"You can also further filter according to your needs, and read helpline descriptions to learn more about the service each helpline provides.",
+    "findHelplineText-4":"Because helplines are free, you can contact more than one service to find the right one for you.",
+    "whatToExpectButton" : "What to expect" 
+  },
+  "helpline-and-Country":{
+    "title":"We partner with verified helplines in 130+ countries",
+    "InfoText-1":"Find A Helpline is powered by ThroughLine, the largest, most accurate helpline resource in the world.",
+    "InfoText-2":"We hold relationships with helpline organisations and crisis centers in over 130 countries, who verify their information with us directly.",
+    "InfoText-3":"Other services and websites provide long lists of out-of-date information, but we work daily to keep our information accurate and easy to use – both for the people who need immediate support and for the partners who rely on us.",
+    "OtherServices":"Other services",
+    "OtherServicesText-1":"Some countries",
+    "OtherServicesText-2":"Outdated websites & phone numbers",
+    "OtherServicesText-3":"Difficult to find the right service",
+    "findAHelpline":"Find a Helpline",
+    "findAHelplineText-1":"Global coverage",
+    "findAHelplineText-2":"Verified data, maintained daily",
+    "findAHelplineText-3":"AI-powered intelligent ranking",
+    "europe":"Europe",
+    "hotlinesbycountry":"Helplines & hotlines by country",
+    "hotlinesbyTopic":"Helplines & hotlines by topic",
+    "Quick":"Quick link",
+    "Suicidal":"Suicidal Thoughts",
+      "topics": {
+        "domestic abuse and violence": "Domestic abuse and violence",
+        "anxiety": "Anxiety",
+        "moral harassment": "Moral harassment",
+        "dementia and Alzheimer's": "Dementia and Alzheimer's",
+        "depression": "Depression",
+        "eating disorders and body image": "Eating disorders and body image",
+        "family": "Family",
+        "gambling": "Gambling",
+        "gender and sexual identity": "Gender and sexual identity",
+        "grief and loss": "Grief and loss",
+        "loneliness": "Loneliness",
+        "fatherhood": "Fatherhood",
+        "physical illness": "Physical illness",
+        "pregnancy and abortion": "Pregnancy and abortion",
+        "relationships": "Relationships",
+        "school and work": "School and work",
+        "self-harm": "Self-harm",
+        "sexual abuse": "Sexual abuse",
+        "stress": "Stress",
+        "substance abuse": "Substance abuse",
+        "suicide": "Suicide",
+        "supporting others": "Supporting others",
+        "trauma and PTSD": "Trauma and PTSD"
+      }
+    
+  },
+  "ReasonToContact":{
+    "title":"Common reasons for contacting a helpline",
+    "text-1":"Unsure if contacting a helpline is right for you? Here are some reasons other people have sought free, confidential support from a helpline or hotline:",
+    "li":{
+      "li-1":"Experiencing a suicidal crisis, such as thinking “I want to die” or about how to kill yourself, or wanting support after attempting to take your life.",
+      "li-2":"Experiencing domestic abuse or violence, sexual abuse, depression, anxiety, or other emotional distress.",
+      "li-3":"Struggling with self-harm, an addiction or substance use challenge, your body image or an eating disorder.",
+      "li-4":"Noticing warning signs in a loved one, feeling concerned someone may be at risk of hurting themselves, or wanting to know how to help someone you’re worried about.",
+      "li-5":"Wanting to learn about mental health crisis services, suicide prevention, general mental health services and resources.",
+      "li-6":"Just simply thinking “I need help” and not knowing where to start."
+    }
+  },
+  "Companies":{
+    "title":"For Businesses & Organizations",
+    "scaling":"Scaling & maintaining global support resources is challenging & costly. We make it easy.",
+    "text-1":"Find A Helpline is a public service by ThroughLine. It's part of our mission to ease every emotional crisis, globally.",
+    "text-2":"ThroughLine empowers online communities and platforms to protect their users and brand reputation through verified crisis support resources.",
+    "trustedBy":"Trusted by",
+    "more":"more",
+    "becomePartner":"Become a partner",
+    "cards":{
+      "card-1-title":"Reach every user",
+      "card-1-info":"Verified helplines in 130+ countries.",
+      "card-2-title":"Support diverse needs",
+      "card-2-info":"Coverage for 21 topics and 15 specialties.",
+      "card-3-title":"Streamline access to help",
+      "card-3-info":"Launch-ready, customizable product experiences."
+    },
+    "learnMore":"Learn more"
+  },
+  "Footer":{
+    "title-1":"Find A Helpline is a public service made with ♡ by",
+    "title-2":"For business or commercial use",
+    "getIntouch":"get in touch",
+    "Copyright":"Copyright ©",
+    "rights":"All rights reserved."
+  },
+    "Faqs": {
+      "title": "What to expect when contacting a helpline",
+      "intro-1": "Asking for help is one of the bravest — and hardest — things you can do when you're struggling.",
+      "intro-2": "Helplines — also known as crisis lines, support lines, or crisis call centers — provide immediate emotional support to people everywhere, worldwide!",
+      "intro-3": "If you're used to keeping things to yourself or have never contacted a helpline before, you might not know what to expect. This can add extra stress to an already difficult situation.",
+      "intro-4": "For some people, knowing what to expect can relieve that stress and make it easier to reach out.",
+      "intro-5": "Here are some frequently asked questions:",
+      "list": [
+        {
+          "q": "Who will I be talking to?",
+          "a": "<p>Generally, you’ll have three options for who you might talk to on a helpline:</p><ul><li><b>Volunteers –</b> people with some training on how to listen and support. They work unpaid.</li><li><b>Counselors –</b> people whose job is to give advice or support. They may have formal training.</li><li><b>Peers –</b> people who have gone through similar experiences. They may have training and often work unpaid.</li></ul><p>Whoever you talk to, everyone on a helpline is trained to listen and offer support.</p><p>You can filter helplines based on the kind of support you’re looking for.</p>"
+        },
+        {
+          "q": "What should I say?",
+          "a": "<p>Many people don’t know what to say when they call for help. It can be hard to know where to begin when you’re feeling overwhelmed.</p><h2>Starting the conversation</h2><p>Try practicing what you want to say or write down a few thoughts to guide your conversation.</p><p>Here are some sentence starters:</p><ul><li>Things are hard right now because…</li><li>Lately I’ve been feeling…</li><li>I’m dealing with [emotion or situation] right now, and…</li></ul><h2>There’s no wrong way to say it</h2><p>The person on the other end is there for you. They want to hear your story and understand what you’re going through. Share as much as you’re comfortable with — there’s no pressure.</p>"
+        },
+        {
+          "q": "How will they help me?",
+          "a": "<p>Helplines are a safe, judgment-free space for immediate information and emotional support.</p><h2>You can talk about anything</h2><p>You can reach out no matter how big or small your issue feels. You don’t need to be in crisis to deserve support — the person on the line will listen and help you figure out your next steps.</p><h2>You’ll get help and feel safer</h2><p>If you are in crisis and need immediate help, the helpline will help you stay calm and safe. They may ask if you’re thinking of harming yourself. They’ll listen, understand the intensity of your feelings, and help you make a plan to stay safe.</p><h2>You’ll find the right support</h2><p>Some helplines offer specialized support or serve specific groups.</p><p>For example, LGBTQ+ callers might prefer a helpline trained to support their needs.</p><p>Helplines are categorized by topic and specialization, so you’ll always know who they support and how.</p>"
+        },
+        {
+          "q": "Can I just talk?",
+          "a": "<p>Many people feel this way. Most helplines aren’t just for serious problems — they’re there for anyone who needs to talk.</p><p>There are also “warm lines” — helplines designed just for conversation. These are often staffed by people who’ve been through tough times themselves.</p><p>You can find warm lines using the filter options when searching for support.</p>"
+        },
+        {
+          "q": "Do I need a phone?",
+          "a": "<p>Many helplines offer support via text, WhatsApp, or online chat. When browsing helplines, you’ll see what contact options are available.</p><p>Some people find texting more private or informal, which can make it easier to open up.</p>"
+        },
+        {
+          "q": "Will they call the police?",
+          "a": "<p>Some people worry that asking for help might trigger a police response — and that can be really stressful. Most helplines are required to keep your information private, unless they believe you or someone else is in immediate danger.</p><p>If you're having suicidal thoughts, helplines are there to help you stay safe, not to call the police — unless you’re actively planning to harm yourself or others and no plan can be made to stay safe.</p><p>You can ask about their privacy policy before sharing your situation.</p>"
+        },
+        {
+          "q": "What if my thoughts are too intense?",
+          "a": "<p>When thoughts feel overwhelming, it might seem too hard to talk about them. You might worry about how others will react.</p><p>Helpline workers are trained to listen. They know how to support people going through what you’re going through.</p><p>They won’t judge you — they’ll help you figure out what to do next in a way that works for you.</p>"
+        },
+        {
+          "q": "What if I don’t trust professionals?",
+          "a": "<p>While professional support can be helpful, we understand it’s not the right fit for everyone.</p><p>There are other options:</p><ul><li><b>Volunteers –</b> most helplines are run by volunteers. They do it because they care about helping people going through tough times.</li><li><b>Peers –</b> some helplines connect you with people who’ve been through similar experiences.</li><li><b>Warm lines –</b> helplines staffed by people who’ve had their own mental health struggles.</li></ul><p>When browsing helplines, you can filter for the kind of support you’re most comfortable with.</p>"
+        }
+      ]
+    },
+  "Links":{
+    "name-1": "Home",
+    "name-2": "About",
+    "name-3": "FAQ",
+    "name-4": "Integrations",
+    "name-5": "Contact",
+    "name-6": "Terms of Service",
+    "name-7": "Privacy Policy"
+  },
+  "CountryCard":{
+    "title":"What would you like help with?",
+    "common":"Common topics",
+    "suicidal-thoughts":"Suicidal Thoughts",
+    "select":"Or select topic or topics ",
+    "optional":"optional",
+    "showMore":"show more",
+    "procure":"Search For Helplines"
+  },
+  "CountryAndHelplines":{
+    "title":"Helplines in"
+  }
+}
