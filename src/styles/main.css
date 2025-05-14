@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -80,8 +82,19 @@
   }
 }
 
+*{
+  box-sizing: border-box
+}
 
 
+.formated h2{
+  @apply text-xl font-semibold text-gray-800 leading-8;
+  font-family: 'Crimson Text', serif;
+}
+
+.formated ul{
+  @apply list-disc pl-6 space-y-3;
+}
 @layer base {
   * {
     @apply border-border;
@@ -89,4 +102,88 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.loading-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: white;
+  overflow: hidden;
+}
+
+.logo-container {
+  position: relative;
+  width: 300px;
+  height: 150px;
+}
+
+.heart-left,
+.heart-right,
+.logo-text {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+}
+
+.heart-left {
+  left: 50%;
+  transform: translateX(-50%);
+  animation: leftMove 2s ease-out forwards;
+}
+
+.heart-right {
+  left: 50%;
+  transform: translateX(-50%);
+  animation: rightMove 2s ease-out forwards;
+}
+
+.logo-text {
+  width: 100%;
+  text-align: center;
+  top: 80px;
+  font-family: 'Crimson Text', serif;
+  font-size: 24px;
+  color: #333;
+  animation: fadeIn 1s ease-in forwards;
+  animation-delay: 2s;
+}
+
+@keyframes leftMove {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) scale(0.9);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(-120px);
+  }
+}
+
+@keyframes rightMove {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) scale(0.9);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(60px);
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+button:active{
+  opacity: 0.6;
 }

@@ -1,5 +1,6 @@
 generator client {
   provider = "prisma-client-js"
+  output   = "./generated/prisma"
 }
 
 datasource db {
@@ -8,15 +9,17 @@ datasource db {
 }
 
 model Helpline {
-  id         String   @id @default(cuid())
-  name       String
-  country    String
-  phone      String?
-  website    String?
-  languages  String[]
-  createdAt  DateTime @default(now())
-  updatedAt  DateTime @updatedAt
-  countryRel Country  @relation(fields: [country], references: [name])
+  id              String   @id @default(cuid())
+  name            String
+  country         String
+  phone           String?
+  website         String?
+  hours           String?
+  languages       String[]
+  createdAt       DateTime @default(now())
+  specializations String[]
+  updatedAt       DateTime @updatedAt
+  countryRel      Country  @relation(fields: [country], references: [name])
 
   @@unique([name, country], name: "name_country")
 }
@@ -27,4 +30,11 @@ model Country {
   code      String     @unique
   languages String[]
   helplines Helpline[]
+}
+
+model Contact {
+  id        String     @id @default(cuid())
+  email     String
+  subject   String
+  message   String
 }

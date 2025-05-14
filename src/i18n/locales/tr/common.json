@@ -1,0 +1,679 @@
+{
+  "Hero": {
+    "title": "Yakınınızdaki bir yardım hattından ücretsiz, gizli destek. Çevrimiçi sohbet, metin veya telefon.",
+    "searchBarPlaceholder": "Ülkenizi yazmaya başlayın",
+    "text-1": "Yardım hatları",
+    "text-2": "Yardım hattı kullanımı: Ne beklemeli",
+    "text-3": "Hızlı aramalar",
+    "countries": {
+      "PT": "Portekiz",
+      "ES": "İspanya",
+      "FR": "Fransa",
+      "IT": "İtalya",
+      "DE": "Almanya",
+      "NL": "Hollanda",
+      "BE": "Belçika",
+      "CH": "İsviçre",
+      "AT": "Avusturya",
+      "IE": "İrlanda",
+      "GB": "Birleşik Krallık",
+      "DK": "Danimarka",
+      "FI": "Finlandiya",
+      "SE": "İsveç",
+      "NO": "Norveç",
+      "PL": "Polonya",
+      "CZ": "Çek Cumhuriyeti",
+      "HU": "Macaristan",
+      "SK": "Slovakya",
+      "SI": "Slovenya",
+      "HR": "Hırvatistan",
+      "BG": "Bulgaristan",
+      "RO": "Romanya",
+      "GR": "Yunanistan",
+      "EE": "Estonya",
+      "LV": "Letonya",
+      "LT": "Litvanya",
+      "MT": "Malta"
+    }
+  },
+  "Partners": {
+    "title": "Ana Ortaklar",
+    "text-1": "+ {countHelplines} yardım hattı, {countCountries} ülkede",
+    "text-2": "Her yerde, her zaman ücretsiz duygusal destek",
+    "cards": {
+      "card-1-title": "Hızlı",
+      "card-1-info": "Bugün bir yardım hattıyla bağlantı kurun.",
+      "card-2-title": "Bir insanla konuş",
+      "card-2-info": "Eğitimli bir gönüllü, danışman veya akranından destek alın.",
+      "card-3-title": "Gizli",
+      "card-3-info": "Aklınızdakileri paylaşırken rahat hissedin."
+    },
+    "aloneTitle": "Bunu yalnız geçirmek zorunda değilsiniz.",
+    "aloneSubtitle": "Bugün zorlanıyorsanız, ruh sağlığınızla ilgili desteğe ihtiyacınız varsa veya travmatik bir olay yaşadıysanız, bir yardım hattıyla iletişime geçmeyi düşünün. Ücretsiz, anonim ve gizlidir.",
+    "helplineConcept": "Yardım hatları nedir?",
+    "helplineConceptText-1": "Yardım hatları (aynı zamanda acil hatlar veya kriz hatları olarak da bilinir), anında kriz danışmanlığı, duygusal destek ve bilgi sağlar – ücretsiz.",
+    "helplineConceptText-2": "Çoğu yardım hattı telefon numarası ücretsizdir ve birçok yardım hattı metin mesajı veya çevrimiçi sohbet yoluyla kullanılabilir. Yardım hatları genellikle 24/7 açıktır, böylece günün veya gecenin herhangi bir saatinde onlarla iletişime geçebilirsiniz.",
+    "helplineConceptSupport": "Yardım hattı bana nasıl destek olacak?",
+    "helplineConceptSupportText-1": "Yardım hatları, zor duyguları ve deneyimleri konuşmanız için yargısız bir alan sağlar, destek alır ve size yardımcı olabilecek diğer kaynaklara bağlanırsınız.",
+    "helplineConceptSupportText-2": "Konuşmak yardımcı olur ve araştırmalar, yardım hatlarıyla iletişime geçen insanların daha az stresli hissettiğini göstermiştir.",
+    "talkTohelpleAbout": "Yardım hattıyla neler konuşabilirim?",
+    "talkTohelpleAboutText-1": "En yaygın yardım hattı türleri intihar önleme hatları, aile içi şiddet hatları ve cinsel saldırı hatlarıdır.",
+    "talkTohelpleAboutText-2": "Ancak, yardım hatları anksiyete, depresyon, cinsiyet veya cinsel kimlik, madde kullanımı ve daha pek çok konuda geniş bir yelpazede ruh sağlığı ve duygusal mücadeleler için mevcuttur.",
+    "talkTohelpleAboutText-3": "Yardım hattıyla iletişime geçmek için intihar eğilimli olmanız veya ciddi bir durumda olmanız gerekmez. Sadece konuşmanız gerekebilir veya başkalarını destekleme konusunda bilgi almak isteyebilirsiniz.",
+    "findHelpline": "Benim için en iyi yardım hattını nasıl bulurum?",
+    "findHelplineText-1": "B bazı ülkelerde birçok yardım hattı mevcuttur. Örneğin, Amerika Birleşik Devletleri'nde yaşıyorsanız, popüler ülke çapındaki yardım hatları 988 İntihar ve Kriz Hattı, Kriz Metin Hattı ve TrevorLifeline'dır.",
+    "findHelplineText-2": "Find A Helpline'da bir yardım hattı aradığınızda, akıllı sıralama algoritmamız sizin için en iyi yardım hatlarını önerecektir.",
+    "findHelplineText-3": "Ayrıca ihtiyaçlarınıza göre daha fazla filtreleme yapabilir ve her yardım hattının sunduğu hizmet hakkında daha fazla bilgi edinmek için yardım hattı açıklamalarını okuyabilirsiniz.",
+    "findHelplineText-4": "Yardım hatları ücretsiz olduğu için, size uygun olanı bulmak için birden fazla hizmetle iletişime geçebilirsiniz.",
+    "whatToExpectButton": "Ne beklemeli"
+  },
+  "helpline-and-Country": {
+    "title": "130+ ülkede doğrulanmış yardım hatlarıyla ortaklık yapıyoruz",
+    "InfoText-1": "Find A Helpline, dünyanın en büyük ve en doğru yardım hattı kaynağı olan ThroughLine tarafından desteklenmektedir.",
+    "InfoText-2": "130'dan fazla ülkedeki yardım hattı kuruluşları ve kriz merkezleriyle ilişkilerimiz var, bu kuruluşlar bilgilerini doğrudan bizimle doğrular.",
+    "InfoText-3": "Diğer hizmetler ve web siteleri güncel olmayan uzun bilgi listeleri sunar, ancak biz bilgilerimizin doğru ve kullanımı kolay olmasını sağlamak için her gün çalışıyoruz – hem acil desteğe ihtiyaç duyan insanlar hem de bize güvenen ortaklar için.",
+    "OtherServices": "Diğer hizmetler",
+    "OtherServicesText-1": "Bazı ülkeler",
+    "OtherServicesText-2": "Güncel olmayan web siteleri ve telefon numaraları",
+    "OtherServicesText-3": "Doğru hizmeti bulmak zor",
+    "findAHelpline": "Yardım Hattı Bul",
+    "findAHelplineText-1": "Küresel kapsama",
+    "findAHelplineText-2": "Doğrulanmış veriler, günlük olarak güncellenir",
+    "findAHelplineText-3": "Yapay zeka destekli akıllı sıralama",
+    "europe": "Avrupa",
+    "hotlinesbycountry": "Ülkeye göre yardım hatları ve acil hatlar",
+    "hotlinesbyTopic": "Konuya göre yardım hatları ve acil hatlar",
+    "Quick": "Hızlı bağlantı",
+    "Suicidal": "İntihar Düşünceleri",
+    "topics": {
+      "domestic abuse and violence": "Aile içi istismar ve şiddet",
+      "anxiety": "Anksiyete",
+      "moral harassment": "Manevi taciz",
+      "dementia and alzheimer's": "Demans ve Alzheimer",
+      "dementia and Alzheimer's": "Demans ve Alzheimer",
+      "alzheimer's": "Alzheimer",
+      "depression": "Depresyon",
+      "eating disorders and body image": "Yeme bozuklukları ve beden imajı",
+      "family": "Aile",
+      "gambling": "Kumar",
+      "gender and sexual identity": "Cinsiyet ve cinsel kimlik",
+      "grief and loss": "Yas ve kayıp",
+      "loneliness": "Yalnızlık",
+      "fatherhood": "Babalık",
+      "physical illness": "Fiziksel hastalık",
+      "pregnancy and abortion": "Hamilelik ve kürtaj",
+      "relationships": "İlişkiler",
+      "school and work": "Okul ve iş",
+      "self-harm": "Kendine zarar verme",
+      "sexual abuse": "Cinsel istismar",
+      "stress": "Stres",
+      "substance abuse": "Madde bağımlılığı",
+      "suicide": "İntihar",
+      "suicide prevention": "İntihar önleme",
+      "supporting others": "Başkalarını destekleme",
+      "trauma and PTSD": "Travma ve TSSB",
+      "trauma and ptsd": "Travma ve TSSB",
+      "mental health": "Ruh sağlığı",
+      "domestic violence": "Aile içi şiddet",
+      "abuse": "İstismar",
+      "trauma": "Travma",
+      "emotional support": "Duygusal destek",
+      "panic attacks": "Panik ataklar",
+      "phobias": "Fobiler",
+      "bullying": "Zorbalık",
+      "online support": "Çevrimiçi destek",
+      "self-help": "Kendi kendine yardım",
+      "mental health support": "Ruh sağlığı desteği",
+      "schizophrenia": "Şizofreni",
+      "bipolar disorder": "Bipolar bozukluk",
+      "research": "Araştırma",
+      "support groups": "Destek grupları",
+      "psychiatry": "Psikiyatri",
+      "information": "Bilgi",
+      "crisis support": "Kriz desteği",
+      "therapy": "Terapi",
+      "treatment": "Tedavi",
+      "education": "Eğitim",
+      "neurology": "Nöroloji",
+      "mental health awareness": "Ruh sağlığı farkındalığı",
+      "social inclusion": "Sosyal kapsayıcılık",
+      "advocacy": "Savunuculuk",
+      "public health": "Halk sağlığı",
+      "mental health programs": "Ruh sağlığı programları",
+      "mental health services": "Ruh sağlığı hizmetleri",
+      "health promotion": "Sağlık teşviki",
+      "mental health research": "Ruh sağlığı araştırması",
+      "health services": "Sağlık hizmetleri",
+      "mental health care": "Ruh sağlığı bakımı"
+    }
+  },
+  "ReasonToContact": {
+    "title": "Yardım hattıyla iletişime geçmenin yaygın nedenleri",
+    "text-1": "Yardım hattıyla iletişime geçmenin sizin için doğru olup olmadığından emin değil misiniz? İşte diğer insanların ücretsiz, gizli destek aradığı bazı nedenler:",
+    "li": {
+      "li-1": "İntihar krizi yaşamak, örneğin 'Ölmek istiyorum' düşüncesi, nasıl intihar edileceği hakkında düşünmek veya hayatını sonlandırmaya çalıştıktan sonra destek istemek.",
+      "li-2": "Aile içi istismar veya şiddet, cinsel istismar, depresyon, anksiyete veya diğer duygusal sıkıntılar yaşamak.",
+      "li-3": "Kendine zarar verme, bağımlılık veya madde kullanımı zorlukları, beden imajı veya yeme bozukluğu ile mücadele etmek.",
+      "li-4": "Sevdiğiniz birinde uyarı işaretleri fark etmek, birinin kendine zarar verme riski altında olduğundan endişelenmek veya endişelendiğiniz birine nasıl yardım edeceğinizi bilmek istemek.",
+      "li-5": "Ruh sağlığı kriz hizmetleri, intihar önleme, genel ruh sağlığı hizmetleri ve kaynakları hakkında bilgi edinmek istemek.",
+      "li-6": "Sadece 'Yardım ihtiyacım var' diye düşünmek ve nereden başlayacağınızı bilmemek."
+    }
+  },
+  "Companies": {
+    "title": "İşletmeler ve Kuruluşlar İçin",
+    "scaling": "Küresel destek kaynaklarını ölçeklendirmek ve sürdürmek zor ve maliyetlidir. Biz bunu kolaylaştırıyoruz.",
+    "text-1": "Find A Helpline, ThroughLine tarafından sunulan bir kamu hizmetidir. Küresel olarak her duygusal krizi hafifletme misyonumuzun bir parçasıdır.",
+    "text-2": "ThroughLine, çevrimiçi toplulukları ve platformları, doğrulanmış kriz destek kaynaklarıyla kullanıcılarını ve marka itibarını korumak için güçlendirir.",
+    "trustedBy": "Güvenenler",
+    "more": "daha fazla",
+    "becomePartner": "Ortak olun",
+    "cards": {
+      "card-1-title": "Her kullanıcıya ulaş",
+      "card-1-info": "130+ ülkede doğrulanmış yardım hatları.",
+      "card-2-title": "Farklı ihtiyaçları destekle",
+      "card-2-info": "21 konu ve 15 uzmanlık için kapsama.",
+      "card-3-title": "Yardım erişimini kolaylaştır",
+      "card-3-info": "Başlatmaya hazır, özelleştirilebilir ürün deneyimleri."
+    },
+    "learnMore": "Daha fazla bilgi edinin"
+  },
+  "Footer": {
+    "title-1": "Find A Helpline, ThroughLine tarafından ♡ ile yapılmış bir kamu hizmetidir",
+    "title-2": "Ticari veya iş kullanımı için",
+    "getIntouch": "iletişime geç",
+    "Copyright": "Telif Hakkı ©",
+    "rights": "Tüm hakları saklıdır."
+  },
+  "Faqs": {
+    "title": "Yardım hattıyla iletişime geçtiğinizde ne beklemeli",
+    "intro": {
+      "p1": "Yardım istemek, mücadele ederken yapabileceğiniz en cesur ve en zor şeylerden biridir.",
+      "p2": "Yardım hatları — kriz hatları, destek hatları veya duygusal destek çağrı merkezleri olarak da bilinir — dünya çapındaki insanlara anında duygusal destek sunar.",
+      "p3": "Her şeyi kendine saklamaya alışkınsanız veya daha önce hiç yardım hattıyla iletişime geçmediyseniz, ne bekleyeceğinizi bilemeyebilirsiniz. Bu belirsizlik, zaten zor bir duruma ekstra stres ekleyebilir.",
+      "p4": "Bazı insanlar için, ne bekleyeceğini bilmek bu stresi hafifletebilir ve yardım aramayı kolaylaştırabilir.",
+      "p5": "İşte sıkça sorulan sorulara bazı cevaplar:"
+    },
+    "questions": {
+      "title-1": {
+        "q": "Kiminle konuşacağım?",
+        "a": {
+          "p1": "Çoğu durumda, yardım hattının diğer ucunda üç tür insandan biriyle konuşursunuz:",
+          "p2": "Gönüllüler – dinleme ve yardım etme konusunda biraz eğitim almış kişiler. Çalışmaları için ücret almazlar.",
+          "p3": "Danışmanlar – tavsiye ve destek sağlamak için eğitilmiş profesyoneller. Psikoloji veya ruh sağlığı alanında resmi eğitim almış olabilirler.",
+          "p4": "Akranlar – benzer durumlar yaşamış kişiler. Onlar da eğitim almış olabilir. Genellikle ücret almazlar.",
+          "p5": "Kiminle konuşursanız konuşun, yardım hattında çalışan herkes sizi dinlemek ve desteklemek için eğitilmiştir.",
+          "p6": "Yardım hattı ararken, aradığınız destek türüne göre filtreleme yapabilirsiniz.",
+          "p7": "",
+          "p8": "",
+          "p9": ""
+        }
+      },
+      "title-2": {
+        "q": "Ne söylemeliyim?",
+        "a": {
+          "p1": "Birçok insan yardım için aradığında ne söyleyeceğini bilemez. Zaten bunalmışken nereden başlayacağınızı bilmek zor olabilir.",
+          "p2": "Konuşmayı başlatma",
+          "p3": "Ne söylemek istediğinizi prova etmeyi veya konuşmak istediğiniz birkaç noktayı yazmayı deneyin.",
+          "p4": "İşte yardımcı olabilecek bazı ifadeler:",
+          "p5": "Son zamanlarda işler zor geçti çünkü...",
+          "p6": "Son zamanlarda kendimi şöyle hissediyorum...",
+          "p7": "Şu anda [duygu veya durum] ile uğraşıyorum ve...",
+          "p8": "Yanlış bir söyleyiş şekli yoktur",
+          "p9": "Karşı taraftaki kişi sizin için orada. Hikayenizi duymak ve neler yaşadığınızı anlamak istiyor. Rahat hissettiğiniz kadarını paylaşabilirsiniz—hiçbir baskı yok."
+        }
+      },
+      "title-3": {
+        "q": "Bana nasıl yardımcı olacaklar?",
+        "a": {
+          "p1": "Yardım hatları, anında duygusal destek ve bilgi için güvenli, yargısız bir alandır.",
+          "p2": "Her şey hakkında konuşabilirsiniz",
+          "p3": "Sorununuz ne kadar büyük veya küçük görünürse görünsün, yardım hattıyla iletişime geçebilirsiniz. Destek almaya hak kazanmak için krizde olmanız gerekmez—hattaki kişi sizi dinleyecek ve sonraki adımları belirlemek için sizinle çalışacaktır.",
+          "p4": "Sizi güvende hissettirecekler",
+          "p5": "Krizdeyseniz ve acil yardıma ihtiyacınız varsa, yardım hattı sakin ve güvende kalmanız için size destek olacaktır. Kendinize zarar verme düşüncesinde olup olmadığınızı anlamak için sorular sorabilir ve o anda güvende kalmanız için bir plan oluşturmanıza yardımcı olabilir.",
+          "p6": "Doğru yardımı bulacaksınız",
+          "p7": "Bazı yardım hatları belirli destek türlerinde veya belirli insan gruplarında uzmanlaşmıştır.",
+          "p8": "Örneğin, LGBTQ+ arayanlar, bu deneyimler konusunda eğitimli bir yardım hattıyla konuşurken daha rahat hissedebilir.",
+          "p9": "Yardım hatları konu ve uzmanlık alanlarına göre kategorize edilir, böylece ne tür bir destek sundukları ve kime hizmet verdikleri açıkça bellidir."
+        }
+      },
+      "title-4": {
+        "q": "Sadece konuşabilir miyim?",
+        "a": {
+          "p1": "Birçok insan böyle hissediyor. Çoğu yardım hattı sadece büyük sorunlar için değildir. Konuşacak birine ihtiyaç duyan herkes için buradadır.",
+          "p2": "Ayrıca ‘sıcak hatlar’ vardır—özellikle sohbet için tasarlanmış yardım hatları. Bunlar genellikle zor zamanlar geçirmiş kişiler tarafından yönetilir.",
+          "p3": "Sıcak hatları, yardım hattı aramanızda uzmanlık filtresini kullanarak bulabilirsiniz.",
+          "p4": "",
+          "p5": "",
+          "p6": "",
+          "p7": "",
+          "p8": "",
+          "p9": ""
+        }
+      },
+      "title-5": {
+        "q": "Telefona ihtiyacım var mı?",
+        "a": {
+          "p1": "Birçok yardım hattı metin, WhatsApp veya çevrimiçi sohbet yoluyla hizmet sunar. Yardım hattı aradığınızda, her birinin sunduğu iletişim türlerini göreceksiniz.",
+          "p2": "Bazı insanlar metin göndermeyi daha az resmi ve daha özel bulur, bu da açılmayı kolaylaştırabilir.",
+          "p3": "",
+          "p4": "",
+          "p5": "",
+          "p6": "",
+          "p7": "",
+          "p8": "",
+          "p9": ""
+        }
+      },
+      "title-6": {
+        "q": "Polisi ararlar mı?",
+        "a": {
+          "p1": "Bazı insanlar yardım istediklerinde polisin aranacağından korkar. Bu korku bunaltıcı olabilir.",
+          "p2": "Çoğu yardım hattı, sizin veya başka birinin acil tehlikede olduğuna inanmadıkları sürece bilgilerinizi gizli tutmayı taahhüt eder.",
+          "p3": "İntihar düşünceleriniz varsa, yardım hatları güvende kalmanız için sizinle çalışır ve kendinize veya başkalarına zarar verme planınız yoksa ve güvende kalma planı yapılamıyorsa polisi dahil etmez.",
+          "p4": "Durumunuz hakkında detay paylaşmadan önce yardım hattının gizlilik politikasını sorabilirsiniz.",
+          "p5": "",
+          "p6": "",
+          "p7": "",
+          "p8": "",
+          "p9": ""
+        }
+      },
+      "title-7": {
+        "q": "Ya düşüncelerim çok yoğun olursa?",
+        "a": {
+          "p1": "Düşünceleriniz yoğun olduğunda, bunları konuşmanın çok zor olduğunu hissedebilirsiniz. Birinin nasıl tepki vereceğinden endişelenebilirsiniz.",
+          "p2": "Yardım hattı personeli dinlemek için eğitilmiştir. Sizin yaşadıklarınızı yaşayan insanlara nasıl destek olacaklarını bilirler.",
+          "p3": "Sizi yargılamazlar. Sizin için uygun olan bir şekilde下一步 ne yapacağınızı çözmenize yardımcı olurlar.",
+          "p4": "",
+          "p5": "",
+          "p6": "",
+          "p7": "",
+          "p8": "",
+          "p9": ""
+        }
+      },
+      "title-8": {
+        "q": "Ya profesyonellere güvenmezsem?",
+        "a": {
+          "p1": "Profesyonel destek çok yardımcı olabilirken, bunun herkes için doğru olmadığını anlıyoruz.",
+          "p2": "Başka seçenekler de mevcut:",
+          "p3": "Gönüllüler – çoğu yardım hattı, zor zamanlar geçiren insanlara destek olmak isteyen gönüllüler tarafından yönetilir.",
+          "p4": "Akranlar – bazı yardım hatları sizi benzer zorluklar yaşamış kişilerle bağlar.",
+          "p5": "Sıcak hatlar – diğer uçtaki herkesin kendi ruh sağlığı mücadeleleri yaşadığı destek hatları.",
+          "p6": "Yardım hattı ararken, en rahat hissettiğiniz destek türünü bulmak için bu seçeneklere göre filtreleme yapabilirsiniz.",
+          "p7": "",
+          "p8": "",
+          "p9": ""
+        }
+      }
+    },
+    "findAHelpline": "Yardım Hattı Bul"
+  },
+  "Links": {
+    "name-1": "Ana Sayfa",
+    "name-2": "Hakkında",
+    "name-3": "SSS",
+    "name-4": "Entegrasyonlar",
+    "name-5": "İletişim",
+    "name-6": "Hizmet Şartları",
+    "name-7": "Gizlilik Politikası"
+  },
+  "CountryCard": {
+    "title": "Neyle ilgili yardım almak istiyorsunuz?",
+    "common": "Yaygın konular",
+    "suicidal-thoughts": "İntihar Düşünceleri",
+    "select": "Veya konu veya konuları seçin",
+    "optional": "isteğe bağlı",
+    "showMore": "daha fazla göster",
+    "procure": "Yardım Hatlarını Ara"
+  },
+  "CountryAndHelplines": {
+    "title": "Yardım hatları",
+    "About": "hakkında",
+    "Find": "Destek bul",
+    "byTopic": "konuya göre"
+  },
+  "HelplineCard": {
+    "open": "Açık",
+    "alwaysOpen": "Günde 24 saat, her gün",
+    "closed": "Kapalı",
+    "see": "Açık saatleri gör",
+    "Counselors": "Danışmanlar",
+    "Volunteers": "Gönüllüler",
+    "call": "Ara"
+  },
+  "LangContainer": {
+    "title": "Dil",
+    "close": "Kapat"
+  },
+  "notFound": {
+    "title": "Kaynak bulunamadı",
+    "description1": "Her yeri aradık, ama aradığınız içeriği bulamadık.",
+    "description2": {
+      "part1": "Duygusal bir sıkıntı içindeyseniz ve biriyle konuşmak istiyorsanız, ülke ve konu bazında arama yapın",
+      "linkText": "burada",
+      "part2": ". Konuşmaya hazır değilseniz, işte diğer seçenekler:"
+    },
+    "options": {
+      "videos": "Videoları izle",
+      "videosDesc": " zor duygularla başa çıkma üzerine (Now Matters Now aracılığıyla)",
+      "safetyPlan": "Güvenlik planı oluştur",
+      "safetyPlanDesc": " (Vibrant Emotional Health aracılığıyla)"
+    }
+  },
+  "topicsPage": {
+    "title": "Destek için",
+    "nearYou": "Yakınınızda yardım alın:"
+  },
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "sections": {
+      "introduction": {
+        "title": "Giriş",
+        "content": {
+          "p1": "ThroughLine Limited (biz, bize, bizim), Yeni Zelanda merkezli bir şirkettir. Birincil hedefimiz, dünya çapında duygusal kriz yaşayan insanlara destek olmaktır.",
+          "p2": "Hizmetlerimizin sağlanmasında, kişisel olarak tanımlanabilir bilgileri işlerken Yeni Zelanda Gizlilik Yasası 1993 (Yasa) ve Avrupa Birliği Genel Veri Koruma Tüzüğü (GDPR) ile uyumlu olmaya çalışıyoruz.",
+          "p3": "Bu politika, her bir hizmetimiz için kişisel olarak tanımlanabilir bilgilerinizi nasıl toplayacağımızı, kullanacağımızı, açıklayacağımızı ve koruyacağımızı belirler. Ayrıca, hakkınızda tuttuğumuz kişisel olarak tanımlanabilir bilgilere nasıl erişeceğinizi veya düzeltme talep edeceğinizi de belirtir.",
+          "p4": "Bu politika, Yasa veya GDPR kapsamındaki haklarınızı sınırlamaz veya hariç tutmaz. Yasa hakkında daha fazla bilgi almak isterseniz, lllink adresine bakın ve GDPR hakkında daha fazla bilgi için lllink adresine bakın."
+        }
+      },
+      "changes": {
+        "title": "Bu politikada değişiklikler",
+        "content": {
+          "p1": "Web sitelerimize revize edilmiş bir politika yükleyerek bu politikayı değiştirebiliriz. Değişiklik, revize edilmiş politikayı yüklediğimiz tarihten itibaren geçerli olacaktır."
+        }
+      },
+      "definitions": {
+        "title": "Tanımlar",
+        "content": "Bu politikada:",
+        "terms": {
+          "PII": {
+            "term": "Kişisel Olarak Tanımlanabilir Bilgi",
+            "definition": "tek başına bir bireyi doğrudan tanımlamak, iletişime geçmek veya tam olarak yerini belirlemek için kullanılabilecek bilgileri ifade eder. Buna şunlar dahildir:"
+          },
+          "PIIExamples": {
+            "list": {
+              "item1": "kişisel e-posta adresleri",
+              "item2": "posta adresleri",
+              "item3": "telefon numaraları",
+              "item4": "tam konumlar (GPS koordinatları gibi)",
+              "item5": "tam isimler",
+              "item6": "kişisel olarak tanımlanabilir veri içeren kullanıcı adları"
+            },
+            "excludes": "Kişisel Olarak Tanımlanabilir Bilgiyi, örneğin şunları içermeyecek şekilde yorumluyoruz:"
+          },
+          "nonPIIExamples": {
+            "list": {
+              "item1": "sahte (yanıltıcı veya gizlenmiş) çerez kimlikleri",
+              "item2": "sahte reklam kimlikleri",
+              "item3": "IP adresleri"
+            }
+          },
+          "services": {
+            "definition": "Hizmetler, https://www.findahelpline.com, https://[companyname].findahelpline.com adresindeki ortak markalı web siteleri ve üçüncü taraf web sitelerinde Find A Helpline sağlayan Find A Helpline gömülebilir widget'ını ifade eder"
+          },
+          "websites": {
+            "term": "Web Siteleri",
+            "definition": "https://www.findahelpline.com ve https://[companyname].findahelpline.com adresindeki ortak markalı web sitelerini ifade eder"
+          },
+          "we": {
+            "term": "Biz, bize veya bizim",
+            "definition": "ThroughLine Limited'i ifade eder"
+          },
+          "you": {
+            "term": "Siz veya sizin",
+            "definition": "Hizmetlerimizi kullanan bireyi ifade eder"
+          }
+        }
+      },
+      "collection": {
+        "title": "Kişisel olarak tanımlanabilir bilgileri kimlerden topluyoruz?",
+        "content": {
+          "p1": "Hizmetlerimizin sağlanmasında, kişisel olarak tanımlanabilir bilgileri yalnızca siz bize web sitelerimizdeki bir iletişim formu aracılığıyla bu bilgileri sağladığınızda toplarız.",
+          "p2": "Avrupa Birliği'nde bulunan kullanıcılara hizmetlerimizin sağlanmasında, bize sağlanan kişisel olarak tanımlanabilir bilgileri toplama ve işleme temelimiz GDPR kapsamında rızadır. Kişisel verilerinizin toplanmasına rıza gösterebileceğiniz ilgili yasal yaşın altındaysanız, bu rıza ebeveyniniz veya vasiniz tarafından sağlanmış olmalıdır.",
+          "p3": "Bu rızayı verdiğinizde, bu politikada belirtilen 5. maddede açıklanan şekillerde kişisel olarak tanımlanabilir bilgilerinizi toplamaya ve kullanmaya rıza göstermiş olursunuz.",
+          "p4": "Bu rızayı istediğiniz zaman geri çekme hakkına sahipsiniz. Bunu yapmak için lütfen bize llllink adresinden e-posta ile ulaşın."
+        }
+      },
+      "usePII": {
+        "title": "Kişisel olarak tanımlanabilir bilgilerinizi nasıl kullanıyoruz?",
+        "content": {
+          "p1": "Hizmetlerimizin sağlanmasında, sağladığınız kişisel olarak tanımlanabilir bilgiler şu şekilde kullanılacaktır:"
+        },
+        "list": {
+          "item1": "sizinle iletişim kurmak ve yanıt vermek için;",
+          "item2": "yasal haklarımızı ve çıkarlarımızı korumak ve/veya uygulamak, herhangi bir iddiayı savunmak dahil;",
+          "item3": "sizin veya Yasanın yetkilendirdiği herhangi bir başka amaç için."
+        }
+      },
+      "useAggregated": {
+        "title": "Toplu verileri nasıl kullanıyoruz?",
+        "content": {
+          "p1": "Hizmetlerimizin sağlanmasında, analitik amaçlar için kişisel olarak tanımlanabilir bilgi içermeyen toplu veriler toplarız. Bu toplu veriler şu şekilde kullanılacaktır:"
+        },
+        "list": {
+          "item1": "size hizmetlerimizi sağlamak için;",
+          "item2": "bu toplu ve anonimleştirilmiş bilgileri, sitede bağlantılı hizmet sağlayıcılarla; gömülebilir widget veya ortak markalı web sitesini kullanan ortaklarla; veya Find A Helpline'ın işletilmesinde kullanılan sistemlerin altında yatan BT destek sağlayıcılarıyla paylaşmak için;",
+          "item3": "anonimleştirilmiş temelde araştırma ve istatistiksel analiz yapmak için;",
+          "item4": "web sitesi ve müşteri kullanım trend raporlarında ve geliştirme süreçlerimizle bağlantılı olarak bu bilgilerin toplu ve anonimleştirilmiş versiyonlarını paylaşmak için;",
+          "item5": "Find A Helpline kullanıcılarının genel olarak kim olduğunu, hizmetlerimizi nasıl kullandıklarını ve gelecekte Find A Helpline deneyimlerini nasıl iyileştirebileceğimizi anlamak için;",
+          "item6": "yasal haklarımızı ve çıkarlarımızı korumak ve/veya uygulamak, herhangi bir iddiayı savunmak için."
+        }
+      },
+      "retention": {
+        "title": "Find A Helpline üzerinden toplanan bilgiler ne kadar süre saklanacak?",
+        "content": {
+          "p1": "Find A Helpline üzerinden sağlanan bilgileri, alındığı amaçlar için artık gerekli olmayana kadar saklarız."
+        }
+      },
+      "disclosure": {
+        "title": "Üçüncü taraflara bilgi ifşası",
+        "contentPII": {
+          "p1": "Kişisel olarak tanımlanabilir bilgileri yalnızca aşağıdaki durumlarda üçüncü taraflara ifşa ederiz:"
+        },
+        "listPII": {
+          "item1": "kişisel olarak tanımlanabilir bilgilerinizi sağlamamızı gerektirebilecek bir kişiye (örneğin, bir düzenleyici otorite);",
+          "item2": "Yasa veya başka bir yasa tarafından yetkilendirilmiş herhangi bir kişiye (örneğin, bir kolluk kuvveti);",
+          "item3": "sizin yetkilendirdiğiniz herhangi bir kişiye."
+        },
+        "contentAggregated": {
+          "p1": "Toplu bilgileri yalnızca aşağıdaki durumlarda üçüncü taraflara ifşa ederiz:"
+        },
+        "listAggregated": {
+          "item1": "hizmetlerimizi ve ürünlerimizi destekleyen herhangi bir işletmeye, sitede bağlantılı hizmet sağlayıcıları veya hizmetleri sağlamak için kullandığımız herhangi bir temel BT sistemi veya veri merkezini barındıran veya sürdüren herhangi bir kişiye;",
+          "item2": "kişisel olarak tanımlanabilir bilgilerinizi sağlamamızı gerektirebilecek bir kişiye (örneğin, bir düzenleyici otorite);",
+          "item3": "Yasa veya başka bir yasa tarafından yetkilendirilmiş herhangi bir kişiye (örneğin, bir kolluk kuvveti);",
+          "item4": "sizin yetkilendirdiğiniz herhangi bir kişiye."
+        },
+        "note": "Hizmetlerimizi ve ürünlerimizi destekleyen bir işletmenin Yeni Zelanda dışında bulunabileceğini lütfen unutmayın. Bu, toplanan toplu bilgilerin Yeni Zelanda dışında tutulabileceği ve işlenebileceği anlamına gelebilir."
+      },
+      "cookies": {
+        "title": "Find A Helpline'da Çerez Kullanımı",
+        "content": {
+          "p1": "Hizmetlerimiz, Google Analytics aracılığıyla çerezler kullanır. Bu çerezleri, Find A Helpline'ın nasıl kullanıldığını öğrenmek için kişisel olarak tanımlanabilir olmayan verileri izlemek ve analiz etmek için kullanıyoruz. Tarayıcınızın ayarlarını değiştirerek çerezleri devre dışı bırakabilirsiniz, ancak bu, Find A Helpline'ın tüm özelliklerini kullanamayacağınız anlamına gelebilir.",
+          "p2": "Google Analytics'in komut dosyaları web sitelerimize entegre edilmiştir. Google Analytics'in çerez kullanımı hakkında daha fazla bilgiyi burada bulabilirsiniz: lllink. Üçüncü bir tarafın Google'ın kişisel olarak tanımlanabilir bilgi olarak kullanabileceği veya tanıyabileceği bilgileri Google'a aktarmasına yardım etmiyoruz ve izin vermiyoruz.",
+          "p3": "Web sitelerimiz, hizmet incelemesi yaptığınızda veya Bize Ulaşın formumuzu kullandığınızda reCaptcha yazılım sistemini kullanır. reCaptcha, Google'ın politikası ve hizmet şartları tarafından yönetilir.",
+          "p4": "Web sitelerimiz, kullanıcıların ihtiyaçlarını daha iyi anlamak ve hizmetlerimizi ve kullanıcı deneyimini optimize etmek için Hotjar'ı kullanır. Hotjar, kullanıcıların davranışları ve cihazları hakkında veri toplamak için çerezler ve diğer teknolojileri kullanır. Buna bir cihazın IP adresi (oturumunuz sırasında işlenir ve anonimleştirilmiş bir şekilde saklanır), cihaz ekran boyutu, cihaz türü (benzersiz cihaz tanımlayıcıları), tarayıcı bilgileri, coğrafi konum (yalnızca ülke) ve web sitemizi görüntülemek için kullanılan tercih edilen dil dahildir. Hotjar, bu bilgileri bizim adımıza anonimleştirilmiş bir kullanıcı profilinde saklar. Hotjar, bizim adımıza toplanan verileri satması sözleşmeyle yasaklanmıştır."
+        }
+      },
+      "security": {
+        "title": "Kişisel olarak tanımlanabilir bilgilerinizi koruma",
+        "content": {
+          "p1": "Hizmetlerimizden herhangi biri aracılığıyla elde edilen kişisel olarak tanımlanabilir bilgilerinizi kayıp, yetkisiz etkinlik veya diğer kötüye kullanımlardan korumak için makul adımları atacağız.",
+          "p2": "Güvenli internet bağlantılarını sürdürmek için makul adımları atarken, bize internet üzerinden kişisel olarak tanımlanabilir bilgi sağlarsanız, bu bilginin sağlanması sizin sorumluluğunuzdadır.",
+          "p3": "Web sitelerimizde veya bizimle sizinle yaptığımız herhangi bir iletişim yoluyla üçüncü taraf web sitelerine, hizmetlere veya diğer platformlara bir bağlantı paylaşabiliriz. Ayrıca, hizmetlerimiz Google Analytics, HotJar ve reCaptcha yazılım sistemini kullanır. Bu üçüncü taraf web siteleri, hizmetler, platformlar ve yazılımlar, kişisel olarak tanımlanabilir bilgilerinizin kullanımıyla ilgili kendi gizlilik politikalarına sahip olabilir. Kişisel olarak tanımlanabilir bilgi sağlamadan önce bu üçüncü tarafların gizlilik politikalarını incelemenizi öneririz."
+        }
+      },
+      "rights": {
+        "title": "Kişisel olarak tanımlanabilir bilgilerinize erişim ve düzeltme",
+        "eu": {
+          "title": "Avrupa Birliği Kullanıcıları",
+          "content": {
+            "p1": "Hizmetlerimizin Avrupa Birliği'nde bulunan bir kullanıcısıysanız, GDPR kapsamında kişisel olarak tanımlanabilir bilgilerinize erişme, düzeltme talep etme veya bu bilgileri silme hakkınız vardır."
+          }
+        },
+        "nz": {
+          "title": "Yeni Zelanda Kullanıcıları",
+          "content": {
+            "p1": "Hizmetlerimizin Yeni Zelanda'da bulunan bir kullanıcısıysanız, Yasada belirtilen bazı reddetme gerekçelerine tabi olarak, elimizde bulunan kolayca erişilebilir kişisel olarak tanımlanabilir bilgilerinize erişme ve kişisel olarak tanımlanabilir bilgilerinizde düzeltme talep etme hakkınız vardır. Bu hakkı kullanmadan önce, kişisel olarak tanımlanabilir bilgilerin ilgili birey olduğunuzu doğrulamak için kanıt gerekecektir. Düzeltme talebiyle ilgili olarak, düzeltmenin makul olduğunu düşünürsek ve kişisel olarak tanımlanabilir bilgileri makul bir şekilde değiştirebilirsek, düzeltmeyi mümkün olan en kısa sürede yapacağız. Düzeltmeyi yapmazsak, düzeltme talep ettiğinizi kişisel olarak tanımlanabilir bilgilere not etmek için makul adımları atacağız."
+          }
+        },
+        "instructions": "Haklarınızdan herhangi birini kullanmak isterseniz, lütfen bize privacy@throughlinecare.com adresinden e-posta gönderin. E-postanız, kim olduğunuzun kanıtını sağlamalı ve talebinizin ayrıntılarını belirtmelidir (örneğin, talep ettiğiniz kişisel olarak tanımlanabilir bilgi veya düzeltme).",
+        "costNote": "Kişisel olarak tanımlanabilir bilgilerinizin kopyalarını size sağlamak veya bu bilgileri düzeltmek için makul maliyetlerimizi sizden talep edebiliriz.",
+        "contact": "Bu gizlilik politikasıyla ilgili herhangi bir sorunuz varsa, lütfen bize privacy@throughlinecare.com adresinden ulaşın"
+      }
+    }
+  },
+  "terms": {
+    "title": "Hizmet Şartları",
+    "lastUpdated": "Son güncelleme: 17 Haziran 2024.",
+    "about": {
+      "title": "Bu Şartlar Hakkında",
+      "p1": "Bu Hizmet Şartları ve Koşulları (\"Şartlar\"), ThroughLine Limited (\"biz\", \"bize\" veya \"bizim\") tarafından sağlanan Web Siteleri ve Hizmetlerin kullanımınıza uygulanır. Hizmetlere erişmeden ve kullanmadan önce bu Şartları kabul etmelisiniz. Hizmetlerimize erişerek:",
+      "points": {
+        "1": "bu Şartlara taraf olmayı kabul edersiniz;",
+        "2": "bu Şartları kabul eder ve onlara bağlı olmayı kabul edersiniz;",
+        "3": "bu Şartların, Hizmetlere ilk erişiminizden itibaren geçerli olacağını ve feshedilene kadar geçerli olacağını kabul edersiniz."
+      },
+      "p3": "Bu Şartları zaman zaman güncelleyecek ve değiştireceğiz. Lütfen bu Şartları sık sık kontrol ederek değişikliklerden haberdar olun. Aksi belirtilmedikçe, herhangi bir değişiklik hemen yürürlüğe girer. Hizmetlerimize erişmeye ve kullanmaya devam ederek, değiştirilmiş Şartlara bağlı olmayı kabul edersiniz.",
+      "p4": "Bu Şartlar en son 17 Haziran 2024 tarihinde güncellenmiştir."
+    },
+    "useOfServices": {
+      "title": "Hizmetlerin Kullanımı",
+      "p1": "Bu Şartlara uymanız koşuluyla Hizmetleri kullanabilirsiniz. Hizmetlerin (veya herhangi bir parçasının) sağlanmasını değiştirme, düzeltme veya tamamen durdurma hakkını tek takdirimize bağlı olarak her zaman saklı tutarız."
+    },
+    "restrictions": {
+      "title": "Kullanım Kısıtlamaları",
+      "intro": "ThroughLine’ın önceden yazılı izni olmadan şunları yapmamalısınız:",
+      "points": {
+        "1": "Hizmetleri ticari veya iş amaçlı kullanmak;",
+        "2": "Hizmetleri veya herhangi bir veriyi veya Hizmetleri kullanarak elde edilen sonuçları içeren herhangi bir ürünü ticari olarak sömürmek, satmak, lisanslamak veya dağıtmak;",
+        "3": "Hizmetlerin herhangi bir parçasının işleyiş mantığını ortaya çıkarmak için çıkarma, parçalara ayırma, tersine derleme, tersine mühendislik, çeviri, türev çalışmalar yaratma veya başka bir şekilde girişimde bulunmak;",
+        "4": "Hizmetlerle veya içinde yer alan bilgilerle ilgili herhangi bir amaçla metin veya veri madenciliği veya web kazıma yapmayı yürütmek, kolaylaştırmak, yetkilendirmek veya izin vermek, botlar, kazıyıcılar veya yapay zeka araçları gibi otomatik analitik teknikler veya araçların kullanımını dahil etmek;",
+        "5": "Hizmetlerin herhangi bir parçasında aynı tarzda eserler üretebilen teknolojiler de dahil olmak üzere, metin üreten yapay zeka teknolojilerini eğitmek amacıyla Hizmetleri kullanmak veya kullanılmasına izin vermek;",
+        "6": "Hizmetleri, kaynak kodunu, temel fikirleri, algoritmaları, yapıyı veya organizasyonu türetmek veya herhangi bir Uygulama Programlama Arayüzü veya Hizmetlerin herhangi bir işlevselliğinin oluşturulmasını veya geliştirilmesini kolaylaştıran benzer bir eylem için kullanmak."
+      },
+      "compliance": "Hizmetlere erişiminiz ve kullanımınızla ilgili olarak tüm geçerli yasa, kural ve düzenlemelere uyacaksınız. Web Sitesini ve Hizmetleri, bu Şartlardaki (ve öngörülen) yükümlülüklerinizi atlatmaya çalışan veya bunlarla tutarsız olan veya herhangi bir yasa dışı, hukuka aykırı veya başka bir şekilde uygunsuz amaç için kullanmamalı veya kullanılmasına izin vermemelisiniz."
+    },
+    "externalLinks": {
+      "title": "Harici Bağlantılar Sorumluluk Reddi",
+      "p1": "Hizmetler, kontrol etmediğimiz diğer web sitelerine veya kaynaklara, telefon numaralarına, SMS ve WhatsApp numaralarına bağlantılar içerir (\"Harici Web Siteleri\"). Harici Web Sitelerine bağlantı vermemiz, bizim tarafımızdan bir onay teşkil etmez. Sadece üçüncü taraf hizmet sağlayıcılarından erişim ve yardım almanızı kolaylaştırıyoruz. Bu bağlantıları size kolaylık sağlamak için sunuyoruz ve herhangi bir Harici Web Sitesinin içeriğinden sorumlu veya yükümlü olmadığımızı kabul edersiniz. Harici Web Sitelerini kullanımınız, Harici Web Siteleri sağlayıcısının kullanım şartları ve gizlilik politikalarına tabidir."
+    },
+    "intellectualProperty": {
+      "title": "Fikri Mülkiyet",
+      "p1": "Biz (ve lisans verenlerimiz) Hizmetlerdeki tüm mülkiyet ve Fikri Mülkiyet Haklarına sahibiz.",
+      "p2": "Bu Şartlar, Hizmetlerdeki veya bizim veya üçüncü taraf lisans verenlerimiz veya tedarikçilerimiz tarafından sahip olunan diğer Fikri Mülkiyette herhangi bir hak veya menfaat, lisans veya kullanım izni vermez, yalnızca bu açık Şartlara uygun olarak."
+    },
+    "disclaimers": {
+      "title": "Bilgiyle İlgili Sorumluluk Reddi",
+      "p1": "Hizmetlerin kullanımının tamamen sizin takdirinize ve riskinize bağlı olduğunu kabul edersiniz.",
+      "p2": "Bilgi ve kaynaklara erişimi genel ve \"olduğu gibi\" temelinde, herhangi bir beyan veya garanti (açık veya zımni) olmadan sağlıyoruz.",
+      "p3": "Bilgilerimizi profesyonel sağlık hizmeti, ruh sağlığı tedavisi, psikiyatrik bakım veya terapi yerine kullanmamalısınız. Tıbbi veya psikolojik bir acil durum yaşıyorsanız, yerel acil servislerle iletişime geçin.",
+      "p4": "Üçüncü taraf bilgilerini periyodik olarak inceliyor olsak da, doğruluğunu garanti etmiyoruz ve üçüncü taraf içeriğine veya yardım hatlarına güvenmekten sorumlu değiliz.",
+      "p5": "Hizmetlerin hatasız olduğunu veya gereksinimlerinizi karşılayacağını garanti etmiyoruz. Yasaların izin verdiği azami ölçüde, diğer tüm garantiler ve beyanlar hariç tutulur."
+    },
+    "liability": {
+      "title": "Sorumluluk",
+      "p1": "Yasaların izin verdiği azami ölçüde, biz (çalışanlarımız, temsilcilerimiz ve iştiraklerimiz dahil) Hizmetlerin kullanımınızdan kaynaklanan zarar, kayıp veya hasardan tüm sorumluluğu hariç tutarız.",
+      "p2": "Tek çözüm yolunuz sözleşme ihlaliyle sınırlıdır. Kanun ihlali, haksız fiil (ihmal dahil) veya başka bir yasal iddia için sorumlu değiliz.",
+      "p3": "Bu Şartlar kapsamındaki size olan azami sorumluluğumuz toplamda 100 $ ile sınırlıdır."
+    },
+    "privacy": {
+      "title": "Gizlilik Politikası",
+      "p1": "Lütfen buradaki Gizlilik Politikamıza bakın"
+    },
+    "maintenance": {
+      "title": "Bakım, Fesih ve Askıya Alma",
+      "p1": "Planlı ve acil bakım yapabiliriz, bu da Hizmetlerin erişilemez olmasına neden olabilir.",
+      "p2": "Bu Şartları ihlal etmeniz durumunda, erişiminizi tek takdirimize bağlı olarak askıya alabilir veya feshedebiliriz. Fesih üzerine Hizmetleri kullanmayı derhal durdurmalısınız."
+    },
+    "forceMajeure": {
+      "title": "Mücbir Sebep",
+      "p1": "Doğal afetler, savaş, salgın veya sivil huzursuzluk gibi makul kontrolümüz dışındaki olaylar nedeniyle yükümlülüklerimizi yerine getirememe veya gecikmeden sorumlu değiliz."
+    },
+    "general": {
+      "title": "Genel",
+      "p1": "Sorunlarla karşılaşırsanız, lütfen bize legal@throughlinecare.com adresinden bildirin.",
+      "p2": "Bu Şartlar Yeni Zelanda yasalarına tabidir ve Yeni Zelanda mahkemelerinin münhasır yargı yetkisine tabidir.",
+      "p3": "Bir şartı uygulamazsak, bu o şarttan veya başka bir haktan feragat edildiği anlamına gelmez."
+    },
+    "definitions": {
+      "title": "Tanımlar",
+      "introduction": "Bu Şartlarda:",
+      "intellectualProperty": "Fikri Mülkiyet, patentler, ticari markalar, telif hakları, ticari sırlar, veritabanları ve ilgili teknolojilerdeki tüm hakları içerir.",
+      "p1": "patentler, ticari markalar, hizmet markaları, telif hakkı, tescilli tasarımlar, ticari isimler, alan adları, semboller ve logolar;",
+      "p2": "patent başvuruları ve ticari markalar, hizmet markaları ve tasarımları tescil ettirme başvuruları; ve gizli bilgiler, ticari sırlar ve bilgi birikimi ve araçlar, teknikler, bilgisayar programı kodu, veritabanları, veri buluşları, keşifler, gelişmeler, ticari sırlar, bilgiler ve mantıksal dizilerdeki haklar (yazılı veya başka bir makine veya insan tarafından okunabilir forma indirgenmiş olsun veya olmasın).",
+      "services": "Hizmetler, bizim alanımızda veya ortak web sitelerinde barındırılan Web Sitelerimize ve araçlara (widget'lar veya API'ler dahil) erişim ve kullanımı ifade eder.",
+      "we": "Biz, bize veya bizim, çalışanlarımız, yöneticilerimiz ve yüklenicilerimiz dahil ThroughLine Limited'i ifade eder.",
+      "websites": "Web Siteleri, https://www.throughlinecare.com, https://findahelpline.com ve https://[companyname].findahelpline.com gibi ortak markalı web sitelerini içerir."
+    }
+  },
+  "organizations": {
+    "where": "{name} nerede mevcut?",
+    "where-answer": "{country} genelinde mevcut",
+    "whatLang": "{name} hangi dilleri destekliyor?",
+    "talkto": "{name} ile neler konuşabilirim?",
+    "nowWhat": "Aradığınız şey bu değil mi?",
+    "findAnother": "Başka bir Yardım Hattı Bul"
+  },
+  "languages": {
+    "portuguese": "Portekizce",
+    "spanish": "İspanyolca",
+    "french": "Fransızca",
+    "german": "Almanca",
+    "dutch": "Hollandaca",
+    "english": "İngilizce",
+    "italian": "İtalyanca",
+    "danish": "Danca",
+    "finnish": "Fince",
+    "swedish": "İsveççe",
+    "norwegian": "Norveççe",
+    "polish": "Lehçe",
+    "czech": "Çekçe",
+    "hungarian": "Macarca",
+    "slovak": "Slovakça",
+    "slovenian": "Slovence",
+    "croatian": "Hırvatça",
+    "bulgarian": "Bulgarca",
+    "romanian": "Romence",
+    "greek": "Yunanca",
+    "estonian": "Estonyaca",
+    "latvian": "Letonca",
+    "lithuanian": "Litvanyaca",
+    "maltese": "Maltaca",
+    "catalan": "Katalanca",
+    "russian": "Rusça"
+    },
+  "contact": {
+    "title": "Bir sorunuz mu var? Bize bildirin.",
+    "text-1": "Bugün size ne konuda yardımcı olabiliriz?",
+    "subjects": {
+      "p1": "Duygu veya ruh sağlığı sorunu",
+      "p2": "Ürün ortaklıkları",
+      "p3": "Yardım hattı ortaklıkları",
+      "p4": "Gönüllülük veya istihdam",
+      "p5": "Genel sorgu"
+    },
+    "introduction": {
+      "text-1": "Duygusal ve ruh sağlığı desteği aramak büyük cesaret gerektirir. Ulaşmak, hak ettiğiniz desteği almanın ilk adımıdır.",
+      "text-2": "Duygusal bir kriz yaşıyorsanız ve biriyle konuşmak istiyorsanız, ülkenizi ve yardım almak istediğiniz konuyu burada arayın. Konuşmaya hazır değilseniz, işte diğer seçenekler:",
+      "list": {
+        "p1": "Zor duygularla başa çıkma videolarını izleyin (Now Matters Now aracılığıyla)",
+        "p2": "Güvenlik planı yapın (Vibrant Emotional Health aracılığıyla)"
+      }
+    },
+    "form": {
+      "emailPlaceholder": "E-postanızı girin",
+      "emailError": "Lütfen geçerli bir e-posta girin",
+      "subjectPlaceholder": "Konu",
+      "subjectError": "Konu gerekli",
+      "messagePlaceholder": "Mesajınız",
+      "messageError": "Mesaj gerekli",
+      "send": "Mesaj gönder"
+    },
+    "success": {
+      "title": "Mesajınız için teşekkür ederiz!",
+      "p1": "En kısa sürede size geri döneceğiz."
+    }
+  }
+}

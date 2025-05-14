@@ -1,0 +1,41 @@
+export const specializations = [
+  { pt: "Abuso e violência doméstica", en: "domestic abuse and violence" },
+  { pt: "Ansiedade", en: "anxiety" },
+  { pt: "Assédio moral", en: "moral harassment" },
+  { pt: "Demência e Alzheimer", en: "dementia and Alzheimer's" },
+  { pt: "Depressão", en: "depression" },
+  { pt: "Alimentação e imagem corporal", en: "eating disorders and body image" },
+  { pt: "Família", en: "family" },
+  { pt: "Jogos de azar", en: "gambling" },
+  { pt: "Género e identidade sexual", en: "gender and sexual identity" },
+  { pt: "Luto e perda", en: "grief and loss" },
+  { pt: "Solidão", en: "loneliness" },
+  { pt: "Paternidade", en: "fatherhood" },
+  { pt: "Doença física", en: "physical illness" },
+  { pt: "Gravidez e aborto", en: "pregnancy and abortion" },
+  { pt: "Relacionamentos", en: "relationships" },
+  { pt: "Escola e trabalho", en: "school and work" },
+  { pt: "Automutilação", en: "self-harm" },
+  { pt: "Abuso sexual", en: "sexual abuse" },
+  { pt: "Stress", en: "stress" },
+  { pt: "Uso de substâncias", en: "substance abuse" },
+  { pt: "Suicídio", en: "suicide" },
+  { pt: "Apoiar outros", en: "supporting others" },
+  { pt: "Trauma e PSPT", en: "trauma and PTSD" },
+];
+
+export const languages = 
+[
+  { name: "English", path: "/en" },
+  { name: "Deutsch", path: "/de" },
+  { name: "Español", path: "/es" },
+  { name: "Français", path: "/fr" },
+  { name: "Italiano", path: "/it" },
+  { name: "日本語", path: "/ja" },
+  { name: "한국어(대한민국)", path: "/ko" },
+  { name: "Polski", path: "/pl" },
+  { name: "Português", path: "/pt" },
+  { name: "Русский", path: "/ru" },
+  { name: "Türkçe", path: "/tr" },
+  { name: "العربية", path: "/ar" }
+]

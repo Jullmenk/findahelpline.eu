@@ -1,382 +1,657 @@
 [
   {
-    "name": "SOS Vida",
-    "country": "Portugal",
-    "phone": "217 963 063",
-    "website": "https://sosvida.pt",
+    "name": "Linha de Apoio à Vítima",
+    "country": "PT",
+    "phone": "116 006",
+    "website": "https://apav.pt/",
     "languages": ["Portuguese"],
     "type": "phone",
     "hours": "24/7",
-    "specializations": ["suicide prevention", "emotional support"]
+    "specializations": ["abuse", "domestic violence", "sexual abuse", "trauma"]
   },
   {
-    "name": "Telefone da Amizade",
-    "country": "Portugal",
-    "phone": "22 832 35 35",
-    "website": "https://telefone-amizade.pt",
+    "name": "SOS Voz Amiga",
+    "country": "PT",
+    "phone": "21 354 45 45",
+    "website": "http://www.sosvozamiga.pt/",
     "languages": ["Portuguese"],
     "type": "phone",
-    "hours": "15:30-00:30",
-    "specializations": ["emotional support", "suicide prevention"]
+    "hours": "3 PM - 11 PM",
+    "specializations": ["loneliness", "depression", "anxiety", "stress", "grief and loss", "suicide"]
   },
   {
-    "name": "Vozes Amigas de Esperança",
-    "country": "Portugal",
-    "phone": "222 030 707",
-    "website": "https://voades.pt",
-    "languages": ["Portuguese"],
-    "type": "phone",
-    "hours": "24/7",
-    "specializations": ["emotional support", "suicide prevention"]
-  },
-  {
-    "name": "SOS Estudante",
-    "country": "Portugal",
-    "phone": "+351 915 246 060",
-    "website": "https://sosestudante.pt",
-    "languages": ["Portuguese"],
-    "type": "phone",
-    "hours": "24/7",
-    "specializations": ["emotional support"]
-  },
-  {
-    "name": "Linha SOS Criança e Jovem",
-    "country": "Portugal",
+    "name": "Linha Nacional de Socorro para Crianças e Jovens",
+    "country": "PT",
     "phone": "116 111",
-    "website": "https://iacrianca.pt",
+    "website": "https://www.cnpdpcj.pt/o-que-fazemos/linha-nacional-de-socorro/",
     "languages": ["Portuguese"],
     "type": "phone",
     "hours": "24/7",
-    "specializations": ["children and youth support"]
+    "specializations": ["abuse", "domestic violence", "sexual abuse", "mental health", "school and work", "family"]
   },
   {
-    "name": "Voz de Apoio",
-    "country": "Portugal",
-    "phone": "225 50 60 70",
-    "website": "https://vozdeapoio.pt",
+    "name": "Linha de Apoio Psicológico do INEM",
+    "country": "PT",
+    "phone": "808 24 24 24",
+    "website": "https://www.inem.pt/atividade/apoio-psicologico/",
     "languages": ["Portuguese"],
     "type": "phone",
     "hours": "24/7",
-    "specializations": ["emotional support"]
+    "specializations": ["stress", "anxiety", "trauma and PTSD", "physical illness", "grief and loss", "supporting others"]
   },
   {
-    "name": "Teléfono de la Esperanza",
-    "country": "Spain",
-    "phone": "900 200 500",
-    "website": "https://esperanza.org",
-    "languages": ["Spanish", "Catalan"],
+    "name": "Linha LGBT",
+    "country": "PT",
+    "phone": "800 20 31 86",
+    "website": "https://ilga-portugal.pt/linha-lgbt/",
+    "languages": ["Portuguese"],
+    "type": "phone",
+    "hours": "Weekdays, 2 PM - 8 PM",
+    "specializations": ["gender and sexual identity", "relationships", "school and work", "family"]
+  },
+  {
+    "name": "Linha de Apoio ao Luto",
+    "country": "PT",
+    "phone": "21 887 77 77",
+    "website": "https://www.associacaoportuguesadeluto.pt/",
+    "languages": ["Portuguese"],
+    "type": "phone",
+    "hours": "Weekdays, 10 AM - 1 PM and 2 PM - 5 PM",
+    "specializations": ["grief and loss"]
+  },
+  {
+    "name": "Al-Anon / Alateen Portugal",
+    "country": "PT",
+    "phone": "+351 917 180 936",
+    "website": "https://al-anon.pt/",
+    "languages": ["Portuguese"],
+    "type": "phone",
+    "hours": "",
+    "specializations": ["family", "supporting others", "substance abuse"]
+  },
+  {
+    "name": "SOS Drogas",
+    "country": "PT",
+    "phone": "800 20 52 05",
+    "website": "http://www.sicad.pt/PT/Paginas/default.aspx",
+    "languages": ["Portuguese"],
+    "type": "phone",
+    "hours": "Weekdays, 10 AM - 6 PM",
+    "specializations": ["substance abuse"]
+  },
+  {
+    "name": "Alzheimer Portugal",
+    "country": "PT",
+    "phone": "213 610 460",
+    "website": "https://alzheimerportugal.org/",
+    "languages": ["Portuguese"],
+    "type": "phone",
+    "hours": "weekday, 9 AM - 5 PM",
+    "specializations": ["dementia and Alzheimer's", "supporting others", "family"]
+  },
+  {
+    "name": "Associação Portuguesa de Pessoas com Doenças Mentais e Familiares (ENCONTRAR+SE)",
+    "country": "PT",
+    "phone": "",
+    "website": "https://encontrarse.pt/",
+    "languages": ["Portuguese"],
+    "type": "website",
+    "hours": "",
+    "specializations": ["depression", "anxiety", "mental health", "supporting others", "family"]
+  }
+  ,
+  {
+    "name": "Telefono de la Esperanza",
+    "country": "ES",
+    "phone": "717 000 371",
+    "website": "https://telefonodelaesperanza.org/",
+    "languages": ["Spanish"],
     "type": "phone",
     "hours": "24/7",
-    "specializations": ["suicide prevention", "emotional support"]
+    "specializations": ["anxiety", "depression", "loneliness", "suicide", "emotional support"]
   },
   {
     "name": "SOS Amitié",
-    "country": "France",
-    "phone": "01 45 39 40 00",
-    "website": "https://sosamitie.fr",
+    "country": "FR",
+    "phone": "09 72 39 40 50",
+    "website": "https://www.sosamitie.com/",
     "languages": ["French"],
     "type": "phone",
     "hours": "24/7",
-    "specializations": ["suicide prevention", "emotional support"]
+    "specializations": ["anxiety", "depression", "loneliness", "suicide", "emotional support"]
   },
   {
     "name": "Telefonseelsorge",
-    "country": "Germany",
-    "phone": "0800 111 0 111",
-    "website": "https://www.telefonseelsorge.de",
+    "country": "DE",
+    "phone": "0800 111 0 111 / 0800 111 0 222",
+    "website": "https://www.telefonseelsorge.de/",
     "languages": ["German"],
     "type": "phone",
     "hours": "24/7",
-    "specializations": ["suicide prevention", "emotional support", "crisis intervention"]
+    "specializations": ["anxiety", "depression", "loneliness", "suicide", "stress", "family", "relationships"]
   },
   {
-    "name": "113 Zelfmoordpreventie",
-    "country": "Netherlands",
-    "phone": "113",
-    "website": "https://www.113.nl",
+    "name": "De Luisterlijn",
+    "country": "NL",
+    "phone": "088 0767 000",
+    "website": "https://www.deluisterlijn.nl/",
     "languages": ["Dutch"],
     "type": "phone",
     "hours": "24/7",
-    "specializations": ["suicide prevention", "emotional support", "crisis intervention"]
+    "specializations": ["loneliness", "emotional support"]
   },
   {
-    "name": "De Hulplijn",
-    "country": "Belgium",
-    "phone": "106",
-    "website": "https://www.dehulplijn.be/",
-    "languages": ["Dutch"],
+    "name": "Télé-Accueil",
+    "country": "BE",
+    "phone": "107",
+    "website": "https://www.tele-accueil.be/",
+    "languages": ["French", "Dutch"],
     "type": "phone",
     "hours": "24/7",
-    "specializations": ["emotional support", "crisis intervention"]
+    "specializations": ["anxiety", "depression", "loneliness", "suicide", "emotional support"]
   },
   {
-    "name": "Centre de Prévention du Suicide",
-    "country": "Belgium",
-    "phone": "0800 32 123",
-    "website": "https://www.preventionsuicide.be",
-    "languages": ["French"],
-    "type": "phone",
-    "hours": "24/7",
-    "specializations": ["suicide prevention", "emotional support", "crisis intervention"]
-  },
-  {
-    "name": "Ecoute Enfants",
-    "country": "Belgium",
-    "phone": "103",
-    "website": "https://www.ecouteenfants.be/",
-    "languages": ["French"],
-    "type": "phone",
-    "hours": "24/7",
-    "specializations": ["children and youth support"]
-  },
-  {
-    "name": "Telefonseelsorge",
-    "country": "Switzerland",
+    "name": "La Main Tendue",
+    "country": "CH",
     "phone": "143",
-    "website": "https://www.143.ch",
-    "languages": ["German", "French", "Italian"],
+    "website": "https://www.143.ch/",
+    "languages": ["French", "German", "Italian"],
     "type": "phone",
     "hours": "24/7",
-    "specializations": ["suicide prevention", "emotional support", "crisis intervention"]
+    "specializations": ["anxiety", "depression", "loneliness", "suicide", "emotional support"]
   },
   {
     "name": "Telefonseelsorge",
-    "country": "Austria",
+    "country": "AT",
     "phone": "142",
-    "website": "https://www.telefonseelsorge.at",
+    "website": "https://www.telefonseelsorge.at/",
     "languages": ["German"],
     "type": "phone",
     "hours": "24/7",
-    "specializations": ["suicide prevention", "emotional support", "crisis intervention"]
+    "specializations": ["anxiety", "depression", "loneliness", "suicide", "stress", "family", "relationships"]
   },
   {
     "name": "Samaritans",
-    "country": "Ireland",
+    "country": "IE",
     "phone": "116 123",
-    "website": "https://www.samaritans.org",
+    "website": "https://www.samaritans.org/",
     "languages": ["English"],
     "type": "phone",
     "hours": "24/7",
-    "specializations": ["suicide prevention", "emotional support", "crisis intervention"]
+    "specializations": ["anxiety", "depression", "loneliness", "suicide", "emotional support"]
   },
   {
     "name": "Samaritans",
-    "country": "United Kingdom",
+    "country": "GB",
     "phone": "116 123",
-    "website": "https://www.samaritans.org",
+    "website": "https://www.samaritans.org/",
     "languages": ["English"],
     "type": "phone",
     "hours": "24/7",
-    "specializations": ["suicide prevention", "emotional support", "crisis intervention"]
+    "specializations": ["anxiety", "depression", "loneliness", "suicide", "emotional support"]
   },
-  {
-    "name": "Awyr Las - National Domestic Abuse Helpline",
-    "country": "Wales",
-    "phone": "0808 8010 800",
-    "website": "https://gov.wales/live-fear-free/get-help/national-helpline",
-    "languages": ["Welsh", "English"],
-    "type": "phone",
+    {
+      "name": "Telefono Amico Italia",
+      "country": "IT",
+      "phone": "02 2327 2327",
+      "website": "https://www.telefonoamico.it/",
+      "languages": ["Italian"],
+      "type": "phone",
+      "hours": "24/7",
+      "specializations": ["anxiety", "depression", "loneliness", "suicide", "emotional support"]
+    },
+    {
+      "name": "Livslinien",
+      "country": "DK",
+      "phone": "70 201 201",
+      "website": "https://www.livslinien.dk/",
+      "languages": ["Danish"],
+      "type": "phone",
+      "hours": "24/7",
+      "specializations": ["suicide prevention", "emotional support", "loneliness"]
+    },
+    {
+      "name": "Mieli ry",
+      "country": "FI",
+      "phone": "09 2525 0111",
+      "website": "https://mieli.fi/en/",
+      "languages": ["Finnish", "Swedish"],
+      "type": "phone",
+      "hours": "24/7",
+      "specializations": ["anxiety", "depression", "suicide prevention", "emotional support"]
+    },
+    {
+      "name": "Mind",
+      "country": "GB",
+      "phone": "0300 123 3393",
+      "website": "https://www.mind.org.uk/",
+      "languages": ["English"],
+      "type": "phone",
+      "hours": "Weekdays, 9am - 6pm",
+      "specializations": ["anxiety", "depression", "mental health support"]
+    },
+    {
+      "name": "Ångestförbundet",
+      "country": "SE",
+      "website": "https://angestforbundet.se/",
+      "languages": ["Swedish"],
+      "type": "website",
     "hours": "24/7",
-    "specializations": ["domestic abuse support"]
-  },
-  {
-    "name": "Childline",
-    "country": "United Kingdom",
-    "phone": "0800 1111",
-    "website": "https://www.childline.org.uk/",
-    "languages": ["English"],
-    "type": "phone",
-    "hours": "24/7",
-    "specializations": ["children and youth support"]
-  },
-  {
-    "name": "The Silver Line",
-    "country": "United Kingdom",
-    "phone": "0800 4 70 80 90",
-    "website": "https://www.thesilverline.org.uk/",
-    "languages": ["English"],
-    "type": "phone",
-    "hours": "24/7",
-    "specializations": ["support for older people", "friendship"]
-  },
-  {
-    "name": "Papyrus UK",
-    "country": "United Kingdom",
-    "phone": "0800 068 41 41",
-    "website": "https://www.papyrus-uk.org/",
-    "languages": ["English"],
-    "type": "phone",
-    "hours": "9am - midnight, every day",
-    "specializations": ["suicide prevention for young people"]
-  },
-  {
-    "name": "Telefono Amico Italia",
-    "country": "Italy",
-    "phone": "02 2327 2327",
-    "website": "https://www.telefonoamico.it",
-    "languages": ["Italian"],
-    "type": "phone",
-    "hours": "24/7",
-    "specializations": ["emotional support"]
-  },
-  {
-    "name": "Livslinien",
-    "country": "Denmark",
-    "phone": "70 201 201",
-    "website": "https://www.livslinien.dk",
-    "languages": ["Danish"],
-    "type": "phone",
-    "hours": "24/7",
-    "specializations": ["suicide prevention", "emotional support", "crisis intervention"]
-  },
-  {
-    "name": "Mieli Kriisipuhelin",
-    "country": "Finland",
-    "phone": "09 2525 0111",
-    "website": "https://mieli.fi/en/support-and-help/crisis-helpline/",
-    "languages": ["Finnish", "Swedish"],
-    "type": "phone",
-    "hours": "24/7",
-    "specializations": ["suicide prevention", "emotional support", "crisis intervention"]
-  },
-  {
-    "name": "Bris - Barnens rätt i samhället",
-    "country": "Sweden",
-    "phone": "116 111",
-    "website": "https://www.bris.se",
-    "languages": ["Swedish"],
-    "type": "phone",
-    "hours": "24/7",
-    "specializations": ["children's rights", "emotional support"]
-  },
-  {
-    "name": "Mental Helse Hjelpetelefonen",
-    "country": "Norway",
-    "phone": "116 123",
-    "website": "https://www.mentalhelse.no/hjelpetelefonen",
-    "languages": ["Norwegian"],
-    "type": "phone",
-    "hours": "24/7",
-    "specializations": ["emotional support", "mental health"]
-  },
-  {
-    "name": "Telefon Zaufania dla Dzieci i Młodzieży",
-    "country": "Poland",
-    "phone": "116 111",
-    "website": "https://116111.pl/",
-    "languages": ["Polish"],
-    "type": "phone",
-    "hours": "24/7",
-    "specializations": ["children and youth support", "emotional support"]
-  },
-  {
-    "name": "Linka bezpečí",
-    "country": "Czech Republic",
-    "phone": "116 111",
-    "website": "https://www.linkabezpeci.cz",
-    "languages": ["Czech"],
-    "type": "phone",
-    "hours": "24/7",
-    "specializations": ["children and youth support", "crisis intervention"]
-  },
-  {
-    "name": "Lelki Elsősegély Szolgálat",
-    "country": "Hungary",
-    "phone": "116 123",
-    "website": "https://www.sos116-123.hu",
-    "languages": ["Hungarian"],
-    "type": "phone",
-    "hours": "24/7",
-    "specializations": ["suicide prevention", "emotional support", "crisis intervention"]
-  },
-  {
-    "name": "Linka pomoci",
-    "country": "Slovakia",
-    "phone": "116 123",
-    "website": "https://www.linkapomoci.sk",
-    "languages": ["Slovak"],
-    "type": "phone",
-    "hours": "24/7",
-    "specializations": ["suicide prevention", "emotional support", "crisis intervention"]
-  },
-  {
-    "name": "Klic v duševni stiski",
-    "country": "Slovenia",
-    "phone": "116 123",
-    "website": "https://www.klicvdusi.si",
-    "languages": ["Slovenian"],
-    "type": "phone",
-    "hours": "24/7",
-    "specializations": ["suicide prevention", "emotional support", "crisis intervention"]
-  },
-  {
-    "name": "Hrabri telefon",
-    "country": "Croatia",
-    "phone": "116 111",
-    "website": "https://www.hrabritelefon.hr",
-    "languages": ["Croatian"],
-    "type": "phone",
-    "hours": "24/7",
-    "specializations": ["children and youth support", "emotional support"]
-  },
-  {
-    "name": "Национална телефонна линия за деца 116 111",
-    "country": "Bulgaria",
-    "phone": "116 111",
-    "website": "https://www.116111.bg",
-    "languages": ["Bulgarian"],
-    "type": "phone",
-    "hours": "24/7",
-    "specializations": ["children and youth support", "emotional support"]
-  },
-  {
-    "name": "Telefonul Copilului",
-    "country": "Romania",
-    "phone": "116 111",
-    "website": "https://www.telefonulcopilului.ro",
-    "languages": ["Romanian"],
-    "type": "phone",
-    "hours": "24/7",
-    "specializations": ["children and youth support", "emotional support"]
-  },
-  {
-    "name": "Γραμμή SOS 1056",
-    "country": "Greece",
-    "phone": "1056",
-    "website": "https://1056.gr/",
-    "languages": ["Greek"],
-    "type": "phone",
-    "hours": "24/7",
-    "specializations": ["suicide prevention", "emotional support", "crisis intervention"]
-  },
-  {
-    "name": "Lasteabi",
-    "country": "Estonia",
-    "phone": "116 111",
-    "website": "https://www.lasteabi.ee",
-    "languages": ["Estonian", "Russian", "English"],
-    "type": "phone",
-    "hours": "24/7",
-    "specializations": ["children and youth support", "emotional support", "crisis intervention"]
-  },
-  {
-    "name": "Uzticības tālrunis",
-    "country": "Latvia",
-    "phone": "116 111",
-    "website": "https://www.uzticibastalrunis.lv",
-    "languages": ["Latvian", "Russian", "English"],
-    "type": "phone",
-    "hours": "24/7",
-    "specializations": ["children and youth support", "emotional support", "crisis intervention"]
-  },
-  {
-    "name": "Vaikų linija",
-    "country": "Lithuania",
-    "phone": "116 111",
-    "website": "https://www.vaikulinija.lt",
-    "languages": ["Lithuanian", "Russian", "English"],
-    "type": "phone",
-    "hours": "24/7",
-    "specializations": ["children and youth support", "emotional support", "crisis intervention"]
-  }
+      "specializations": ["anxiety", "panic attacks", "phobias"]
+    },
+    {
+      "name": "Mental Helse",
+      "country": "NO",
+      "phone": "116 123",
+      "website": "https://mentalhelse.no/",
+      "languages": ["Norwegian"],
+      "type": "phone",
+      "hours": "24/7",
+      "specializations": ["anxiety", "depression", "loneliness", "suicide", "emotional support"]
+    },
+    {
+      "name": "Linia Wsparcia Psychicznego",
+      "country": "PL",
+      "phone": "800 70 22 22",
+      "website": "https://liniawsparcia.pl/",
+      "languages": ["Polish"],
+      "type": "phone",
+      "hours": "24/7",
+      "specializations": ["anxiety", "depression", "stress", "emotional support"]
+    },
+    {
+      "name": "Linka duvery",
+      "country": "CZ",
+      "phone": "116 111",
+      "website": "https://www.linkaduviry.cz/",
+      "languages": ["Czech"],
+      "type": "phone",
+      "hours": "24/7",
+      "specializations": ["anxiety", "depression", "bullying", "family", "relationships"]
+    },
+    {
+      "name": "Lelki Elsősegély Szolgálat",
+      "country": "HU",
+      "phone": "116-123",
+      "website": "https://lelki.segely.hu/",
+      "languages": ["Hungarian"],
+      "type": "phone",
+      "hours": "24/7",
+      "specializations": ["anxiety", "depression", "loneliness", "suicide", "emotional support"]
+    },
+    {
+      "name": "Linka pomoci",
+      "country": "SK",
+      "phone": "0800 800 818",
+      "website": "https://www.linkapomoci.sk/",
+      "languages": ["Slovak"],
+      "type": "phone",
+      "hours": "24/7",
+      "specializations": ["anxiety", "depression", "stress", "family", "relationships"]
+    },
+      {
+        "name": "TOM telefon",
+        "country": "SI",
+        "phone": "116 123",
+        "website": "https://www.tom-telefon.si/",
+        "languages": ["Slovenian"],
+        "type": "phone",
+        "hours": "24/7",
+        "specializations": ["anxiety", "depression", "loneliness", "suicide", "emotional support"]
+      },
+      {
+        "name": "Hrabri telefon",
+        "country": "HR",
+        "phone": "116 111",
+        "website": "https://www.hrabritelefon.hr/",
+        "languages": ["Croatian"],
+        "type": "phone",
+        "hours": "24/7",
+        "specializations": ["bullying", "child abuse", "family issues"]
+      },
+      {
+        "name": "Национална телефонна линия за деца",
+        "country": "BG",
+        "phone": "116 111",
+        "website": "https://www.sacp.government.bg/en/national-helpline-children",
+        "languages": ["Bulgarian"],
+        "type": "phone",
+        "hours": "24/7",
+        "specializations": ["bullying", "child abuse", "family issues"]
+      },
+      {
+        "name": "Telefonul Copilului",
+        "country": "RO",
+        "phone": "119",
+        "website": "https://telefonulcopilului.ro/",
+        "languages": ["Romanian"],
+        "type": "phone",
+        "hours": "24/7",
+        "specializations": ["child abuse", "bullying", "family issues"]
+      },
+      {
+        "name": "Γραμμή SOS 1056",
+        "country": "GR",
+        "phone": "1056",
+        "website": "https://www.1056.gr/",
+        "languages": ["Greek"],
+        "type": "phone",
+        "hours": "24/7",
+        "specializations": ["suicide prevention", "emotional support"]
+      },
+      {
+        "name": "Lasteabi",
+        "country": "EE",
+        "phone": "116 111",
+        "website": "https://www.lasteabi.ee/",
+        "languages": ["Estonian", "Russian"],
+        "type": "phone",
+        "hours": "24/7",
+        "specializations": ["child abuse", "bullying", "family issues"]
+      },
+      {
+        "name": "Uzticības tālrunis",
+        "country": "LV",
+        "phone": "116 111",
+        "website": "https://www.uzticibastalrunis.lv/",
+        "languages": ["Latvian", "Russian"],
+        "type": "phone",
+        "hours": "24/7",
+        "specializations": ["child abuse", "bullying", "family issues"]
+      },
+      {
+        "name": "Vaikų linija",
+        "country": "LT",
+        "phone": "116 111",
+        "website": "https://www.vaikulinija.lt/",
+        "languages": ["Lithuanian", "Russian", "English"],
+        "type": "phone",
+        "hours": "24/7",
+        "specializations": ["child abuse", "bullying", "family issues"]
+      },
+      {
+        "name": "Supportline",
+        "country": "MT",
+        "phone": "179",
+        "website": "https://www.mt.gov.mt/en/Services/179-Supportline/Pages/default.aspx",
+        "languages": ["Maltese", "English"],
+        "type": "phone",
+        "hours": "24/7",
+        "specializations": ["domestic violence", "mental health", "social issues"]
+      },
+      {
+        "name": "The National Domestic Abuse Helpline",
+        "country": "GB",
+        "phone": "0808 2000 247",
+        "website": "https://www.nationaldahelpline.org.uk/",
+        "languages": ["English"],
+        "type": "phone",
+        "hours": "24/7",
+        "specializations": ["abuse", "domestic violence"]
+      },
+        {
+          "name": "Childline",
+          "country": "IE",
+          "phone": "1800 66 66 66",
+          "website": "https://www.childline.ie/",
+          "languages": ["English"],
+          "type": "phone",
+          "hours": "24/7",
+          "specializations": ["bullying", "child abuse", "family issues"]
+        },
+        {
+          "name": "National Bullying Helpline",
+          "country": "GB",
+          "phone": "0300 323 0169",
+          "website": "https://www.nationalbullyinghelpline.co.uk/",
+          "languages": ["English"],
+          "type": "phone",
+          "hours": "Weekdays, 9am - 5pm",
+          "specializations": ["bullying"]
+        },
+        {
+          "name": "Alzheimer Nederland",
+          "country": "NL",
+          "phone": "0800 5088",
+          "website": "https://www.alzheimer-nederland.nl/",
+          "languages": ["Dutch"],
+          "type": "phone",
+          "hours": "Weekdays, 9am - 5pm",
+          "specializations": ["dementia", "alzheimer's", "supporting others"]
+        },
+        {
+          "name": "France Alzheimer",
+          "country": "FR",
+          "phone": "01 42 97 52 40",
+          "website": "https://www.francealzheimer.org/",
+          "languages": ["French"],
+          "type": "phone",
+          "hours": "Weekdays, 9am - 6pm",
+          "specializations": ["dementia", "alzheimer's", "supporting others"]
+        },
+        {
+          "name": "Deutsche Alzheimer Gesellschaft",
+          "country": "DE",
+          "phone": "030 259 37 95-0",
+          "website": "https://www.deutsche-alzheimer.de/",
+          "languages": ["German"],
+          "type": "phone",
+          "hours": "Weekdays, 9am - 3pm, 9am - 1pm (Friday)",
+          "specializations": ["dementia", "alzheimer's", "supporting others"]
+        },
+        {
+          "name": "Alzheimer Society of Ireland",
+          "country": "IE",
+          "phone": "1800 341 341",
+          "website": "https://alzheimer.ie/",
+          "languages": ["English"],
+          "type": "phone",
+          "hours": "Weekdays, 10am - 5pm",
+          "specializations": ["dementia", "alzheimer's", "supporting others"]
+        },
+        {
+          "name": "Alzheimer's Society",
+          "country": "GB",
+          "phone": "0333 150 3456",
+          "website": "https://www.alzheimers.org.uk/",
+          "languages": ["English"],
+          "type": "phone",
+          "hours": "9am - 8pm (Monday to Wednesday), 9am - 5pm (Thursday and Friday), 10am - 4pm (Saturday and Sunday)",
+          "specializations": ["dementia", "alzheimer's", "supporting others"]
+        },
+        {
+          "name": "Fundació ACE - Institut Català de Neurociències Aplicades",
+          "country": "ES",
+          "website": "https://fundacioace.org/",
+          "languages": ["Spanish", "Catalan"],
+          "type": "website",
+          "specializations": ["dementia", "alzheimer's", "research", "support"]
+        },
+        {
+          "name": "Depressie Connect",
+          "country": "NL",
+          "website": "https://www.depressieconnect.nl/",
+          "languages": ["Dutch"],
+          "type": "website",
+          "phone": "088-505 43 35",
+          "specializations": ["depression", "anxiety", "online support"]
+        },
+        {
+          "name": "Ligne Azur",
+          "country": "FR",
+          "phone": "0800 23 13 13",
+          "website": "https://www.filsantejeunes.com/lignes-decoute/ligne-azur",
+          "languages": ["French"],
+          "type": "phone",
+          "hours": "24/7",
+          "specializations": ["anxiety", "depression", "stress", "emotional support"]
+        },
+        {
+          "name": "Deutsche DepressionsLiga e.V.",
+          "country": "DE",
+          "website": "https://www.deutsche-depressionsliga.de/",
+          "languages": ["German"],
+          "type": "website",
+          "specializations": ["depression", "self-help", "information"]
+        },
+        {
+          "name": "Aware",
+          "country": "IE",
+          "phone": "1800 80 48 48",
+          "website": "https://www.aware.ie/",
+          "languages": ["English"],
+          "type": "phone",
+          "hours": "10am - 10pm (Daily)",
+          "specializations": ["depression", "anxiety", "mental health support"]
+        },
+        {
+          "name": "Rethink Mental Illness",
+          "country": "GB",
+          "phone": "0300 5000 927",
+          "website": "https://www.rethink.org/",
+          "languages": ["English"],
+          "type": "phone",
+          "hours": "Weekdays, 9:30am - 4pm",
+          "specializations": ["depression", "anxiety", "mental health support", "supporting others"]
+        },
+        {
+          "name": "BADAS - Associació Catalana per a la Depressió i l'Ansietat",
+          "country": "ES",
+          "website": "https://badas.cat/",
+          "languages": ["Catalan", "Spanish"],
+          "type": "website",
+          "specializations": ["depression", "anxiety", "support groups"]
+        },
+        {
+          "name": "Fondation FondaMental",
+          "country": "FR",
+          "website": "https://www.fondation-fondamental.org/",
+          "languages": ["French"],
+          "type": "website",
+          "specializations": ["depression", "bipolar disorder", "schizophrenia", "research"]
+        },
+        {
+          "name": "Nederlandse Vereniging voor Psychiatrie",
+          "country": "NL",
+          "website": "https://www.nvvp.net/",
+          "languages": ["Dutch"],
+          "type": "website",
+          "phone": "030 - 899 3139",
+          "specializations": ["mental health", "psychiatry", "information"]
+        },
+        {
+          "name": "Pro Mente Austria",
+          "country": "AT",
+          "website": "https://www.promenteaustria.at/",
+          "languages": ["German"],
+          "type": "website",
+          "phone":"+43 664 3964333",
+          "specializations": ["mental health support", "information"]
+        },
+        {
+          "name": "SANE",
+          "country": "GB",
+          "phone": "0300 304 7000",
+          "website": "https://www.sane.org.uk/",
+          "languages": ["English"],
+          "type": "phone",
+          "hours": "4:30pm - 10:30pm (Daily)",
+          "specializations": ["mental health support", "anxiety", "depression"]
+        },
+        {
+          "name": "Samhällspsykologiska insatser",
+          "country": "SE",
+          "website": "https://www.spi-sverige.se/",
+          "languages": ["Swedish"],
+          "type": "website",
+          "specializations": ["mental health support", "crisis support"]
+        },
+        {
+          "name": "Landsforeningen for psykisk helse",
+          "country": "NO",
+          "website": "https://www.lps.no/",
+          "languages": ["Norwegian"],
+          "type": "website",
+          "specializations": ["mental health support", "information"]
+        },
+        {
+          "name": "Centrum Zdrowia Psychicznego",
+          "country": "PL",
+          "website": "https://czp.gov.pl/",
+          "languages": ["Polish"],
+          "type": "website",
+          "specializations": ["mental health support", "therapy", "psychiatry"]
+        },
+        {
+          "name": "Národní ústav duševního zdraví",
+          "country": "CZ",
+          "website": "https://www.nudz.cz/en/",
+          "languages": ["Czech", "English"],
+          "type": "website",
+          "specializations": ["mental health research", "treatment", "education"]
+        },
+        {
+          "name": "Országos Pszichiátriai és Neurológiai Intézet",
+          "country": "HU",
+          "website": "http://www.opni.hu/",
+          "languages": ["Hungarian"],
+          "type": "website",
+          "specializations": ["psychiatry", "neurology", "mental health care"]
+        },
+        {
+          "name": "Liga za duševné zdravie",
+          "country": "SK",
+          "website": "https://dusevnezdravie.sk/",
+          "languages": ["Slovak"],
+          "type": "website",
+          "specializations": ["mental health awareness", "support", "information"]
+        },
+        {
+          "name": "OZARA Slovenija",
+          "country": "SI",
+          "website": "https://www.ozara.org/",
+          "languages": ["Slovenian"],
+          "type": "website",
+          "specializations": ["mental health support", "social inclusion"]
+        },
+        {
+          "name": "Liga za zaštitu mentalnog zdravlja",
+          "country": "HR",
+          "website": "http://www.mentalnozdravlje.hr/",
+          "languages": ["Croatian"],
+          "type": "website",
+          "specializations": ["mental health awareness", "support", "advocacy"]
+        },
+        {
+          "name": "Национален център по обществено здраве и анализи",
+          "country": "BG",
+          "website": "https://ncpha.government.bg/",
+          "languages": ["Bulgarian"],
+          "type": "website",
+          "specializations": ["public health", "mental health programs"]
+        },
+        {
+          "name": "Direcția de Sănătate Publică",
+          "country": "RO",
+          "website": "http://www.dspcluj.ro/",
+          "languages": ["Romanian"],
+          "type": "website",
+          "specializations": ["public health", "mental health services"]
+        },
+        {
+          "name": "Υπουργείο Υγείας και Κοινωνικής Αλληλεγγύης",
+          "country": "GR",
+          "website": "https://www.moh.gov.gr/",
+          "languages": ["Greek"],
+          "type": "website",
+          "specializations": ["health services", "mental health care"]
+        },
+        {
+          "name": "Tervise Arengu Instituut",
+          "country": "EE",
+          "website": "https://www.tai.ee/en",
+          "languages": ["Estonian", "English", "Russian"],
+          "type": "website",
+          "specializations": ["health promotion", "mental health research"]
+        }
 ]

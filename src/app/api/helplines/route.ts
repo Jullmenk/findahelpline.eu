@@ -1,10 +1,9 @@
 import { prismaL } from "@/lib/prisma";
-import { Helpline } from "@/types/types";
 import { NextResponse } from "next/server";
 
 export async function GET() {
   try {
-    const helplines: Helpline[] = await prismaL.helpline.findMany({
+    const helplines = await prismaL.helpline.findMany({
       include: { countryRel: true },
     });
     return NextResponse.json(helplines);
