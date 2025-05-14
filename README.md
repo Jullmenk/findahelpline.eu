@@ -1,21 +1,5 @@
 Helpline is a full-stack web application built with Next.js App Router, Prisma, and TailwindCSS, designed to provide information about support organizations in multiple languages.
 
-🧭 Project Structure
-ruby
-
-
-helpline/
-├── src/
-│   ├── app/                    # Pages and routes (Next.js App Router)
-│   ├── context/                # Global contexts (e.g., useConfig)
-│   ├── components/             # Reusable components
-│   ├── lib/                    # Prisma, helpers, utilities
-│   ├── prisma/                 # Database schema and seed
-│   └── types/                  # TypeScript typings
-├── public/                     # Public assets
-├── .env.local                  # Environment variables (local)
-├── tailwind.config.ts          # TailwindCSS configuration
-└── next.config.mjs             # Next.js configuration
 🛠️ Local Setup
 Clone the repository
 
@@ -38,9 +22,13 @@ env
 
 
 DATABASE_URL=postgresql://<user>:<password>@<host>:<port>/<db_name>
+
 NEXT_PUBLIC_API_BASE_URL=http://localhost:3000
+
 IP_FIND="**************"
+
 API_URL="https://api.ipinfo.io/lite/me?token="
+
 
 Generate the Prisma client
 
