@@ -57,6 +57,8 @@ export default memo(function CountryAndHelplines({
       return normalizedSpec.includes(topic?.toLowerCase() ?? "");
     })
   );
+
+  const locale = useLocale();
   
   if (loading) return <LoadingContainer />;
 
@@ -64,8 +66,6 @@ export default memo(function CountryAndHelplines({
     !loading &&
     (filteredHelplines.length === 0 ||
     (filteredHelplines.length > 0 && topic && filtered.length===0))) return <NotFound />;
-
-    const locale = useLocale();
 
 
   return (

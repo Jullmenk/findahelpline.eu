@@ -16,7 +16,7 @@ export default function Partners({
   countCountries: number;
 }) {
   const t = useTranslations("Partners");
-  const cards = [<Rapido />, <FaleComAPessoa />, <Confidencial />];
+  const cards = [Rapido,FaleComAPessoa,Confidencial];
   return (
     <div className="w-full flex justify-center pb-14 items-center bg-bg-2">
       <div className="min-h-96 w-def flex flex-col items-center py-5 gap-4">
@@ -60,7 +60,7 @@ export default function Partners({
               classSets="bg-bg-0 text-texts-4"
               key={i}
               name={t(`cards.card-${i + 1}-title`)}
-              logo={cards[i]}
+              logo={cards[i]()}
               info={t(`cards.card-${i + 1}-info`)}
             />
           ))}

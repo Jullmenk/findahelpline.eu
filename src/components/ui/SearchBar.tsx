@@ -30,7 +30,7 @@ export function SearchBar({t}: {t: (key: string) => string}) {
     : countries;
 
     setFilteredOptions(filtered);
-  }, [search]);
+  }, [search,t]);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearch(e.target.value);

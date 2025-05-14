@@ -9,4 +9,4 @@
 [ ] Last review links 
 [ ] middleware
 [ ] buiild all languagues 
-[ ] faqs
+[x] faqs
