@@ -17,6 +17,7 @@ interface ConfigContextType {
   searchQuery: string;
   setSearchQuery: (query: string) => void;
   filteredHelplines: Helpline[];
+  helplines: Helpline[];
   setFilteredHelplines: (helplines: Helpline[]) => void;
   updateFilteredHelplines: (code: string) => void;
   spec: { pt: string; en: string }[];
@@ -90,6 +91,7 @@ export function ConfigProvider({ children }: { children: ReactNode }) {
       value={{
         userCountry,
         searchQuery,
+        helplines,
         setSearchQuery,
         filteredHelplines,
         updateFilteredHelplines,

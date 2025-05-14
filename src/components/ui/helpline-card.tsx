@@ -9,6 +9,7 @@ import Verified from "@/assets/verified";
 import { Helpline } from "@/types/types";
 import { extractDomain, isOpen } from "@/lib/utils-functions";
 import { useTranslations } from "@/hooks/useTranslations";
+import { useLocale } from "next-intl";
 
 interface HelplineCardProps {
   helpline: Helpline;
@@ -17,17 +18,18 @@ interface HelplineCardProps {
 export default function HelplineCard({ helpline }: HelplineCardProps) {
   const isOpenNow = isOpen(helpline.hours ?? "");
   const isAlwaysOpen = helpline?.hours?.includes("24/7");
-
+  const locale = useLocale()
   const formattedName = helpline.name.replace(/\s/g, "-");
 
   const t = useTranslations("HelplineCard")
   const c = useTranslations("helpline-and-Country")
+  const s = useTranslations("specializations")
 
   return (
     <div className="w-def flex flex-col rounded-xl p-6 bg-white shadow-theme">
 
       <div className="flex justify-between items-center">
-        <Link  className="text-xl font-semibold max-w-[80%]" href={`/organizations/${formattedName}`}>
+        <Link  className="text-xl font-semibold max-w-[80%]" href={`/${locale}/organizations/${formattedName}`}>
           {helpline.name}
         </Link>
         <Verified />
@@ -67,8 +69,7 @@ export default function HelplineCard({ helpline }: HelplineCardProps) {
           </span>
         ) : (
           <Link
-            href={`/organizations/${formattedName}?expand=true`}
-            target="_blank"
+            href={`/${locale}/organizations/${formattedName}?expand=true`}
             className="flex items-center gap-2 px-2 py-2 hover:bg-teal-50 rounded-lg"
           >
             <span className="text-sm font-semibold text-texts-6">

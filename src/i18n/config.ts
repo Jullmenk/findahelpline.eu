@@ -20,6 +20,8 @@ export const pathnames = {
   
   // Páginas de países
   '/countries': '/countries',
+  '/organizations': '/organizations',
+  '/organizations/[name]': '/organizations/[name]',
   '/countries/[country]': '/countries/[country]',
   '/countries/[country]/topics': '/countries/[country]/topics',
   '/countries/[country]/topics/[topic]': '/countries/[country]/topics/[topic]',

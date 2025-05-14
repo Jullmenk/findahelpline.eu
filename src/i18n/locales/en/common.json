@@ -91,6 +91,7 @@
         "moral harassment": "Moral harassment",
         "dementia and alzheimer's": "Dementia and Alzheimer's",
         "dementia and Alzheimer's": "Dementia and Alzheimer's",
+        "alzheimer's": "Alzheimer's",
         "depression": "Depression",
         "eating disorders and body image": "Eating disorders and body image",
         "family": "Family",
@@ -262,5 +263,305 @@
   "LangContainer":{
     "title":"Language",
     "close":"Close"
+  },
+  "notFound": {
+    "title": "Resource not found",
+    "description1": "We looked high and low, but couldn’t find the content you’re looking for.",
+    "description2": {
+      "part1": "If you’re in emotional distress and want to talk to someone, search by country and topic",
+      "linkText": "here",
+      "part2": ". If you're not ready to talk, here are some other options:"
+    },
+    "options": {
+      "videos": "Watch videos",
+      "videosDesc": " on coping with tough emotions (via Now Matters Now)",
+      "safetyPlan": "Create a safety plan",
+      "safetyPlanDesc": " (via Vibrant Emotional Health)"
+    }
+  },
+  "topicsPage":{
+    "title":"Support for",
+    "nearYou":"Get help near you:"
+  },
+  "privacy": {
+  "title": "Privacy Policy",
+  "sections": {
+    "introduction": {
+      "title": "Introduction",
+      "content": {
+        "p1": "ThroughLine Limited (we, us, our), is a company based in New Zealand. Our primary goal is to support people experiencing an emotional crisis throughout the world.",
+        "p2": "In the provision of our Services, we endeavour to comply with the New Zealand Privacy Act 1993 (Act) and the European Union's General Data Protection Regulation (GDPR) when dealing with personally identifiable information.",
+        "p3": "This policy sets out how we will collect, use, disclose and protect your personally identifiable information for each of our Services. It also sets out how you can get access to or request a correction of the personally identifiable information we hold about you.",
+        "p4": "This policy does not limit or exclude any of your rights under the Act or the GDPR. If you wish to seek further information on the Act, see lllink, and for more information on the GDPR, please see lllink."
+      }
+    },
+    "changes": {
+      "title": " Changes to this policy",
+      "content": {
+        "p1": "We may change this policy by uploading a revised policy onto our Websites. The change will apply from the date that we upload the revised policy."
+      }
+    },
+    "definitions": {
+      "title": "Definitions",
+      "content": "In this policy:",
+      "terms": {
+        "PII": {
+          "term": "Personally Identifiable Information",
+          "definition": "means information that could be used on its own to directly identify, contact, or precisely locate an individual. This includes:"
+        },
+        "PIIExamples": {
+          "list": {
+            "item1": "personal email addresses",
+            "item2": "mailing addresses",
+            "item3": "phone numbers",
+            "item4": "precise locations (such as GPS coordinates)",
+            "item5": "full names",
+            "item6": "usernames that contain personally identifiable data"
+          },
+          "excludes": "We interpret Personally Identifiable Information to exclude, for example:"
+        },
+        "nonPIIExamples": {
+          "list": {
+            "item1": "pseudonymous (false or disguised) cookie IDs",
+            "item2": "pseudonymous advertising IDs",
+            "item3": "IP addresses"
+          }
+        },
+        "services": {
+          "definition": "Services means https://www.findahelpline.com, partner-branded websites at https://[companyname].findahelpline.com, and the Find A Helpline embeddable widget that provides Find A Helpline on third party websites"
+        },
+        "websites": {
+          "term": "Websites",
+          "definition": "means https://www.findahelpline.com and partner-branded websites at https://[companyname].findahelpline.com"
+        },
+        "we": {
+          "term": "We, us or our",
+          "definition": "means ThroughLine Limited"
+        },
+        "you": {
+          "term": "You or your",
+          "definition": "refers to you, the individual using our Services"
+        }
+      }
+    },
+    "collection": {
+      "title": "Who do we collect personally identifiable information from?",
+      "content": {
+        "p1": "In the provision of our Services, we only collect Personally Identifiable Information about you when you provide that information to us via a contact form on our Websites.",
+        "p2": "In the provision of our Services to users located in the European Union our basis for collecting and processing the personally identifiable information provided to us is consent under the GDPR. If you are under the relevant legal age at which you can provide consent to the collection of your personal data, then this consent must have been provided by your parent or guardian.",
+        "p3": "Upon giving this consent, you have consented to the collection and use of the personally identifiable information you provide in the ways described in clause 5 of this policy.",
+        "p4": "You are entitled to withdraw this consent at any time. To do so, please contact us by email to llllink."
+      }
+    },
+    "usePII": {
+      "title": "How do we use your personally identifiable information?",
+      "content": {
+        "p1": "In the provision of our Services the Personally Identifiable Information you provide will be used:"
+      },
+      "list": {
+        "item1": "to engage in and respond to communications with you;",
+        "item2": "to protect and / or enforce our legal rights and interests, including defending any claim;",
+        "item3": "for any other purpose authorised by you or the Act."
+      }
+    },
+    "useAggregated": {
+      "title": "How do we use aggregated data?",
+      "content": {
+        "p1": "In the provision of our Services we collect aggregated data, which does not include personally identifiable information, for analytical purposes. This aggregated data will be used:"
+      },
+      "list": {
+        "item1": "to provide our Services to you;",
+        "item2": "to share this aggregated and anonymized information with the service providers who are linked on the site; partners who use the embeddable widget or partner-branded website; or with the underlying IT support providers whose system are used in the operation of Find A Helpline;",
+        "item3": "to conduct research and statistical analysis on an anonymised basis;",
+        "item4": "to share aggregated and anonymized versions of this information, for example, in website and customer usage trend reports, and in conjunction with our development processes;",
+        "item5": "to understand generally who the users of Find A Helpline are, how they use our Services, and how we may improve their experience of Find A Helpline in the future;",
+        "item6": "to protect and / or enforce our legal rights and interests, including defending any claim."
+      }
+    },
+    "retention": {
+      "title": "How long will information collected from Find A Helpline be kept for?",
+      "content": {
+        "p1": "We keep the information provided through Find A Helpline until it is no longer necessary for the purposes it was obtained for."
+      }
+    },
+    "disclosure": {
+      "title": "Disclosure of information to third parties",
+      "contentPII": {
+        "p1": "We will only disclose Personally Identifiable Information to third parties in the following circumstances:"
+      },
+      "listPII": {
+        "item1": "to a person who can require us to supply your personally identifiable information (e.g. a regulatory authority);",
+        "item2": "to any other person authorised by the Act or another law (e.g. a law enforcement agency);",
+        "item3": "to any other person authorised by you."
+      },
+      "contentAggregated": {
+        "p1": "We will only disclose the aggregated information to third parties in the following circumstances:"
+      },
+      "listAggregated": {
+        "item1": "to any business that supports our services and products, including those service providers linked on the site or to any person that hosts or maintains any underlying IT system or data centre that we use to provide the Services;",
+        "item2": "to a person who can require us to supply your personally identifiable information (e.g. a regulatory authority);",
+        "item3": "to any other person authorised by the Act or another law (e.g. a law enforcement agency);",
+        "item4": "to any other person authorised by you."
+      },
+      "note": "Please note that a business that supports our services and products may be located outside New Zealand. This may mean that the aggregated information collected is held and processed outside New Zealand."
+    },
+    "cookies": {
+      "title": "Use of Cookies on Find A Helpline",
+      "content": {
+        "p1": "Our Services uses cookies through Google Analytics. We use these cookies to track and analyse non-personally identifiable data to learn more about how Find A Helpline is used. You may disable cookies by changing the settings on your browser, although this may mean that you cannot use all of the features of Find A Helpline.",
+        "p2": "Google Analytics' scripts are incorporated into our Websites. You can find more about Google Analytics' use of cookies here: lllink. We do not and will not assist or permit any third party to pass information to Google that Google could use or recognize as personally identifiable information.",
+        "p3": "Our Websites use the software system reCaptcha when you complete a review of the service or when using our Contact Us form. reCaptcha is governed by Google's policy and terms of service.",
+        "p4": "Our Websites use Hotjar in order to better understand our users’ needs and to optimize our Services and user experience. Hotjar uses cookies and other technologies to collect data on our users’ behavior and their devices. This includes a device's IP address (processed during your session and stored in a de-identified form), device screen size, device type (unique device identifiers), browser information, geographic location (country only), and the preferred language used to display our website. Hotjar stores this information on our behalf in a pseudonymized user profile. Hotjar is contractually forbidden to sell any of the data collected on our behalf."
+      }
+    },
+    "security": {
+      "title": "Protecting your personally identifiable information",
+      "content": {
+        "p1": "We will take reasonable steps to keep your personally identifiable information obtained through any of our Services safe from loss, unauthorised activity, or other misuse.",
+        "p2": "While we take reasonable steps to maintain secure internet connections, if you provide us with personally identifiable information over the internet, the provision of that information is at your own risk.",
+        "p3": "We may share a link to a third-parties' websites, services or other platform on our Websites, or through any other communication by us to you. In addition, our Services use Google Analytics, HotJar and the reCaptcha software system. These third-party websites, services, platforms and software, may have their own privacy policies relating to the use of your personally identifiable information. We suggest you review the privacy policies of these third parties before you provide personally identifiable information."
+      }
+    },
+    "rights": {
+      "title": "Accessing and correcting your personally identifiable information",
+      "eu": {
+        "title": "European Union Users",
+        "content": {
+          "p1": "If you are a user of our Services located in the European Union, then you have a right under the GDPR to access your personally identifiable information, ask for a correction of, or to erase that information."
+        }
+      },
+      "nz": {
+        "title": "New Zealand Users",
+        "content": {
+          "p1": "If you are a user of our Services located in New Zealand, then subject to certain grounds for refusal set out in the Act, you have the right to access your readily retrievable personally identifiable information that we hold and to request a correction to your personally identifiable information. Before you exercise this right, we will need evidence to confirm that you are the individual to whom the personally identifiable information relates. In respect of a request for correction, if we think the correction is reasonable and we are reasonably able to change the personally identifiable information, we will make the correction as soon as reasonably possible. If we do not make the correction, we will take reasonable steps to note on the personally identifiable information that you requested the correction."
+        }
+      },
+      "instructions": "If you wish to exercise any of the above rights to which you are entitled, email us at privacy@throughlinecare.com. Your email should provide evidence of who you are and set out the details of your request (e.g. the personally identifiable information, or the correction, that you are requesting).",
+      "costNote": "We may charge you our reasonable costs of providing to you copies of your personally identifiable information or correcting that information.",
+      "contact": "If you have any questions regarding this privacy policy, please contact us at privacy@throughlinecare.com"
+    }
   }
+},
+"terms": {
+  "title": "Terms of Service",
+  "lastUpdated": "Last updated: 17 June 2024.",
+  "about": {
+    "title": "About These Terms",
+    "p1": "These Terms and Conditions of Service (\"Terms\") apply to your use of the Websites and the Services provided by ThroughLine Limited (\"we\", \"us\" or \"our\"). Prior to accessing and using the Services, you must accept these Terms. By accessing our Services:",
+    "points": {
+      "1": "you agree to be party to these Terms;",
+      "2": "you agree and consent to these Terms and being bound by them;",
+      "3": "you agree that these Terms will be in effect from the first time you access the Services and will remain in effect until terminated."
+    },
+    "p3": "We will update and make changes to these Terms from time to time. Please check these Terms frequently to stay up to date with any changes to these Terms. Unless stated otherwise, any change takes effect immediately. By continuing to access and use our Services, you agree to be bound by the changed Terms.",
+    "p4": "These Terms were last updated on 17 June 2024."
+  },
+  "useOfServices": {
+    "title": "Use of Services",
+    "p1": "You may use the Services provided you comply with these Terms. We reserve the right to modify, amend or cease our provision of the Services (or any part of them) to you at any time at our sole discretion."
+  },
+  "restrictions": {
+    "title": "Restrictions on Use",
+    "intro": "You must not, without ThroughLine’s prior written permission:",
+    "points": {
+      "1": "use the Services for a commercial or business purpose;",
+      "2": "commercially exploit, sell, license or distribute the Services or any data or any products incorporating the results retrieved using the Services;",
+      "3": "extract, disassemble, decompile, reverse engineer, translate, create derivative works or otherwise seek to reveal the operating logic of any part of the Services;",
+      "4": "conduct, facilitate, authorise or permit any text or data mining or web scraping for any purpose in relation to the Services, or information featured in it, including the use of any automated analytical technique or tools such as bots, scrapers, or AI tools;",
+      "5": "use or permit the use of the Services for the purpose of training artificial intelligence technologies to generate text, including technologies that are capable of generating works in the same style as any part of the Services;",
+      "6": "use the Services to derive the source code, underlying ideas, algorithms, structure or organisation, or any similar action, in a manner that facilitates the creation or development of an Application Programming Interface or any functionality of Services."
+    },
+    "compliance": "In respect of your access to and use of the Services you will comply with all applicable laws, rules and regulations. You must not use or permit the use of the Website and the Services in a way that attempts to circumvent, or is otherwise inconsistent with, your obligations in (and anticipated by) these Terms or for any illegal, unlawful or otherwise improper purpose."
+  },
+  "externalLinks": {
+    "title": "External Links Disclaimer",
+    "p1": "The Services contain links to other websites or resources, including phone numbers, SMS and WhatsApp numbers, which we do not control (\"External Websites\"). Our linking to External Websites does not constitute an endorsement by us. We are simply facilitating your ability to access and seek assistance from third-party service providers. We are providing these links to you as a convenience and you agree that we are not responsible nor liable for the content of any External Websites. Your use of the External Websites is subject to the terms and conditions of use and privacy policies of the External Websites provider."
+  },
+  "intellectualProperty": {
+    "title": "Intellectual Property",
+    "p1": "We (and our licensors) own all proprietary and Intellectual Property Rights in the Services.",
+    "p2": "Nothing in these Terms confers on you any right or interest in, licence or permit to use any of the Intellectual Property in the Services or any other Intellectual Property owned by us or any of our third-party licensors or suppliers, other than in accordance with these express Terms."
+  },
+  "disclaimers": {
+    "title": "Disclaimers on Information",
+    "p1": "You agree that the use of the Services is at your sole discretion and risk.",
+    "p2": "We provide information and access to resources on a general and \"as is\" basis, without any representations or warranties (express or implied).",
+    "p3": "You should not use our information as a substitute for professional healthcare, mental health treatment, psychiatric care or therapy. If you are experiencing a medical or psychological emergency, contact local emergency services.",
+    "p4": "While we periodically review third-party information, we do not guarantee its accuracy and are not liable for reliance on third-party content or helplines.",
+    "p5": "We do not warrant that the Services are error-free or will satisfy your requirements. To the maximum extent permitted by law, all other warranties and representations are excluded."
+  },
+  "liability": {
+    "title": "Liability",
+    "p1": "To the maximum extent permitted by law, we (including our employees, agents and affiliates) exclude all liability for harm, loss, or damage arising out of your use of the Services.",
+    "p2": "Your sole remedy is limited to breach of contract. We are not liable for breach of statute, tort (including negligence), or any other legal claim.",
+    "p3": "Our maximum liability to you under these Terms is limited to $100 in aggregate."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "p1": "Please refer to our Privacy Policy here"
+  },
+  "maintenance": {
+    "title": "Maintenance, Termination and Suspension",
+    "p1": "We may perform scheduled and emergency maintenance, which may make Services inaccessible.",
+    "p2": "We may suspend or terminate your access at our sole discretion if you breach these Terms. You must stop using the Services immediately upon termination."
+  },
+  "forceMajeure": {
+    "title": "Force Majeure",
+    "p1": "We are not liable for any delay or failure to fulfill our obligations due to events beyond our reasonable control, such as natural disasters, war, epidemic, or civil unrest."
+  },
+  "general": {
+    "title": "General",
+    "p1": "If you encounter problems, please notify us at legal@throughlinecare.com.",
+    "p2": "These Terms are governed by New Zealand law and subject to the exclusive jurisdiction of the New Zealand courts.",
+    "p3": "If we do not enforce a term, that does not constitute a waiver of that term or any other right."
+  },
+  "definitions": {
+    "title": "Definitions",
+    "introduction": "In these Terms:",
+    "intellectualProperty": "Intellectual Property includes all rights in patents, trademarks, copyrights, trade secrets, databases, and related technologies.",
+    "p1":"patents, trademarks, service marks, copyright, registered designs, trade names, domain names, symbols and logos;",
+    "p2":"patent applications and applications to register trademarks, service marks and designs; and confidential information, trade secrets and know-how and rights in tools, techniques, computer program code, databases, data inventions, discoveries, developments, trade secrets, information and logical sequences (whether or not reduced to writing or other machine or human readable form).",
+    "services": "Services means access and use of our Websites and tools (including widgets or APIs), whether hosted on our domain or partner websites.",
+    "we": "We, us or our refers to ThroughLine Limited, including our employees, directors, and contractors.",
+    "websites": "Websites includes https://www.throughlinecare.com, https://findahelpline.com, and any partner-branded websites like https://[companyname].findahelpline.com."
+  }
+}
+,
+"organizations": {
+  "where": "Where is {name} available?",
+  "where-answer": "Available nationwide in {country}",
+  "whatLang": "What languages does {name} support?",
+  "talkto": "What can I talk to {name} about?",
+  "nowWhat": "Not what you’re looking for?",
+  "findAnother": "Find another Helpline"
+},
+"languages": {
+    "portuguese": "Portuguese",
+    "spanish": "Spanish",
+    "french": "French",
+    "german": "German",
+    "dutch": "Dutch",
+    "english": "English",
+    "italian": "Italian",
+    "danish": "Danish",
+    "finnish": "Finnish",
+    "swedish": "Swedish",
+    "norwegian": "Norwegian",
+    "polish": "Polish",
+    "czech": "Czech",
+    "hungarian": "Hungarian",
+    "slovak": "Slovak",
+    "slovenian": "Slovenian",
+    "croatian": "Croatian",
+    "bulgarian": "Bulgarian",
+    "romanian": "Romanian",
+    "greek": "Greek",
+    "estonian": "Estonian",
+    "latvian": "Latvian",
+    "lithuanian": "Lithuanian",
+    "maltese": "Maltese",
+    "catalan": "Catalan",
+    "russian": "Russian"
+  }
+
 }

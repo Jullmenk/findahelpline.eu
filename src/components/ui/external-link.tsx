@@ -1,11 +1,19 @@
 import Link from 'next/link'
 import React from 'react'
 
-export default function ExternalLink({path,name}: {path: string, name: string}) {
+type props = {
+  href : string;
+  name: string;
+  className: string;
+  target?: string;
+}
+
+export default function ExternalLink({href,name,className,target}: props) {
   return (
     <Link
-    href={path}
-    target="_blank"
+    className={className}
+    href={  href}
+    target={target}
     >
     {name}
     </Link>

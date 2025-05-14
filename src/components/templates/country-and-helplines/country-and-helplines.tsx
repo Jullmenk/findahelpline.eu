@@ -48,10 +48,12 @@ export default memo(function CountryAndHelplines({
   .filter((helpline) =>
     helpline.specializations.some((spec) => {
       const normalizedSpec = spec.toLowerCase();
-      if (selectedTopics) {
+      if (selectedTopics&&Array.isArray(selectedTopics)) {
         return selectedTopics.some((t) =>
           normalizedSpec.includes(t.replace(/-/g, " ").toLowerCase())
         );
+      }else if(selectedTopics){
+        topic = selectedTopics
       }
       return normalizedSpec.includes(topic?.toLowerCase() ?? "");
     })
@@ -75,21 +77,7 @@ export default memo(function CountryAndHelplines({
             {HelplinesIn} {selectedCountry?.name}{" "}
             {topic && ` ${About} ${topic}`}
           </h2>
-          {filteredHelplines
-            .filter((helpline) =>
-              helpline.specializations.some((spec) => {
-                const normalizedSpec = spec.toLowerCase();
-
-                if (selectedTopics) {
-                  return selectedTopics.some((t) =>
-                    normalizedSpec.includes(t.replace(/-/g, " ").toLowerCase())
-                  );
-                }
-                return normalizedSpec.includes(
-                  topic?.toLowerCase() ?? ""
-                );
-              })
-            )
+          {filtered
             .map((helpline, index) => (
               <HelplineCard key={helpline.id ?? index} helpline={helpline} />
             ))}

@@ -1,7 +1,14 @@
 ## Tarefas de hoje.
-[ ] Languages Switcher
+[x] Languages Switcher
 [ ] contact page
-[ ] Organization page
-[ ] terms pages
-[ ] privacy pages
+[x] Organization page
+[ ] Organization page loading, frequently returns1 notfound before rendering
+[x] terms pages
+[x] privacy pages
 [ ] change the header in this route (/countries/pt/topics/abuse-domestic-violence)
+[ ] Problema dos topicos
+[ ] Last review links 
+[ ] middleware
+[ ] buiild all languagues 
+
+
