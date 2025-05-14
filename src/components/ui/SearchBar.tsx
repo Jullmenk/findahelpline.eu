@@ -6,7 +6,7 @@ import { Input } from "./input";
 import { IoChevronDownOutline } from "react-icons/io5";
 import { motion } from "framer-motion";
 import { countries, Country } from "@/lib/countries";
-import { useConfig } from "@/context/config";
+import { useConfig } from "@/context/useContext";
 import { X } from "lucide-react";
 
 

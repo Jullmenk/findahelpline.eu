@@ -4,7 +4,7 @@ import React from "react";
 
 export default async function Privacy() {
   const t = await getTranslations("privacy");
-
+  console.log(t("sections.introduction.title"))
   return (
     <div className="w-full bg-white flex items-center justify-center py-10">
       <div className="w-def">

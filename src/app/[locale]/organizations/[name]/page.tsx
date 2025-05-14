@@ -2,10 +2,10 @@
 
 import Verified from "@/assets/verified";
 import NotFound from "@/components/templates/not-found/not-found";
-import { useConfig } from "@/context/config";
+import { useConfig } from "@/context/useContext";
 import { useTranslations } from "@/hooks/useTranslations";
-import { extractDomain, isOpen } from "@/lib/utils-functions";
-import { Clock3, SquareArrowOutUpRight } from "lucide-react";
+import { extractDomain, isOpen } from "@/lib/utils";
+import { Clock3 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";

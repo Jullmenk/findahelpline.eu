@@ -7,7 +7,7 @@ import { TbWorld } from "react-icons/tb";
 import Verified from "@/assets/verified";
 
 import { Helpline } from "@/types/types";
-import { extractDomain, isOpen } from "@/lib/utils-functions";
+import { extractDomain, isOpen } from "@/lib/utils";
 import { useTranslations } from "@/hooks/useTranslations";
 import { useLocale } from "next-intl";
 

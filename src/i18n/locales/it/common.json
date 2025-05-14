@@ -1,215 +1,680 @@
+
 {
   "Hero": {
-    "title": "Free, confidential support from a helpline or hotline near you. Online chat, text or phone.",
-    "searchBarPlaceholder": "Start typing your country",
-    "text-1": "Helplines in",
-    "text-2": "Using a helpline: What to expect",
-    "text-3": "Quick calls",
+    "title": "Supporto gratuito e confidenziale da una linea di assistenza vicina a te. Chat online, testo o telefono.",
+    "searchBarPlaceholder": "Inizia a digitare il tuo paese",
+    "text-1": "Linee di assistenza in",
+    "text-2": "Utilizzare una linea di assistenza: Cosa aspettarsi",
+    "text-3": "Chiamate rapide",
     "countries": {
-      "PT": "Portugal",
-      "ES": "Spain",
-      "FR": "France",
-      "IT": "Italy",
-      "DE": "Germany",
-      "NL": "Netherlands",
-      "BE": "Belgium",
-      "CH": "Switzerland",
+      "PT": "Portogallo",
+      "ES": "Spagna",
+      "FR": "Francia",
+      "IT": "Italia",
+      "DE": "Germania",
+      "NL": "Paesi Bassi",
+      "BE": "Belgio",
+      "CH": "Svizzera",
       "AT": "Austria",
-      "IE": "Ireland",
-      "GB": "United Kingdom",
-      "DK": "Denmark",
-      "FI": "Finland",
-      "SE": "Sweden",
-      "NO": "Norway",
-      "PL": "Poland",
-      "CZ": "Czech Republic",
-      "HU": "Hungary",
-      "SK": "Slovakia",
+      "IE": "Irlanda",
+      "GB": "Regno Unito",
+      "DK": "Danimarca",
+      "FI": "Finlandia",
+      "SE": "Svezia",
+      "NO": "Norvegia",
+      "PL": "Polonia",
+      "CZ": "Repubblica Ceca",
+      "HU": "Ungheria",
+      "SK": "Slovacchia",
       "SI": "Slovenia",
-      "HR": "Croatia",
+      "HR": "Croazia",
       "BG": "Bulgaria",
       "RO": "Romania",
-      "GR": "Greece",
+      "GR": "Grecia",
       "EE": "Estonia",
-      "LV": "Latvia",
-      "LT": "Lithuania",
+      "LV": "Lettonia",
+      "LT": "Lituania",
       "MT": "Malta"
     }
   },
   "Partners": {
-    "title": "Key Partners",
-    "text-1": "+ 1,300 helplines in over 130 countries",
-    "text-2": "Free emotional support, anywhere, anytime",
+    "title": "Partner principali",
+    "text-1": "+ {countHelplines} linee di assistenza in oltre {countCountries} paesi",
+    "text-2": "Supporto emotivo gratuito, ovunque, in qualsiasi momento",
     "cards": {
-      "card-1-title": "Quick",
-      "card-1-info": "Connect with a helpline for support today.",
-      "card-2-title": "Talk with a human",
-      "card-2-info": "Get support from a trained volunteer, counselor or peer.",
-      "card-3-title": "Confidential",
-      "card-3-info": "Feel comfortable to share what’s on your mind."
+      "card-1-title": "Rapido",
+      "card-1-info": "Collegati con una linea di assistenza per supporto oggi.",
+      "card-2-title": "Parla con una persona",
+      "card-2-info": "Ricevi supporto da un volontario formato, un consulente o un pari.",
+      "card-3-title": "Confidenziale",
+      "card-3-info": "Sentiti a tuo agio nel condividere ciò che hai in mente."
     },
-    "aloneTitle":"You don’t have to go through this alone.",
-    "aloneSubtitle":"If you are struggling today, need support with your mental health, or have experienced a traumatic event, consider contacting a helpline. It’s free, anonymous and confidential.",
-    "helplineConcept":"What are helplines?",
-    "helplineConceptText-1":"Helplines (also known as hotlines or crisis lines) provide immediate crisis counseling, emotional support and information – for free.",
-    "helplineConceptText-2":"Most helpline phone numbers are toll-free and many helplines are available over text message or online chat. Helplines are often available 24/7, so you can contact them at any time of the day or night.",
-    "helplineConceptSupport":"How will a helpline support me?",
-    "helplineConceptSupportText-1":"Helplines provide a judgment-free space for you to talk through difficult emotions and experiences, receive support, and connect to other resources that can help you.",
-    "helplineConceptSupportText-2":"Talking helps, and research has shown that people feel less distressed after contacting helplines.",
-    "talkTohelpleAbout":"What can I talk to a helpline about?",
-    "talkTohelpleAboutText-1":"The most common types of helpline are suicide prevention hotlines, domestic violence hotlines and sexual assault hotlines.",
-    "talkTohelpleAboutText-2":"However, helplines are available for a wide range of mental health and emotional struggles including anxiety, depression, gender or sexual identity, substance use and much more.",
-    "talkTohelpleAboutText-3":"You don't have to be suicidal or in a severe situation to contact a helpline. You might just need to talk, or want information on supporting others.",
-    "findHelpline":"How do I find the best helpline for me?",
-    "findHelplineText-1":"In some countries, many helplines are available. For example, if you live in the United States, popular nationwide helplines are the 988 Suicide & Crisis Lifeline, Crisis Text Line and TrevorLifeline.",
-    "findHelplineText-2":"When you search for a helpline on Find A Helpline, our intelligent ranking algorithm will recommend the best helplines for you.",
-    "findHelplineText-3":"You can also further filter according to your needs, and read helpline descriptions to learn more about the service each helpline provides.",
-    "findHelplineText-4":"Because helplines are free, you can contact more than one service to find the right one for you.",
-    "whatToExpectButton" : "What to expect" 
+    "aloneTitle": "Non devi affrontare tutto questo da solo.",
+    "aloneSubtitle": "Se stai lottando oggi, hai bisogno di supporto per la tua salute mentale o hai vissuto un evento traumatico, considera di contattare una linea di assistenza. È gratuito, anonimo e confidenziale.",
+    "helplineConcept": "Cosa sono le linee di assistenza?",
+    "helplineConceptText-1": "Le linee di assistenza (note anche come hotline o linee di crisi) forniscono consulenza immediata per crisi, supporto emotivo e informazioni – gratuitamente.",
+    "helplineConceptText-2": "La maggior parte dei numeri di telefono delle linee di assistenza sono gratuiti e molte linee di assistenza sono disponibili tramite messaggi di testo o chat online. Le linee di assistenza sono spesso disponibili 24/7, quindi puoi contattarle in qualsiasi momento del giorno o della notte.",
+    "helplineConceptSupport": "Come mi supporterà una linea di assistenza?",
+    "helplineConceptSupportText-1": "Le linee di assistenza offrono uno spazio senza giudizi per parlare di emozioni ed esperienze difficili, ricevere supporto e connettersi ad altre risorse che possono aiutarti.",
+    "helplineConceptSupportText-2": "Parlare aiuta, e la ricerca ha dimostrato che le persone si sentono meno angosciate dopo aver contattato le linee di assistenza.",
+    "talkTohelpleAbout": "Di cosa posso parlare con una linea di assistenza?",
+    "talkTohelpleAboutText-1": "I tipi più comuni di linee di assistenza sono le hotline per la prevenzione del suicidio, le hotline per la violenza domestica e le hotline per le aggressioni sessuali.",
+    "talkTohelpleAboutText-2": "Tuttavia, le linee di assistenza sono disponibili per una vasta gamma di problemi di salute mentale ed emotivi, inclusi ansia, depressione, identità di genere o sessuale, uso di sostanze e molto altro.",
+    "talkTohelpleAboutText-3": "Non devi essere suicida o in una situazione grave per contattare una linea di assistenza. Potresti semplicemente aver bisogno di parlare o desiderare informazioni su come supportare gli altri.",
+    "findHelpline": "Come trovo la migliore linea di assistenza per me?",
+    "findHelplineText-1": "In alcuni paesi, sono disponibili molte linee di assistenza. Ad esempio, se vivi negli Stati Uniti, le linee di assistenza nazionali popolari sono la 988 Suicide & Crisis Lifeline, Crisis Text Line e TrevorLifeline.",
+    "findHelplineText-2": "Quando cerchi una linea di assistenza su Find A Helpline, il nostro algoritmo di classificazione intelligente ti consiglierà le migliori linee di assistenza per te.",
+    "findHelplineText-3": "Puoi anche filtrare ulteriormente in base alle tue esigenze e leggere le descrizioni delle linee di assistenza per saperne di più sul servizio che ciascuna fornisce.",
+    "findHelplineText-4": "Poiché le linee di assistenza sono gratuite, puoi contattare più di un servizio per trovare quello giusto per te.",
+    "whatToExpectButton": "Cosa aspettarsi"
   },
-  "helpline-and-Country":{
-    "title":"We partner with verified helplines in 130+ countries",
-    "InfoText-1":"Find A Helpline is powered by ThroughLine, the largest, most accurate helpline resource in the world.",
-    "InfoText-2":"We hold relationships with helpline organisations and crisis centers in over 130 countries, who verify their information with us directly.",
-    "InfoText-3":"Other services and websites provide long lists of out-of-date information, but we work daily to keep our information accurate and easy to use – both for the people who need immediate support and for the partners who rely on us.",
-    "OtherServices":"Other services",
-    "OtherServicesText-1":"Some countries",
-    "OtherServicesText-2":"Outdated websites & phone numbers",
-    "OtherServicesText-3":"Difficult to find the right service",
-    "findAHelpline":"Find a Helpline",
-    "findAHelplineText-1":"Global coverage",
-    "findAHelplineText-2":"Verified data, maintained daily",
-    "findAHelplineText-3":"AI-powered intelligent ranking",
-    "europe":"Europe",
-    "hotlinesbycountry":"Helplines & hotlines by country",
-    "hotlinesbyTopic":"Helplines & hotlines by topic",
-    "Quick":"Quick link",
-    "Suicidal":"Suicidal Thoughts",
-      "topics": {
-        "domestic abuse and violence": "Domestic abuse and violence",
-        "anxiety": "Anxiety",
-        "moral harassment": "Moral harassment",
-        "dementia and Alzheimer's": "Dementia and Alzheimer's",
-        "depression": "Depression",
-        "eating disorders and body image": "Eating disorders and body image",
-        "family": "Family",
-        "gambling": "Gambling",
-        "gender and sexual identity": "Gender and sexual identity",
-        "grief and loss": "Grief and loss",
-        "loneliness": "Loneliness",
-        "fatherhood": "Fatherhood",
-        "physical illness": "Physical illness",
-        "pregnancy and abortion": "Pregnancy and abortion",
-        "relationships": "Relationships",
-        "school and work": "School and work",
-        "self-harm": "Self-harm",
-        "sexual abuse": "Sexual abuse",
-        "stress": "Stress",
-        "substance abuse": "Substance abuse",
-        "suicide": "Suicide",
-        "supporting others": "Supporting others",
-        "trauma and PTSD": "Trauma and PTSD"
-      }
-    
-  },
-  "ReasonToContact":{
-    "title":"Common reasons for contacting a helpline",
-    "text-1":"Unsure if contacting a helpline is right for you? Here are some reasons other people have sought free, confidential support from a helpline or hotline:",
-    "li":{
-      "li-1":"Experiencing a suicidal crisis, such as thinking “I want to die” or about how to kill yourself, or wanting support after attempting to take your life.",
-      "li-2":"Experiencing domestic abuse or violence, sexual abuse, depression, anxiety, or other emotional distress.",
-      "li-3":"Struggling with self-harm, an addiction or substance use challenge, your body image or an eating disorder.",
-      "li-4":"Noticing warning signs in a loved one, feeling concerned someone may be at risk of hurting themselves, or wanting to know how to help someone you’re worried about.",
-      "li-5":"Wanting to learn about mental health crisis services, suicide prevention, general mental health services and resources.",
-      "li-6":"Just simply thinking “I need help” and not knowing where to start."
+  "helpline-and-Country": {
+    "title": "Collaboriamo con linee di assistenza verificate in oltre 130 paesi",
+    "InfoText-1": "Find A Helpline è gestito da ThroughLine, la risorsa di linee di assistenza più grande e accurata al mondo.",
+    "InfoText-2": "Abbiamo relazioni con organizzazioni di linee di assistenza e centri di crisi in oltre 130 paesi, che verificano direttamente le loro informazioni con noi.",
+    "InfoText-3": "Altri servizi e siti web forniscono lunghi elenchi di informazioni obsolete, ma noi lavoriamo quotidianamente per mantenere le nostre informazioni accurate e facili da usare – sia per le persone che hanno bisogno di supporto immediato sia per i partner che si affidano a noi.",
+    "OtherServices": "Altri servizi",
+    "OtherServicesText-1": "Alcuni paesi",
+    "OtherServicesText-2": "Siti web e numeri di telefono obsoleti",
+    "OtherServicesText-3": "Difficile trovare il servizio giusto",
+    "findAHelpline": "Trova una linea di assistenza",
+    "findAHelplineText-1": "Copertura globale",
+    "findAHelplineText-2": "Dati verificati, aggiornati quotidianamente",
+    "findAHelplineText-3": "Classificazione intelligente basata su AI",
+    "europe": "Europa",
+    "hotlinesbycountry": "Linee di assistenza e hotline per paese",
+    "hotlinesbyTopic": "Linee di assistenza e hotline per argomento",
+    "Quick": "Link rapido",
+    "Suicidal": "Pensieri suicidi",
+    "topics": {
+      "domestic abuse and violence": "Abusi domestici e violenza",
+      "anxiety": "Ansia",
+      "moral harassment": "Molestie morali",
+      "dementia and alzheimer's": "Demenza e Alzheimer",
+      "dementia and Alzheimer's": "Demenza e Alzheimer",
+      "alzheimer's": "Alzheimer",
+      "depression": "Depressione",
+      "eating disorders and body image": "Disturbi alimentari e immagine corporea",
+      "family": "Famiglia",
+      "gambling": "Gioco d'azzardo",
+      "gender and sexual identity": "Identità di genere e sessuale",
+      "grief and loss": "Lutto e perdita",
+      "loneliness": "Solitudine",
+      "fatherhood": "Paternità",
+      "physical illness": "Malattia fisica",
+      "pregnancy and abortion": "Gravidanza e aborto",
+      "relationships": "Relazioni",
+      "school and work": "Scuola e lavoro",
+      "self-harm": "Autolesionismo",
+      "sexual abuse": "Abuso sessuale",
+      "stress": "Stress",
+      "substance abuse": "Abuso di sostanze",
+      "suicide": "Suicidio",
+      "suicide prevention": "Prevenzione del suicidio",
+      "supporting others": "Supportare gli altri",
+      "trauma and PTSD": "Trauma e PTSD",
+      "trauma and ptsd": "Trauma e PTSD",
+      "mental health": "Salute mentale",
+      "domestic violence": "Violenza domestica",
+      "abuse": "Abuso",
+      "trauma": "Trauma",
+      "emotional support": "Supporto emotivo",
+      "panic attacks": "Attacchi di panico",
+      "phobias": "Fobie",
+      "bullying": "Bullismo",
+      "online support": "Supporto online",
+      "self-help": "Auto-aiuto",
+      "mental health support": "Supporto per la salute mentale",
+      "schizophrenia": "Schizofrenia",
+      "bipolar disorder": "Disturbo bipolare",
+      "research": "Ricerca",
+      "support groups": "Gruppi di supporto",
+      "psychiatry": "Psichiatria",
+      "information": "Informazioni",
+      "crisis support": "Supporto per crisi",
+      "therapy": "Terapia",
+      "treatment": "Trattamento",
+      "education": "Educazione",
+      "neurology": "Neurologia",
+      "mental health awareness": "Consapevolezza sulla salute mentale",
+      "social inclusion": "Inclusione sociale",
+      "advocacy": "Advocacy",
+      "public health": "Salute pubblica",
+      "mental health programs": "Programmi per la salute mentale",
+      "mental health services": "Servizi per la salute mentale",
+      "health promotion": "Promozione della salute",
+      "mental health research": "Ricerca sulla salute mentale",
+      "health services": "Servizi sanitari",
+      "mental health care": "Cura della salute mentale"
     }
   },
-  "Companies":{
-    "title":"For Businesses & Organizations",
-    "scaling":"Scaling & maintaining global support resources is challenging & costly. We make it easy.",
-    "text-1":"Find A Helpline is a public service by ThroughLine. It's part of our mission to ease every emotional crisis, globally.",
-    "text-2":"ThroughLine empowers online communities and platforms to protect their users and brand reputation through verified crisis support resources.",
-    "trustedBy":"Trusted by",
-    "more":"more",
-    "becomePartner":"Become a partner",
-    "cards":{
-      "card-1-title":"Reach every user",
-      "card-1-info":"Verified helplines in 130+ countries.",
-      "card-2-title":"Support diverse needs",
-      "card-2-info":"Coverage for 21 topics and 15 specialties.",
-      "card-3-title":"Streamline access to help",
-      "card-3-info":"Launch-ready, customizable product experiences."
+  "ReasonToContact": {
+    "title": "Motivi comuni per contattare una linea di assistenza",
+    "text-1": "Non sei sicuro se contattare una linea di assistenza sia giusto per te? Ecco alcuni motivi per cui altre persone hanno cercato supporto gratuito e confidenziale da una linea di assistenza o hotline:",
+    "li": {
+      "li-1": "Vivere una crisi suicida, come pensare 'Voglio morire' o su come toglierti la vita, o desiderare supporto dopo aver tentato di toglierti la vita.",
+      "li-2": "Sperimentare abusi domestici o violenza, abusi sessuali, depressione, ansia o altri disagi emotivi.",
+      "li-3": "Lottare con l'autolesionismo, una dipendenza o una sfida con l'uso di sostanze, l'immagine corporea o un disturbo alimentare.",
+      "li-4": "Notare segnali di allarme in una persona cara, sentirsi preoccupati che qualcuno possa essere a rischio di farsi del male, o voler sapere come aiutare qualcuno di cui sei preoccupato.",
+      "li-5": "Voler conoscere i servizi per le crisi di salute mentale, la prevenzione del suicidio, i servizi generali di salute mentale e le risorse.",
+      "li-6": "Semplicemente pensare 'Ho bisogno di aiuto' e non sapere da dove iniziare."
+    }
+  },
+  "Companies": {
+    "title": "Per aziende e organizzazioni",
+    "scaling": "Scalare e mantenere risorse di supporto globali è impegnativo e costoso. Noi lo rendiamo facile.",
+    "text-1": "Find A Helpline è un servizio pubblico di ThroughLine. Fa parte della nostra missione di alleviare ogni crisi emotiva, a livello globale.",
+    "text-2": "ThroughLine consente alle comunità online e alle piattaforme di proteggere i loro utenti e la reputazione del marchio attraverso risorse di supporto per crisi verificate.",
+    "trustedBy": "Fidato da",
+    "more": "di più",
+    "becomePartner": "Diventa partner",
+    "cards": {
+      "card-1-title": "Raggiungi ogni utente",
+      "card-1-info": "Linee di assistenza verificate in oltre 130 paesi.",
+      "card-2-title": "Supporta esigenze diverse",
+      "card-2-info": "Copertura per 21 argomenti e 15 specialità.",
+      "card-3-title": "Semplifica l'accesso all'aiuto",
+      "card-3-info": "Esperienze di prodotto personalizzabili, pronte per il lancio."
     },
-    "learnMore":"Learn more"
+    "learnMore": "Scopri di più"
   },
-  "Footer":{
-    "title-1":"Find A Helpline is a public service made with ♡ by",
-    "title-2":"For business or commercial use",
-    "getIntouch":"get in touch",
-    "Copyright":"Copyright ©",
-    "rights":"All rights reserved."
+  "Footer": {
+    "title-1": "Find A Helpline è un servizio pubblico realizzato con ♡ da",
+    "title-2": "Per uso aziendale o commerciale",
+    "getIntouch": "contattaci",
+    "Copyright": "Copyright ©",
+    "rights": "Tutti i diritti riservati."
   },
-    "Faqs": {
-      "title": "What to expect when contacting a helpline",
-      "intro-1": "Asking for help is one of the bravest — and hardest — things you can do when you're struggling.",
-      "intro-2": "Helplines — also known as crisis lines, support lines, or crisis call centers — provide immediate emotional support to people everywhere, worldwide!",
-      "intro-3": "If you're used to keeping things to yourself or have never contacted a helpline before, you might not know what to expect. This can add extra stress to an already difficult situation.",
-      "intro-4": "For some people, knowing what to expect can relieve that stress and make it easier to reach out.",
-      "intro-5": "Here are some frequently asked questions:",
-      "list": [
-        {
-          "q": "Who will I be talking to?",
-          "a": "<p>Generally, you’ll have three options for who you might talk to on a helpline:</p><ul><li><b>Volunteers –</b> people with some training on how to listen and support. They work unpaid.</li><li><b>Counselors –</b> people whose job is to give advice or support. They may have formal training.</li><li><b>Peers –</b> people who have gone through similar experiences. They may have training and often work unpaid.</li></ul><p>Whoever you talk to, everyone on a helpline is trained to listen and offer support.</p><p>You can filter helplines based on the kind of support you’re looking for.</p>"
-        },
-        {
-          "q": "What should I say?",
-          "a": "<p>Many people don’t know what to say when they call for help. It can be hard to know where to begin when you’re feeling overwhelmed.</p><h2>Starting the conversation</h2><p>Try practicing what you want to say or write down a few thoughts to guide your conversation.</p><p>Here are some sentence starters:</p><ul><li>Things are hard right now because…</li><li>Lately I’ve been feeling…</li><li>I’m dealing with [emotion or situation] right now, and…</li></ul><h2>There’s no wrong way to say it</h2><p>The person on the other end is there for you. They want to hear your story and understand what you’re going through. Share as much as you’re comfortable with — there’s no pressure.</p>"
-        },
-        {
-          "q": "How will they help me?",
-          "a": "<p>Helplines are a safe, judgment-free space for immediate information and emotional support.</p><h2>You can talk about anything</h2><p>You can reach out no matter how big or small your issue feels. You don’t need to be in crisis to deserve support — the person on the line will listen and help you figure out your next steps.</p><h2>You’ll get help and feel safer</h2><p>If you are in crisis and need immediate help, the helpline will help you stay calm and safe. They may ask if you’re thinking of harming yourself. They’ll listen, understand the intensity of your feelings, and help you make a plan to stay safe.</p><h2>You’ll find the right support</h2><p>Some helplines offer specialized support or serve specific groups.</p><p>For example, LGBTQ+ callers might prefer a helpline trained to support their needs.</p><p>Helplines are categorized by topic and specialization, so you’ll always know who they support and how.</p>"
-        },
-        {
-          "q": "Can I just talk?",
-          "a": "<p>Many people feel this way. Most helplines aren’t just for serious problems — they’re there for anyone who needs to talk.</p><p>There are also “warm lines” — helplines designed just for conversation. These are often staffed by people who’ve been through tough times themselves.</p><p>You can find warm lines using the filter options when searching for support.</p>"
-        },
-        {
-          "q": "Do I need a phone?",
-          "a": "<p>Many helplines offer support via text, WhatsApp, or online chat. When browsing helplines, you’ll see what contact options are available.</p><p>Some people find texting more private or informal, which can make it easier to open up.</p>"
-        },
-        {
-          "q": "Will they call the police?",
-          "a": "<p>Some people worry that asking for help might trigger a police response — and that can be really stressful. Most helplines are required to keep your information private, unless they believe you or someone else is in immediate danger.</p><p>If you're having suicidal thoughts, helplines are there to help you stay safe, not to call the police — unless you’re actively planning to harm yourself or others and no plan can be made to stay safe.</p><p>You can ask about their privacy policy before sharing your situation.</p>"
-        },
-        {
-          "q": "What if my thoughts are too intense?",
-          "a": "<p>When thoughts feel overwhelming, it might seem too hard to talk about them. You might worry about how others will react.</p><p>Helpline workers are trained to listen. They know how to support people going through what you’re going through.</p><p>They won’t judge you — they’ll help you figure out what to do next in a way that works for you.</p>"
-        },
-        {
-          "q": "What if I don’t trust professionals?",
-          "a": "<p>While professional support can be helpful, we understand it’s not the right fit for everyone.</p><p>There are other options:</p><ul><li><b>Volunteers –</b> most helplines are run by volunteers. They do it because they care about helping people going through tough times.</li><li><b>Peers –</b> some helplines connect you with people who’ve been through similar experiences.</li><li><b>Warm lines –</b> helplines staffed by people who’ve had their own mental health struggles.</li></ul><p>When browsing helplines, you can filter for the kind of support you’re most comfortable with.</p>"
+  "Faqs": {
+    "title": "Cosa aspettarsi quando contatti una linea di assistenza",
+    "intro": {
+      "p1": "Chiedere aiuto è una delle cose più coraggiose—e difficili—che puoi fare quando stai lottando.",
+      "p2": "Le linee di assistenza — note anche come linee di crisi, hotline di supporto o centri di chiamata per il supporto emotivo — offrono supporto emotivo immediato a persone in tutto il mondo.",
+      "p3": "Se sei abituato a tenere le cose per te o non hai mai contattato una linea di assistenza prima, potresti non sapere cosa aspettarti. Quella incertezza può aggiungere stress extra a una situazione già difficile.",
+      "p4": "Per alcune persone, sapere cosa aspettarsi può alleviare quello stress e rendere più facile cercare aiuto.",
+      "p5": "Ecco alcune risposte alle domande frequenti:"
+    },
+    "questions": {
+      "title-1": {
+        "q": "Con chi parlerò?",
+        "a": {
+          "p1": "Nella maggior parte dei casi, avrai uno di tre tipi di persone dall'altra parte della linea di assistenza:",
+          "p2": "Volontari – persone con una certa formazione su come ascoltare e aiutare. Non sono pagati per il loro lavoro.",
+          "p3": "Consulenti – professionisti formati per fornire consigli e supporto. Potrebbero avere una formazione formale in psicologia o salute mentale.",
+          "p4": "Pari – persone che hanno vissuto situazioni simili. Potrebbero anche avere formazione. Di solito, non sono pagati.",
+          "p5": "Indipendentemente da chi parli, tutti coloro che lavorano in una linea di assistenza sono formati per ascoltare e supportarti.",
+          "p6": "Quando cerchi una linea di assistenza, puoi filtrare per il tipo di supporto che stai cercando.",
+          "p7": "",
+          "p8": "",
+          "p9": ""
         }
-      ]
+      },
+      "title-2": {
+        "q": "Cosa dovrei dire?",
+        "a": {
+          "p1": "Molte persone non sanno cosa dire quando chiamano per aiuto. Può essere difficile sapere da dove iniziare quando ti senti già sopraffatto.",
+          "p2": "Iniziare la conversazione",
+          "p3": "Prova a esercitarti su cosa vuoi dire o a scrivere alcuni punti di cui parlare.",
+          "p4": "Ecco alcune frasi che potrebbero aiutarti:",
+          "p5": "Ultimamente è stato difficile perché...",
+          "p6": "Ultimamente, mi sento...",
+          "p7": "Sto affrontando [sentimento o situazione] in questo momento, e...",
+          "p8": "Non c'è un modo sbagliato per dirlo",
+          "p9": "La persona dall'altra parte è lì per te. Vuole ascoltare la tua storia e capire cosa stai passando. Puoi condividere quanto vuoi, senza pressione."
+        }
+      },
+      "title-3": {
+        "q": "Come mi aiuteranno?",
+        "a": {
+          "p1": "Le linee di assistenza sono uno spazio sicuro e non giudicante per il supporto emotivo immediato e informazioni.",
+          "p2": "Puoi parlare di qualsiasi cosa",
+          "p3": "Puoi contattare una linea di assistenza indipendentemente da quanto grande o piccolo sembri il tuo problema. Non devi essere in crisi per meritare supporto—la persona in linea ti ascolterà e lavorerà con te per capire i prossimi passi.",
+          "p4": "Ti aiuteranno a sentirti al sicuro",
+          "p5": "Se sei in crisi e hai bisogno di aiuto immediato, la linea di assistenza ti supporterà nel mantenere la calma e la sicurezza. Potrebbero farti domande per capire se stai pensando all'autolesionismo e aiutarti a creare un piano per rimanere al sicuro in quel momento.",
+          "p6": "Troverai l'aiuto giusto",
+          "p7": "Alcune linee di assistenza sono specializzate in determinati tipi di supporto o gruppi specifici di persone.",
+          "p8": "Ad esempio, i chiamanti LGBTQ+ potrebbero sentirsi più a loro agio a parlare con una linea di assistenza formata su quelle esperienze.",
+          "p9": "Le linee di assistenza sono categorizzate per argomento e specialità, quindi sarà chiaro che tipo di supporto forniscono e chi servono."
+        }
+      },
+      "title-4": {
+        "q": "Posso solo parlare?",
+        "a": {
+          "p1": "Molte persone si sentono così. La maggior parte delle linee di assistenza non sono solo per grandi problemi. Sono qui per chiunque abbia bisogno di qualcuno con cui parlare.",
+          "p2": "Ci sono anche 'linee calde'—linee di assistenza specificamente per la conversazione. Queste sono spesso gestite da persone che hanno vissuto momenti difficili loro stesse.",
+          "p3": "Puoi trovare linee calde utilizzando il filtro di specialità nella tua ricerca di linee di assistenza.",
+          "p4": "",
+          "p5": "",
+          "p6": "",
+          "p7": "",
+          "p8": "",
+          "p9": ""
+        }
+      },
+      "title-5": {
+        "q": "Ho bisogno di un telefono?",
+        "a": {
+          "p1": "Molte linee di assistenza offrono servizi tramite testo, WhatsApp o chat online. Quando cerchi una linea di assistenza, vedrai i tipi di contatto che ciascuna offre.",
+          "p2": "Alcune persone trovano che inviare messaggi sia meno formale e più privato, il che può rendere più facile aprirsi.",
+          "p3": "",
+          "p4": "",
+          "p5": "",
+          "p6": "",
+          "p7": "",
+          "p8": "",
+          "p9": ""
+        }
+      },
+      "title-6": {
+        "q": "Chiameranno la polizia?",
+        "a": {
+          "p1": "Alcune persone temono che la polizia venga contattata se chiedono aiuto. Quella paura può essere travolgente.",
+          "p2": "La maggior parte delle linee di assistenza si impegna a mantenere le tue informazioni private a meno che non credano che tu o qualcun altro sia in pericolo immediato.",
+          "p3": "Se hai pensieri suicidi, le linee di assistenza lavoreranno con te per rimanere al sicuro e non coinvolgeranno la polizia a meno che tu non stia pianificando attivamente di farti del male o agli altri e non si possa fare un piano per rimanere al sicuro.",
+          "p4": "Puoi chiedere informazioni sulla politica di riservatezza di una linea di assistenza prima di condividere dettagli sulla tua situazione.",
+          "p5": "",
+          "p6": "",
+          "p7": "",
+          "p8": "",
+          "p9": ""
+        }
+      },
+      "title-7": {
+        "q": "E se i miei pensieri sono troppo intensi?",
+        "a": {
+          "p1": "Quando i tuoi pensieri sono intensi, potresti sentirti come se fosse troppo difficile parlarne. Potresti preoccuparti di come qualcuno reagirà.",
+          "p2": "Il personale delle linee di assistenza è formato per ascoltare. Sanno come supportare le persone che stanno passando per ciò che stai vivendo.",
+          "p3": "Non ti giudicheranno. Ti aiuteranno a capire cosa fare dopo in un modo che funzioni per te.",
+          "p4": "",
+          "p5": "",
+          "p6": "",
+          "p7": "",
+          "p8": "",
+          "p9": ""
+        }
+      },
+      "title-8": {
+        "q": "E se non mi fido dei professionisti?",
+        "a": {
+          "p1": "Sebbene il supporto professionale possa essere molto utile, comprendiamo che non è adatto a tutti.",
+          "p2": "Ci sono altre opzioni disponibili:",
+          "p3": "Volontari – la maggior parte delle linee di assistenza è gestita da volontari che desiderano supportare le persone che stanno passando per momenti difficili.",
+          "p4": "Pari – alcune linee di assistenza ti collegano con persone che hanno affrontato sfide simili.",
+          "p5": "Linee calde – linee di supporto dove tutti dall'altra parte hanno vissuto lotte per la salute mentale loro stessi.",
+          "p6": "Quando cerchi una linea di assistenza, puoi filtrare per queste opzioni per trovare il tipo di supporto con cui ti senti più a tuo agio.",
+          "p7": "",
+          "p8": "",
+          "p9": ""
+        }
+      }
     },
-  "Links":{
+    "findAHelpline": "Trova una linea di assistenza"
+  },
+  "Links": {
     "name-1": "Home",
-    "name-2": "About",
+    "name-2": "Chi siamo",
     "name-3": "FAQ",
-    "name-4": "Integrations",
-    "name-5": "Contact",
-    "name-6": "Terms of Service",
-    "name-7": "Privacy Policy"
+    "name-4": "Integrazioni",
+    "name-5": "Contatti",
+    "name-6": "Termini di servizio",
+    "name-7": "Informativa sulla privacy"
   },
-  "CountryCard":{
-    "title":"What would you like help with?",
-    "common":"Common topics",
-    "suicidal-thoughts":"Suicidal Thoughts",
-    "select":"Or select topic or topics ",
-    "optional":"optional",
-    "showMore":"show more",
-    "procure":"Search For Helplines"
+  "CountryCard": {
+    "title": "Con cosa vorresti aiuto?",
+    "common": "Argomenti comuni",
+    "suicidal-thoughts": "Pensieri suicidi",
+    "select": "O seleziona argomento o argomenti ",
+    "optional": "opzionale",
+    "showMore": "mostra di più",
+    "procure": "Cerca linee di assistenza"
   },
-  "CountryAndHelplines":{
-    "title":"Helplines in"
+  "CountryAndHelplines": {
+    "title": "Linee di assistenza in",
+    "About": "informazioni",
+    "Find": "Trova supporto in ",
+    "byTopic": "per argomento"
+  },
+  "HelplineCard": {
+    "open": "Aperto",
+    "alwaysOpen": "24 ore al giorno, ogni giorno",
+    "closed": "Chiuso",
+    "see": "Vedi orari di apertura",
+    "Counselors": "Consulenti",
+    "Volunteers": "Volontari",
+    "call": "Chiama"
+  },
+  "LangContainer": {
+    "title": "Lingua",
+    "close": "Chiudi"
+  },
+  "notFound": {
+    "title": "Risorsa non trovata",
+    "description1": "Abbiamo cercato in alto e in basso, ma non siamo riusciti a trovare il contenuto che stai cercando.",
+    "description2": {
+      "part1": "Se stai vivendo un disagio emotivo e vuoi parlare con qualcuno, cerca per paese e argomento",
+      "linkText": "qui",
+      "part2": ". Se non sei pronto a parlare, ecco alcune altre opzioni:"
+    },
+    "options": {
+      "videos": "Guarda video",
+      "videosDesc": " su come affrontare emozioni difficili (via Now Matters Now)",
+      "safetyPlan": "Crea un piano di sicurezza",
+      "safetyPlanDesc": " (via Vibrant Emotional Health)"
+    }
+  },
+  "topicsPage": {
+    "title": "Supporto per",
+    "nearYou": "Ottieni aiuto vicino a te:"
+  },
+  "privacy": {
+    "title": "Informativa sulla privacy",
+    "sections": {
+      "introduction": {
+        "title": "Introduzione",
+        "content": {
+          "p1": "ThroughLine Limited (noi, ci, nostro), è un'azienda con sede in Nuova Zelanda. Il nostro obiettivo principale è supportare le persone che stanno vivendo una crisi emotiva in tutto il mondo.",
+          "p2": "Nella fornitura dei nostri Servizi, ci impegniamo a rispettare il New Zealand Privacy Act 1993 (Legge) e il Regolamento Generale sulla Protezione dei Dati (GDPR) dell'Unione Europea quando trattiamo informazioni personali identificabili.",
+          "p3": "Questa politica stabilisce come raccoglieremo, utilizzeremo, divulgheremo e proteggeremo le tue informazioni personali identificabili per ciascuno dei nostri Servizi. Stabilisce anche come puoi accedere o richiedere una correzione delle informazioni personali identificabili che deteniamo su di te.",
+          "p4": "Questa politica non limita né esclude alcuno dei tuoi diritti ai sensi della Legge o del GDPR. Se desideri ulteriori informazioni sulla Legge, consulta lllink, e per maggiori informazioni sul GDPR, consulta lllink."
+        }
+      },
+      "changes": {
+        "title": "Modifiche a questa politica",
+        "content": {
+          "p1": "Potremmo modificare questa politica caricando una politica rivista sui nostri Siti web. La modifica si applicherà dalla data in cui carichiamo la politica rivista."
+        }
+      },
+      "definitions": {
+        "title": "Definizioni",
+        "content": "In questa politica:",
+        "terms": {
+          "PII": {
+            "term": "Informazioni personali identificabili",
+            "definition": "significa informazioni che potrebbero essere utilizzate da sole per identificare direttamente, contattare o localizzare con precisione un individuo. Questo include:"
+          },
+          "PIIExamples": {
+            "list": {
+              "item1": "indirizzi email personali",
+              "item2": "indirizzi postali",
+              "item3": "numeri di telefono",
+              "item4": "posizioni precise (come coordinate GPS)",
+              "item5": "nomi completi",
+              "item6": "nomi utente che contengono dati personali identificabili"
+            },
+            "excludes": "Interpretiamo le Informazioni personali identificabili per escludere, ad esempio:"
+          },
+          "nonPIIExamples": {
+            "list": {
+              "item1": "ID di cookie pseudonimi (falsi o mascherati)",
+              "item2": "ID pubblicitari pseudonimi",
+              "item3": "Indirizzi IP"
+            }
+          },
+          "services": {
+            "definition": "Servizi significa https://www.findahelpline.com, siti web con marchio partner su https://[companyname].findahelpline.com, e il widget incorporabile Find A Helpline che fornisce Find A Helpline su siti web di terze parti"
+          },
+          "websites": {
+            "term": "Siti web",
+            "definition": "significa https://www.findahelpline.com e siti web con marchio partner su https://[companyname].findahelpline.com"
+          },
+          "we": {
+            "term": "Noi, ci o nostro",
+            "definition": "significa ThroughLine Limited"
+          },
+          "you": {
+            "term": "Tu o tuo",
+            "definition": "si riferisce a te, l'individuo che utilizza i nostri Servizi"
+          }
+        }
+      },
+      "collection": {
+        "title": "Da chi raccogliamo informazioni personali identificabili?",
+        "content": {
+          "p1": "Nella fornitura dei nostri Servizi, raccogliamo Informazioni personali identificabili su di te solo quando fornisci tali informazioni tramite un modulo di contatto sui nostri Siti web.",
+          "p2": "Nella fornitura dei nostri Servizi agli utenti situati nell'Unione Europea, la nostra base per raccogliere ed elaborare le informazioni personali identificabili forniteci è il consenso ai sensi del GDPR. Se hai meno dell'età legale pertinente in cui puoi fornire il consenso alla raccolta dei tuoi dati personali, questo consenso deve essere stato fornito dal tuo genitore o tutore.",
+          "p3": "Dopo aver dato questo consenso, hai acconsentito alla raccolta e all'uso delle informazioni personali identificabili che fornisci nei modi descritti nella clausola 5 di questa politica.",
+          "p4": "Hai il diritto di revocare questo consenso in qualsiasi momento. Per farlo, contattaci via email a llllink."
+        }
+      },
+      "usePII": {
+        "title": "Come utilizziamo le tue informazioni personali identificabili?",
+        "content": {
+          "p1": "Nella fornitura dei nostri Servizi, le Informazioni personali identificabili che fornisci saranno utilizzate:"
+        },
+        "list": {
+          "item1": "per impegnarsi e rispondere alle comunicazioni con te;",
+          "item2": "per proteggere e/o far valere i nostri diritti e interessi legali, inclusa la difesa di qualsiasi reclamo;",
+          "item3": "per qualsiasi altro scopo autorizzato da te o dalla Legge."
+        }
+      },
+      "useAggregated": {
+        "title": "Come utilizziamo i dati aggregati?",
+        "content": {
+          "p1": "Nella fornitura dei nostri Servizi raccogliamo dati aggregati, che non includono informazioni personali identificabili, per scopi analitici. Questi dati aggregati saranno utilizzati:"
+        },
+        "list": {
+          "item1": "per fornire i nostri Servizi a te;",
+          "item2": "per condividere queste informazioni aggregate e anonimizzate con i fornitori di servizi collegati sul sito; partner che utilizzano il widget incorporabile o il sito web con marchio partner; o con i fornitori di supporto IT sottostanti i cui sistemi sono utilizzati nell'operazione di Find A Helpline;",
+          "item3": "per condurre ricerche e analisi statistiche su base anonimizzata;",
+          "item4": "per condividere versioni aggregate e anonimizzate di queste informazioni, ad esempio, in rapporti sulle tendenze di utilizzo del sito web e dei clienti, e in concomitanza con i nostri processi di sviluppo;",
+          "item5": "per capire generalmente chi sono gli utenti di Find A Helpline, come utilizzano i nostri Servizi e come possiamo migliorare la loro esperienza con Find A Helpline in futuro;",
+          "item6": "per proteggere e/o far valere i nostri diritti e interessi legali, inclusa la difesa di qualsiasi reclamo."
+        }
+      },
+      "retention": {
+        "title": "Per quanto tempo saranno conservate le informazioni raccolte da Find A Helpline?",
+        "content": {
+          "p1": "Conserviamo le informazioni fornite tramite Find A Helpline fino a quando non sono più necessarie per gli scopi per cui sono state ottenute."
+        }
+      },
+      "disclosure": {
+        "title": "Divulgazione di informazioni a terze parti",
+        "contentPII": {
+          "p1": "Divulgheremo Informazioni personali identificabili a terze parti solo nelle seguenti circostanze:"
+        },
+        "listPII": {
+          "item1": "a una persona che può richiederci di fornire le tue informazioni personali identificabili (ad esempio, un'autorità regolatoria);",
+          "item2": "a qualsiasi altra persona autorizzata dalla Legge o da un'altra legge (ad esempio, un'agenzia di applicazione della legge);",
+          "item3": "a qualsiasi altra persona autorizzata da te."
+        },
+        "contentAggregated": {
+          "p1": "Divulgheremo le informazioni aggregate a terze parti solo nelle seguenti circostanze:"
+        },
+        "listAggregated": {
+          "item1": "a qualsiasi attività che supporta i nostri servizi e prodotti, inclusi quei fornitori di servizi collegati sul sito o a qualsiasi persona che ospita o mantiene qualsiasi sistema IT sottostante o centro dati che utilizziamo per fornire i Servizi;",
+          "item2": "a una persona che può richiederci di fornire le tue informazioni personali identificabili (ad esempio, un'autorità regolatoria);",
+          "item3": "a qualsiasi altra persona autorizzata dalla Legge o da un'altra legge (ad esempio, un'agenzia di applicazione della legge);",
+          "item4": "a qualsiasi altra persona autorizzata da te."
+        },
+        "note": "Si prega di notare che un'attività che supporta i nostri servizi e prodotti potrebbe trovarsi al di fuori della Nuova Zelanda. Ciò potrebbe significare che le informazioni aggregate raccolte sono conservate ed elaborate al di fuori della Nuova Zelanda."
+      },
+      "cookies": {
+        "title": "Uso dei cookie su Find A Helpline",
+        "content": {
+          "p1": "I nostri Servizi utilizzano cookie tramite Google Analytics. Utilizziamo questi cookie per tracciare e analizzare dati non personali identificabili per saperne di più su come viene utilizzato Find A Helpline. Puoi disabilitare i cookie modificando le impostazioni del tuo browser, anche se ciò potrebbe significare che non puoi utilizzare tutte le funzionalità di Find A Helpline.",
+          "p2": "Gli script di Google Analytics sono incorporati nei nostri Siti web. Puoi trovare ulteriori informazioni sull'uso dei cookie da parte di Google Analytics qui: lllink. Non assistiamo né permettiamo a terze parti di trasmettere informazioni a Google che Google potrebbe utilizzare o riconoscere come informazioni personali identificabili.",
+          "p3": "I nostri Siti web utilizzano il sistema software reCaptcha quando completi una recensione del servizio o quando utilizzi il nostro modulo Contattaci. reCaptcha è regolato dalla politica e dai termini di servizio di Google.",
+          "p4": "I nostri Siti web utilizzano Hotjar per comprendere meglio le esigenze dei nostri utenti e ottimizzare i nostri Servizi e l'esperienza utente. Hotjar utilizza cookie e altre tecnologie per raccogliere dati sul comportamento dei nostri utenti e sui loro dispositivi. Ciò include l'indirizzo IP di un dispositivo (elaborato durante la tua sessione e memorizzato in forma non identificata), le dimensioni dello schermo del dispositivo, il tipo di dispositivo (identificatori univoci del dispositivo), le informazioni sul browser, la posizione geografica (solo paese) e la lingua preferita utilizzata per visualizzare il nostro sito web. Hotjar conserva queste informazioni per nostro conto in un profilo utente pseudonimizzato. Hotjar è contrattualmente vietato vendere qualsiasi dato raccolto per nostro conto."
+        }
+      },
+      "security": {
+        "title": "Protezione delle tue informazioni personali identificabili",
+        "content": {
+          "p1": "Adotteremo misure ragionevoli per mantenere le tue informazioni personali identificabili ottenute tramite qualsiasi dei nostri Servizi al sicuro da perdite, attività non autorizzate o altri abusi.",
+          "p2": "Sebbene adottiamo misure ragionevoli per mantenere connessioni internet sicure, se ci fornisci informazioni personali identificabili tramite internet, la fornitura di tali informazioni è a tuo rischio.",
+          "p3": "Potremmo condividere un link a siti web, servizi o altre piattaforme di terze parti sui nostri Siti web, o tramite qualsiasi altra comunicazione da noi a te. Inoltre, i nostri Servizi utilizzano Google Analytics, HotJar e il sistema software reCaptcha. Questi siti web, servizi, piattaforme e software di terze parti potrebbero avere le proprie politiche sulla privacy relative all'uso delle tue informazioni personali identificabili. Ti suggeriamo di rivedere le politiche sulla privacy di queste terze parti prima di fornire informazioni personali identificabili."
+        }
+      },
+      "rights": {
+        "title": "Accesso e correzione delle tue informazioni personali identificabili",
+        "eu": {
+          "title": "Utenti dell'Unione Europea",
+          "content": {
+            "p1": "Se sei un utente dei nostri Servizi situato nell'Unione Europea, hai il diritto ai sensi del GDPR di accedere alle tue informazioni personali identificabili, richiedere una correzione o cancellare tali informazioni."
+          }
+        },
+        "nz": {
+          "title": "Utenti della Nuova Zelanda",
+          "content": {
+            "p1": "Se sei un utente dei nostri Servizi situato in Nuova Zelanda, fatte salve alcune motivazioni di rifiuto stabilite nella Legge, hai il diritto di accedere alle tue informazioni personali identificabili facilmente recuperabili che deteniamo e di richiedere una correzione delle tue informazioni personali identificabili. Prima di esercitare questo diritto, avremo bisogno di prove per confermare che sei l'individuo a cui si riferiscono le informazioni personali identificabili. In merito a una richiesta di correzione, se pensiamo che la correzione sia ragionevole e siamo ragionevolmente in grado di modificare le informazioni personali identificabili, effettueremo la correzione il prima possibile. Se non effettuiamo la correzione, adotteremo misure ragionevoli per annotare sulle informazioni personali identificabili che hai richiesto la correzione."
+          }
+        },
+        "instructions": "Se desideri esercitare uno qualsiasi dei diritti sopra indicati a cui hai diritto, inviaci un'email a privacy@throughlinecare.com. La tua email dovrebbe fornire prove di chi sei e specificare i dettagli della tua richiesta (ad esempio, le informazioni personali identificabili, o la correzione, che stai richiedendo).",
+        "costNote": "Potremmo addebitarti i nostri costi ragionevoli per fornirti copie delle tue informazioni personali identificabili o per correggere tali informazioni.",
+        "contact": "Se hai domande riguardo a questa politica sulla privacy, contattaci a privacy@throughlinecare.com"
+      }
+    }
+  },
+  "terms": {
+    "title": "Termini di servizio",
+    "lastUpdated": "Ultimo aggiornamento: 17 giugno 2024.",
+    "about": {
+      "title": "Informazioni su questi termini",
+      "p1": "Questi Termini e Condizioni di Servizio (\"Termini\") si applicano al tuo utilizzo dei Siti web e dei Servizi forniti da ThroughLine Limited (\"noi\", \"ci\" o \"nostro\"). Prima di accedere e utilizzare i Servizi, devi accettare questi Termini. Accedendo ai nostri Servizi:",
+      "points": {
+        "1": "accetti di essere parte di questi Termini;",
+        "2": "accetti e consenti a questi Termini e di essere vincolato da essi;",
+        "3": "accetti che questi Termini saranno in vigore dalla prima volta che accedi ai Servizi e rimarranno in vigore fino alla loro cessazione."
+      },
+      "p3": "Aggiorneremo e apporteremo modifiche a questi Termini di tanto in tanto. Controlla frequentemente questi Termini per rimanere aggiornato su eventuali modifiche. Salvo diversa indicazione, qualsiasi modifica ha effetto immediato. Continuando ad accedere e utilizzare i nostri Servizi, accetti di essere vincolato dai Termini modificati.",
+      "p4": "Questi Termini sono stati aggiornati l'ultima volta il 17 giugno 2024."
+    },
+    "useOfServices": {
+      "title": "Uso dei Servizi",
+      "p1": "Puoi utilizzare i Servizi a condizione che rispetti questi Termini. Ci riserviamo il diritto di modificare, emendare o cessare la fornitura dei Servizi (o qualsiasi parte di essi) a te in qualsiasi momento a nostra esclusiva discrezione."
+    },
+    "restrictions": {
+      "title": "Restrizioni sull'uso",
+      "intro": "Non devi, senza il previo consenso scritto di ThroughLine:",
+      "points": {
+        "1": "utilizzare i Servizi per scopi commerciali o aziendali;",
+        "2": "sfruttare commercialmente, vendere, concedere in licenza o distribuire i Servizi o qualsiasi dato o qualsiasi prodotto che incorpori i risultati ottenuti utilizzando i Servizi;",
+        "3": "estrarre, disassemblare, decompilare, ingegnerizzare al contrario, tradurre, creare opere derivate o altrimenti cercare di rivelare la logica operativa di qualsiasi parte dei Servizi;",
+        "4": "condurre, facilitare, autorizzare o permettere qualsiasi estrazione di testo o dati o scraping web per qualsiasi scopo in relazione ai Servizi, o informazioni presenti in esso, incluso l'uso di qualsiasi tecnica o strumento analitico automatizzato come bot, scraper o strumenti di intelligenza artificiale;",
+        "5": "utilizzare o permettere l'uso dei Servizi allo scopo di addestrare tecnologie di intelligenza artificiale per generare testo, incluse tecnologie in grado di generare opere nello stesso stile di qualsiasi parte dei Servizi;",
+        "6": "utilizzare i Servizi per derivare il codice sorgente, le idee sottostanti, gli algoritmi, la struttura o l'organizzazione, o qualsiasi azione simile, in un modo che faciliti la creazione o lo sviluppo di un'API o qualsiasi funzionalità dei Servizi."
+      },
+      "compliance": "Riguardo al tuo accesso e utilizzo dei Servizi, rispetterai tutte le leggi, regole e regolamenti applicabili. Non devi utilizzare o permettere l'uso del Sito web e dei Servizi in un modo che tenti di eludere, o sia altrimenti incoerente con, i tuoi obblighi in (e previsti da) questi Termini o per qualsiasi scopo illegale, illecito o altrimenti improprio."
+    },
+    "externalLinks": {
+      "title": "Dichiarazione di non responsabilità sui link esterni",
+      "p1": "I Servizi contengono link ad altri siti web o risorse, inclusi numeri di telefono, SMS e numeri WhatsApp, che non controlliamo (\"Siti web esterni\"). Il nostro collegamento a Siti web esterni non costituisce un'approvazione da parte nostra. Stiamo semplicemente facilitando la tua capacità di accedere e cercare assistenza da fornitori di servizi di terze parti. Forniamo questi link per tua comodità e accetti che non siamo responsabili né responsabili per il contenuto di alcun Sito web esterno. L'uso dei Siti web esterni è soggetto ai termini e condizioni d'uso e alle politiche sulla privacy del fornitore dei Siti web esterni."
+    },
+    "intellectualProperty": {
+      "title": "Proprietà intellettuale",
+      "p1": "Noi (e i nostri licenziatari) possediamo tutti i diritti proprietari e di Proprietà Intellettuale nei Servizi.",
+      "p2": "Niente in questi Termini ti conferisce alcun diritto o interesse, licenza o permesso di utilizzare qualsiasi Proprietà Intellettuale nei Servizi o qualsiasi altra Proprietà Intellettuale posseduta da noi o dai nostri licenziatari o fornitori di terze parti, se non in conformità con questi Termini espressi."
+    },
+    "disclaimers": {
+      "title": "Dichiarazioni di non responsabilità sulle informazioni",
+      "p1": "Accetti che l'uso dei Servizi sia a tua esclusiva discrezione e rischio.",
+      "p2": "Forniamo informazioni e accesso a risorse su base generale e \"così com'è\", senza alcuna rappresentazione o garanzia (espressa o implicita).",
+      "p3": "Non dovresti utilizzare le nostre informazioni come sostituto di cure sanitarie professionali, trattamenti per la salute mentale, cure psichiatriche o terapie. Se stai vivendo un'emergenza medica o psicologica, contatta i servizi di emergenza locali.",
+      "p4": "Sebbene rivediamo periodicamente le informazioni di terze parti, non garantiamo la loro accuratezza e non siamo responsabili per l'affidamento su contenuti o linee di assistenza di terze parti.",
+      "p5": "Non garantiamo che i Servizi siano privi di errori o soddisfino le tue esigenze. Nella misura massima consentita dalla legge, tutte le altre garanzie e rappresentazioni sono escluse."
+    },
+    "liability": {
+      "title": "Responsabilità",
+      "p1": "Nella misura massima consentita dalla legge, noi (inclusi i nostri dipendenti, agenti e affiliati) escludiamo ogni responsabilità per danni, perdite o pregiudizi derivanti dall'uso dei Servizi.",
+      "p2": "Il tuo unico rimedio è limitato alla violazione del contratto. Non siamo responsabili per violazioni di legge, illeciti (inclusa la negligenza) o qualsiasi altra pretesa legale.",
+      "p3": "La nostra responsabilità massima nei tuoi confronti ai sensi di questi Termini è limitata a $100 in totale."
+    },
+    "privacy": {
+      "title": "Informativa sulla privacy",
+      "p1": "Consulta la nostra Informativa sulla privacy qui"
+    },
+    "maintenance": {
+      "title": "Manutenzione, Cessazione e Sospensione",
+      "p1": "Potremmo eseguire manutenzioni programmate ed emergenza, che potrebbero rendere i Servizi inaccessibili.",
+      "p2": "Potremmo sospendere o cessare il tuo accesso a nostra esclusiva discrezione se violi questi Termini. Devi smettere di utilizzare i Servizi immediatamente dopo la cessazione."
+    },
+    "forceMajeure": {
+      "title": "Forza Maggiore",
+      "p1": "Non siamo responsabili per eventuali ritardi o fallimenti nell'adempimento dei nostri obblighi dovuti a eventi al di fuori del nostro ragionevole controllo, come disastri naturali, guerre, epidemie o disordini civili."
+    },
+    "general": {
+      "title": "Generale",
+      "p1": "Se incontri problemi, ti preghiamo di notificarci a legal@throughlinecare.com.",
+      "p2": "Questi Termini sono regolati dalla legge della Nuova Zelanda e soggetti alla giurisdizione esclusiva dei tribunali della Nuova Zelanda.",
+      "p3": "Se non facciamo valere un termine, ciò non costituisce una rinuncia a quel termine o a qualsiasi altro diritto."
+    },
+    "definitions": {
+      "title": "Definizioni",
+      "introduction": "In questi Termini:",
+      "intellectualProperty": "Proprietà Intellettuale include tutti i diritti su brevetti, marchi, diritti d'autore, segreti commerciali, database e tecnologie correlate.",
+      "p1": "brevetti, marchi, marchi di servizio, diritto d'autore, disegni registrati, nomi commerciali, nomi di dominio, simboli e loghi;",
+      "p2": "domande di brevetto e domande per registrare marchi, marchi di servizio e disegni; e informazioni riservate, segreti commerciali e know-how e diritti su strumenti, tecniche, codice di programma per computer, database, invenzioni di dati, scoperte, sviluppi, segreti commerciali, informazioni e sequenze logiche (ridotte o meno a forma scritta o altra forma leggibile da macchina o umana).",
+      "services": "Servizi significa accesso e utilizzo dei nostri Siti web e strumenti (inclusi widget o API), ospitati sul nostro dominio o su siti web partner.",
+      "we": "Noi, ci o nostro si riferisce a ThroughLine Limited, inclusi i nostri dipendenti, direttori e appaltatori.",
+      "websites": "Siti web include https://www.throughlinecare.com, https://findahelpline.com e qualsiasi sito web con marchio partner come https://[companyname].findahelpline.com."
+    }
+  },
+  "organizations": {
+    "where": "Dove è disponibile {name}?",
+    "where-answer": "Disponibile a livello nazionale in {country}",
+    "whatLang": "Quali lingue supporta {name}?",
+    "talkto": "Di cosa posso parlare con {name}?",
+    "nowWhat": "Non è quello che stai cercando?",
+    "findAnother": "Trova un'altra linea di assistenza"
+  },
+  "languages": {
+    "portuguese": "Portoghese",
+    "spanish": "Spagnolo",
+    "french": "Francese",
+    "german": "Tedesco",
+    "dutch": "Olandese",
+    "english": "Inglese",
+    "italian": "Italiano",
+    "danish": "Danese",
+    "finnish": "Finlandese",
+    "swedish": "Svedese",
+    "norwegian": "Norvegese",
+    "polish": "Polacco",
+    "czech": "Ceco",
+    "hungarian": "Ungherese",
+    "slovak": "Slovacco",
+    "slovenian": "Sloveno",
+    "croatian": "Croato",
+    "bulgarian": "Bulgaro",
+    "romanian": "Rumeno",
+    "greek": "Greco",
+    "estonian": "Estone",
+    "latvian": "Lettone",
+    "lithuanian": "Lituano",
+    "maltese": "Maltese",
+    "catalan": "Catalano",
+    "russian": "Russo"
+  },
+  "contact": {
+    "title": "Hai una domanda? Facci sapere.",
+    "text-1": "Come possiamo aiutarti oggi?",
+    "subjects": {
+      "p1": "Problemi emotivi o di salute mentale",
+      "p2": "Partnership di prodotto",
+      "p3": "Partnership con linee di assistenza",
+      "p4": "Volontariato o impiego",
+      "p5": "Richiesta generale"
+    },
+    "introduction": {
+      "text-1": "Ci vuole molto coraggio per cercare supporto emotivo e per la salute mentale. Raggiungere è il primo passo per ottenere il supporto che meriti.",
+      "text-2": "Se stai vivendo una crisi emotiva e vuoi parlare con qualcuno, cerca il tuo paese e l'argomento con cui vorresti aiuto qui. Se non sei pronto a parlare, ecco alcune altre opzioni:",
+      "list": {
+        "p1": "Guarda video su come affrontare sentimenti difficili (via Now Matters Now)",
+        "p2": "Crea un piano di sicurezza (via Vibrant Emotional Health)"
+      }
+    },
+    "form": {
+      "emailPlaceholder": "Inserisci la tua email",
+      "emailError": "Inserisci un'email valida",
+      "subjectPlaceholder": "Oggetto",
+      "subjectError": "L'oggetto è obbligatorio",
+      "messagePlaceholder": "Il tuo messaggio",
+      "messageError": "Il messaggio è obbligatorio",
+      "send": "Invia un messaggio"
+    },
+    "success": {
+      "title": "Grazie per il tuo messaggio!",
+      "p1": "Ti risponderemo il prima possibile."
+    }
   }
 }

@@ -8,7 +8,13 @@ import { crimsonText } from "@/fonts/crismonText";
 import { useTranslations } from "@/hooks/useTranslations";
 import { Link } from "@/i18n/nagivation";
 
-export default function Partners() {
+export default function Partners({
+  countHelplines,
+  countCountries,
+}: {
+  countHelplines: number;
+  countCountries: number;
+}) {
   const t = useTranslations("Partners");
   const cards = [<Rapido />, <FaleComAPessoa />, <Confidencial />];
   return (
@@ -26,12 +32,15 @@ export default function Partners() {
               <Image fill src="/svg/LLI-logo-grey.svg" alt="LLI Logo" />
             </div>
           </div>
-          <p className="border-b border-border-0 text-texts-1 text-center pb-4">
-            {t("text-1")}
-          </p>
+          {countHelplines && countCountries && (
+            <p className="border-b border-border-0 text-texts-1 text-center pb-4">
+              {t("text-1", { countHelplines, countCountries })}
+            </p>
+          )}
         </div>
 
-        <h2 id="about"
+        <h2
+          id="about"
           className={`${crimsonText.className} text-texts-3 text-center leading-8 font-semibold text-3xl`}
         >
           {t("text-2")}
@@ -77,7 +86,7 @@ export default function Partners() {
               {t("helplineConcept")}
             </h2>
             {Array.from({ length: 2 }, (_, i) => (
-              <p key={i}  className="text-gray-700 mb-4">
+              <p key={i} className="text-gray-700 mb-4">
                 {t(`helplineConceptText-${i + 1}`)}
               </p>
             ))}

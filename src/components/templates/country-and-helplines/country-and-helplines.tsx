@@ -1,11 +1,10 @@
 "use client";
 
 import React, { memo, use, useEffect, useState } from "react";
-import { useConfig } from "@/context/config";
+import { useConfig } from "@/context/useContext";
 import HelplineCard from "@/components/ui/helpline-card";
 import { Country } from "@/lib/countries";
 import Link from "next/link";
-import { specializations } from "@/data/utils";
 import LoadingContainer from "../loading/loading-container";
 import NotFound from "@/components/templates/not-found/not-found";
 import { useLocale } from "next-intl";

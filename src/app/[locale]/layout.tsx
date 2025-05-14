@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation';
 import "@/styles/main.css";
 import Footer from "@/components/templates/Footer";
 import Header from "@/components/templates/Header";
-import { ConfigProvider } from "@/context/config";
+import { ConfigProvider } from "@/context/useContext";
 import { locales } from '@/i18n/config';
 
 const lato = Lato({

@@ -13,7 +13,7 @@ type PartnerCard = {
 
 export default function PartnerCard({ name, logo, info, classSets }: PartnerCard) {
   return (
-    <div className={`flex gap-6 items-center p-4 justify-center rounded-xl ${classSets}`}>
+    <div key={name} className={`flex gap-6 items-center p-4 justify-center rounded-xl ${classSets}`}>
       {logo}
       <div className="w-[80%] ">
         <h2 className={crimsonText.className + " font-semibold text-2xl"}>{name}</h2>

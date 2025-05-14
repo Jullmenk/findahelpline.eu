@@ -38,7 +38,7 @@
   },
   "Partners": {
     "title": "Key Partners",
-    "text-1": "+ 1,300 helplines in over 130 countries",
+    "text-1": "+ {countHelplines} helplines in over {countCountries} countries",
     "text-2": "Free emotional support, anywhere, anytime",
     "cards": {
       "card-1-title": "Quick",
@@ -185,48 +185,135 @@
     "Copyright":"Copyright ©",
     "rights":"All rights reserved."
   },
-    "Faqs": {
-      "title": "What to expect when contacting a helpline",
-      "intro-1": "Asking for help is one of the bravest — and hardest — things you can do when you're struggling.",
-      "intro-2": "Helplines — also known as crisis lines, support lines, or crisis call centers — provide immediate emotional support to people everywhere, worldwide!",
-      "intro-3": "If you're used to keeping things to yourself or have never contacted a helpline before, you might not know what to expect. This can add extra stress to an already difficult situation.",
-      "intro-4": "For some people, knowing what to expect can relieve that stress and make it easier to reach out.",
-      "intro-5": "Here are some frequently asked questions:",
-      "list": [
-        {
-          "q": "Who will I be talking to?",
-          "a": "<p>Generally, you’ll have three options for who you might talk to on a helpline:</p><ul><li><b>Volunteers –</b> people with some training on how to listen and support. They work unpaid.</li><li><b>Counselors –</b> people whose job is to give advice or support. They may have formal training.</li><li><b>Peers –</b> people who have gone through similar experiences. They may have training and often work unpaid.</li></ul><p>Whoever you talk to, everyone on a helpline is trained to listen and offer support.</p><p>You can filter helplines based on the kind of support you’re looking for.</p>"
-        },
-        {
-          "q": "What should I say?",
-          "a": "<p>Many people don’t know what to say when they call for help. It can be hard to know where to begin when you’re feeling overwhelmed.</p><h2>Starting the conversation</h2><p>Try practicing what you want to say or write down a few thoughts to guide your conversation.</p><p>Here are some sentence starters:</p><ul><li>Things are hard right now because…</li><li>Lately I’ve been feeling…</li><li>I’m dealing with [emotion or situation] right now, and…</li></ul><h2>There’s no wrong way to say it</h2><p>The person on the other end is there for you. They want to hear your story and understand what you’re going through. Share as much as you’re comfortable with — there’s no pressure.</p>"
-        },
-        {
-          "q": "How will they help me?",
-          "a": "<p>Helplines are a safe, judgment-free space for immediate information and emotional support.</p><h2>You can talk about anything</h2><p>You can reach out no matter how big or small your issue feels. You don’t need to be in crisis to deserve support — the person on the line will listen and help you figure out your next steps.</p><h2>You’ll get help and feel safer</h2><p>If you are in crisis and need immediate help, the helpline will help you stay calm and safe. They may ask if you’re thinking of harming yourself. They’ll listen, understand the intensity of your feelings, and help you make a plan to stay safe.</p><h2>You’ll find the right support</h2><p>Some helplines offer specialized support or serve specific groups.</p><p>For example, LGBTQ+ callers might prefer a helpline trained to support their needs.</p><p>Helplines are categorized by topic and specialization, so you’ll always know who they support and how.</p>"
-        },
-        {
-          "q": "Can I just talk?",
-          "a": "<p>Many people feel this way. Most helplines aren’t just for serious problems — they’re there for anyone who needs to talk.</p><p>There are also “warm lines” — helplines designed just for conversation. These are often staffed by people who’ve been through tough times themselves.</p><p>You can find warm lines using the filter options when searching for support.</p>"
-        },
-        {
-          "q": "Do I need a phone?",
-          "a": "<p>Many helplines offer support via text, WhatsApp, or online chat. When browsing helplines, you’ll see what contact options are available.</p><p>Some people find texting more private or informal, which can make it easier to open up.</p>"
-        },
-        {
-          "q": "Will they call the police?",
-          "a": "<p>Some people worry that asking for help might trigger a police response — and that can be really stressful. Most helplines are required to keep your information private, unless they believe you or someone else is in immediate danger.</p><p>If you're having suicidal thoughts, helplines are there to help you stay safe, not to call the police — unless you’re actively planning to harm yourself or others and no plan can be made to stay safe.</p><p>You can ask about their privacy policy before sharing your situation.</p>"
-        },
-        {
-          "q": "What if my thoughts are too intense?",
-          "a": "<p>When thoughts feel overwhelming, it might seem too hard to talk about them. You might worry about how others will react.</p><p>Helpline workers are trained to listen. They know how to support people going through what you’re going through.</p><p>They won’t judge you — they’ll help you figure out what to do next in a way that works for you.</p>"
-        },
-        {
-          "q": "What if I don’t trust professionals?",
-          "a": "<p>While professional support can be helpful, we understand it’s not the right fit for everyone.</p><p>There are other options:</p><ul><li><b>Volunteers –</b> most helplines are run by volunteers. They do it because they care about helping people going through tough times.</li><li><b>Peers –</b> some helplines connect you with people who’ve been through similar experiences.</li><li><b>Warm lines –</b> helplines staffed by people who’ve had their own mental health struggles.</li></ul><p>When browsing helplines, you can filter for the kind of support you’re most comfortable with.</p>"
-        }
-      ]
+  "Faqs": {
+  "title": "What to expect when you contact a helpline",
+  "intro": {
+    "p1": "Reaching out for help is one of the bravest—and hardest—things you can do when you're struggling.",
+    "p2": "Helplines — also known as crisis lines, support hotlines, or emotional support call centers — offer immediate emotional support to people around the world.",
+    "p3": "If you're used to keeping things to yourself or have never contacted a helpline before, you might not know what to expect. That uncertainty can add extra stress to an already difficult situation.",
+    "p4": "For some people, knowing what to expect can relieve that stress and make it easier to seek help.",
+    "p5": "Here are some answers to frequently asked questions:"
+  },
+  "questions": {
+    "title-1": {
+      "q": "Who will I be talking to?",
+      "a": {
+        "p1": "In most cases, you'll have one of three types of people on the other end of a helpline:",
+        "p2": "Volunteers – people with some training in how to listen and help. They are not paid for their work.",
+        "p3": "Counselors – professionals trained to provide advice and support. They may have formal education in psychology or mental health.",
+        "p4": "Peers – people who have been through similar situations. They may also have training. Typically, they are not paid.",
+        "p5": "No matter who you speak to, everyone working at a helpline is trained to listen and support you.",
+        "p6": "When searching for a helpline, you can filter by the type of support you are looking for.",
+        "p7": "",
+        "p8": "",
+        "p9": ""
+      }
     },
+    "title-2": {
+      "q": "What should I say?",
+      "a": {
+        "p1": "Many people don’t know what to say when they call for help. It can be hard to know where to start when you're already feeling overwhelmed.",
+        "p2": "Starting the conversation",
+        "p3": "Try practicing what you want to say or writing down a few points to talk about.",
+        "p4": "Here are some phrases that might help:",
+        "p5": "Things have been hard lately because...",
+        "p6": "Lately, I’ve been feeling...",
+        "p7": "I’m dealing with [feeling or situation] right now, and...",
+        "p8": "There’s no wrong way to say it",
+        "p9": "The person on the other end is there for you. They want to hear your story and understand what you're going through. You can share as much or as little as you feel comfortable with—no pressure."
+
+      }
+    },
+    "title-3": {
+      "q": "How will they help me?",
+      "a": {
+        "p1": "Helplines are a safe, non-judgmental space for immediate emotional support and information.",
+        "p2": "You can talk about anything",
+        "p3": "You can contact a helpline no matter how big or small your issue feels. You don’t have to be in crisis to deserve support—the person on the line will listen and work with you to figure out next steps.",
+        "p4": "They'll help you feel safe",
+        "p5": "If you're in a crisis and need immediate help, the helpline will support you in staying calm and safe. They may ask questions to understand whether you're thinking about self-harm, and help you create a plan to stay safe in that moment.",
+        "p6": "You’ll find the right help",
+        "p7": "Some helplines specialize in certain types of support or specific groups of people.",
+        "p8": "For example, LGBTQ+ callers may feel more comfortable talking to a helpline trained in those experiences.",
+        "p9": "Helplines are categorized by topic and specialty, so it will be clear what kind of support they provide and who they serve."
+
+      }
+    },
+    "title-4": {
+      "q": "Can I just talk?",
+      "a": {
+        "p1": "Many people feel this way. Most helplines are not just for big problems. They're here for anyone who needs someone to talk to.",
+        "p2": "There are also ‘warm lines’—helplines specifically for conversation. These are often run by people who’ve been through tough times themselves.",
+        "p3": "You can find warm lines by using the specialty filter in your helpline search.",
+        "p4": "",
+        "p5": "",
+        "p6": "",
+        "p7": "",
+        "p8": "",
+        "p9": ""
+      }
+    },
+    "title-5": {
+      "q": "Do I need a phone?",
+      "a": {
+        "p1": "Many helplines offer services by text, WhatsApp, or online chat. When you search for a helpline, you’ll see the types of contact each one offers.",
+        "p2": "Some people find texting less formal and more private, which can make it easier to open up.",
+        "p3": "",
+        "p4": "",
+        "p5": "",
+        "p6": "",
+        "p7": "",
+        "p8": "",
+        "p9": ""
+      }
+    },
+    "title-6": {
+      "q": "Will they call the police?",
+      "a": {
+        "p1": "Some people fear that the police will be contacted if they ask for help. That fear can be overwhelming.",
+        "p2": "Most helplines are committed to keeping your information private unless they believe that you or someone else is in immediate danger.",
+        "p3": "If you have suicidal thoughts, helplines will work with you to stay safe and won’t involve the police unless you're actively planning to harm yourself or others and no plan can be made to stay safe.",
+        "p4": "You can ask about a helpline’s confidentiality policy before sharing details about your situation.",
+        "p5": "",
+        "p6": "",
+        "p7": "",
+        "p8": "",
+        "p9": ""
+      }
+    },
+    "title-7": {
+      "q": "What if my thoughts are too intense?",
+      "a": {
+        "p1": "When your thoughts are intense, you might feel like it's too hard to talk about them. You might worry about how someone will react.",
+        "p2": "Helpline staff are trained to listen. They know how to support people going through what you are experiencing.",
+        "p3": "They won’t judge you. They’ll help you figure out what to do next in a way that works for you.",
+        "p4": "",
+        "p5": "",
+        "p6": "",
+        "p7": "",
+        "p8": "",
+        "p9": ""
+      }
+    },
+    "title-8": {
+      "q": "What if I don't trust professionals?",
+      "a": {
+        "p1": "While professional support can be very helpful, we understand it’s not the right fit for everyone.",
+        "p2": "There are other options available:",
+        "p3": "Volunteers – most helplines are staffed by volunteers who want to support people going through tough times.",
+        "p4": "Peers – some helplines connect you with people who have gone through similar challenges.",
+        "p5": "Warm lines – support lines where everyone on the other end has experienced mental health struggles themselves.",
+        "p6": "When you search for a helpline, you can filter by these options to find the kind of support you're most comfortable with.",
+        "p7": "",
+        "p8": "",
+        "p9": ""
+      }
+    }
+  },
+  "findAHelpline":"Find a Helpline"
+}
+  
+  ,
   "Links":{
     "name-1": "Home",
     "name-2": "About",
@@ -562,6 +649,38 @@
     "maltese": "Maltese",
     "catalan": "Catalan",
     "russian": "Russian"
+  },
+  "contact": {
+    "title": "Have a question? Let us know.",
+    "text-1": "What can we help you with today?",
+    "subjects":{
+      "p1":"Emotion or mental health issue",
+      "p2":"Product partnerships",
+      "p3":"Helpline partnerships",
+      "p4":"Volunteering or employment",
+      "p5":"General enquiry"
+    },
+    "introduction":{
+      "text-1":"It takes a lot of courage to seek emotional and mental health support. Reaching out is the first step to get the support you deserve.",
+      "text-2":"If you are experiencing an emotional crisis and want someone to talk to, search for your country and the topic you would like help with here. If you’re not ready to talk, here are some other options:",
+      "list":{
+        "p1":"Watch videos about coping with difficult feelings (via Now Matters Now)",
+        "p2":"Make a safety plan (via Vibrant Emotional Health)"
+      }
+    },
+    "form":{
+      "emailPlaceholder":"Enter your email",
+      "emailError":"Please enter a valid email",
+      "subjectPlaceholder":"Subject",
+      "subjectError":"Subject is required",
+      "messagePlaceholder":"Your message",
+      "messageError":"Message is required",
+      "send":"Send a message"
+    },
+    "success":{
+      "title":"Thank you for your message!",
+      "p1":"We will get back to you as soon as possible."
+    }
   }
 
 }
