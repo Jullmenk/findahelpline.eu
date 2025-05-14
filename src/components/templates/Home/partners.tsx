@@ -8,9 +8,15 @@ import { crimsonText } from "@/fonts/crismonText";
 import { useTranslations } from "@/hooks/useTranslations";
 import { Link } from "@/i18n/nagivation";
 
-export default function Partners() {
+export default function Partners({
+  countHelplines,
+  countCountries,
+}: {
+  countHelplines: number;
+  countCountries: number;
+}) {
   const t = useTranslations("Partners");
-  const cards = [<Rapido />, <FaleComAPessoa />, <Confidencial />];
+  const cards = [Rapido,FaleComAPessoa,Confidencial];
   return (
     <div className="w-full flex justify-center pb-14 items-center bg-bg-2">
       <div className="min-h-96 w-def flex flex-col items-center py-5 gap-4">
@@ -26,12 +32,15 @@ export default function Partners() {
               <Image fill src="/svg/LLI-logo-grey.svg" alt="LLI Logo" />
             </div>
           </div>
-          <p className="border-b border-border-0 text-texts-1 text-center pb-4">
-            {t("text-1")}
-          </p>
+          {countHelplines && countCountries && (
+            <p className="border-b border-border-0 text-texts-1 text-center pb-4">
+              {t("text-1", { countHelplines, countCountries })}
+            </p>
+          )}
         </div>
 
-        <h2 id="about"
+        <h2
+          id="about"
           className={`${crimsonText.className} text-texts-3 text-center leading-8 font-semibold text-3xl`}
         >
           {t("text-2")}
@@ -51,7 +60,7 @@ export default function Partners() {
               classSets="bg-bg-0 text-texts-4"
               key={i}
               name={t(`cards.card-${i + 1}-title`)}
-              logo={cards[i]}
+              logo={cards[i]()}
               info={t(`cards.card-${i + 1}-info`)}
             />
           ))}
@@ -77,7 +86,7 @@ export default function Partners() {
               {t("helplineConcept")}
             </h2>
             {Array.from({ length: 2 }, (_, i) => (
-              <p key={i}  className="text-gray-700 mb-4">
+              <p key={i} className="text-gray-700 mb-4">
                 {t(`helplineConceptText-${i + 1}`)}
               </p>
             ))}

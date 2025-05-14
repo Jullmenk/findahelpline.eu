@@ -1,10 +1,11 @@
+'use client'
 import TermsAndPrivacyHeader from "@/components/ui/terms-and-privacy-header";
-import { getTranslations } from "next-intl/server";
+import { useTranslations } from "@/hooks/useTranslations";
 import Link from "next/link";
 import React from "react";
 
-export default async function Terms() {
-  const t = await getTranslations("terms");
+export default function Terms() {
+  const t = useTranslations("terms");
 
   return (
     <div className="w-full bg-white flex items-center justify-center py-10">

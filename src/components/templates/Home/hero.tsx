@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { Link } from "@/i18n/nagivation";
 import React from "react";
-import { useConfig } from "@/context/config";
+import { useConfig } from "@/context/useContext";
 import { Helpline } from "@/types/types";
 import CountryCard from "@/components/ui/country-card";
 import { useTranslations } from "next-intl";

@@ -1,7 +1,7 @@
 "use client";
 import Hero from "@/components/templates/Home/hero";
 import React from "react";
-import { useConfig } from "@/context/config";
+import { useConfig } from "@/context/useContext";
 import { Button } from "@/components/ui/button";
 import { IoChevronDownOutline } from "react-icons/io5";
 import Link from "next/link";

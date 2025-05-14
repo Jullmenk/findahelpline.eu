@@ -8,7 +8,7 @@ import MenuContainer from "./menu-container";
 import LangContainer from "./lang-container";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { useConfig } from "@/context/config";
+import { useConfig } from "@/context/useContext";
 import { Link } from "@/i18n/nagivation";
 
 export default function Header() {
@@ -17,8 +17,8 @@ export default function Header() {
   const {setSearchQuery,setFilteredHelplines,filteredHelplines} = useConfig()
   const pathname = usePathname();
   const activeDrawer = [
-    <MenuContainer close={() => setOpen(false)} />,
-    <LangContainer close={() => setOpen(false)} />,
+    <MenuContainer key={0} close={() => setOpen(false)} />,
+    <LangContainer key={1} close={() => setOpen(false)} />,
   ];
 
   const showLogo = (pathname === "/" && filteredHelplines.length > 0) || pathname !== "/";

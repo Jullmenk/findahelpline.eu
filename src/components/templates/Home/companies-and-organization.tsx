@@ -10,10 +10,7 @@ import { useTranslations } from "@/hooks/useTranslations";
 
 
 export default function CompaniesAndOrganization() {
-  const cards = [ <World />,
-    <HeartAndPeople />,
-    <ProductsExperience />,
-  ];
+  const cards = [World,HeartAndPeople,ProductsExperience ];
 
   const logos = [
     "/svg/google-logo-white.svg",
@@ -69,7 +66,7 @@ export default function CompaniesAndOrganization() {
         </div>
         <div className="flex flex-col justify-center gap-4 mt-6">
         {Array.from({ length: 3}, (_, i) => (
-            <PartnerCard classSets="bg-bg-6 text-bg-1" key={i}  name={t(`cards.card-${i + 1}-title`) } logo={cards[i]} info={t(`cards.card-${i + 1}-info`)}/>
+            <PartnerCard classSets="bg-bg-6 text-bg-1" key={i}  name={t(`cards.card-${i + 1}-title`) } logo={cards[i]()} info={t(`cards.card-${i + 1}-info`)}/>
           ))}
         </div>
         <Link target="_blank" href={"https://www.throughlinecare.com/"} className="mt-5 bg-bg-6 hover:bg-zinc-200 hover:shadow-theme flex items-center rounded-lg text-black font-semibold py-2 justify-center gap-2 w-full">

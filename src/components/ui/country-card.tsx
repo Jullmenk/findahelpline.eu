@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { specializations } from "@/data/utils";
 import { Button } from "./button";
-import { useConfig } from "@/context/config";
+import { useConfig } from "@/context/useContext";
 import { useLocale } from "next-intl";
 import { useTranslations } from "@/hooks/useTranslations";
 
