@@ -1,6 +1,7 @@
 "use client";
 
 import Verified from "@/assets/verified";
+import LoadingContainer from "@/components/templates/loading/loading-container";
 import NotFound from "@/components/templates/not-found/not-found";
 import { useConfig } from "@/context/useContext";
 import { useTranslations } from "@/hooks/useTranslations";
@@ -8,7 +9,7 @@ import { extractDomain, isOpen } from "@/lib/utils";
 import { Clock3 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { IoCallSharp, IoPersonCircle } from "react-icons/io5";
 import { TbWorld } from "react-icons/tb";
 
@@ -19,10 +20,15 @@ export default function Organizations({
 }) {
   const { helplines } = useConfig();
   const decodedName = decodeURIComponent(params.name);
+  const [loading, setLoading] = useState(true);
 
   const helpline = helplines.find(
     (helpline) => helpline.name.replaceAll(" ", "-") === decodedName
   );
+
+  useEffect(() => {
+    setLoading(false);
+  }, [helpline]);
 
   const isOpenNow = isOpen(helpline?.hours ?? "");
   const isAlwaysOpen = helpline?.hours?.includes("24/7");
@@ -33,6 +39,8 @@ export default function Organizations({
   const o = useTranslations("organizations");
   const l = useTranslations("languages");
 
+  if (loading) return <LoadingContainer />;
+
   if (!helpline) return <NotFound />;
 
   return (
@@ -40,7 +48,7 @@ export default function Organizations({
       <div className="w-full px-6 sm:px-0 sm:w-organization flex flex-col rounded-xl bg-white">
         <div className="flex items-center gap-2 pb-2 border-b border-border mb-5">
           <Link
-          className="hover:underline text-texts-1"
+            className="hover:underline text-texts-1"
             href={`/${
               params.locale
             }/countries/${helpline?.countryRel.code.toLowerCase()}`}
@@ -137,7 +145,10 @@ export default function Organizations({
           </h2>
           <div className="flex gap-1 flex-wrap">
             {helpline.languages.map((elem, i) => (
-              <p key={i}>{l(`${elem.toLocaleLowerCase()}`)} {i < helpline.languages.length - 1 && ","}</p>
+              <p key={i}>
+                {l(`${elem.toLocaleLowerCase()}`)}{" "}
+                {i < helpline.languages.length - 1 && ","}
+              </p>
             ))}
           </div>
 
@@ -160,13 +171,13 @@ export default function Organizations({
 
         <hr className="w-full bg-texts-1 my-4" />
         <div className="w-full flex justify-center items-center">
-        <div className="relative sm:w-full w-[80%] h-[230px] sm:h-[400px] mt-8">
-          <Image
-            src={"/img/teletherapy-counselor-supporting-crying-woman.png"}
-            alt={"teletherapy-counselor-supporting-crying-woman"}
-            fill
-          />
-        </div>
+          <div className="relative sm:w-full w-[80%] h-[230px] sm:h-[400px] mt-8">
+            <Image
+              src={"/img/teletherapy-counselor-supporting-crying-woman.png"}
+              alt={"teletherapy-counselor-supporting-crying-woman"}
+              fill
+            />
+          </div>
         </div>
         <h1 className="text-center text-xl font-semibold mt-6 mb-2 text-gray-800">
           {o("nowWhat")}
